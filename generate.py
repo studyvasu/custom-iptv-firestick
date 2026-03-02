@@ -83,6 +83,12 @@ KIDS_CHANNELS = ["cartoon network", "pogo", "nick", "disney channel", "baby tv"]
 ALLOWED_COUNTRIES = {"US", "GB", "AU"}  # India handled separately
 
 # -------------------------------
+# Helper: normalize text for matching
+# -------------------------------
+def normalize(text):
+    return re.sub(r'\W+', '', text).lower() if text else ""
+
+# -------------------------------
 # Assign category (enhanced)
 # -------------------------------
 def assign_category(name, country, tvg_name=""):
@@ -147,7 +153,7 @@ def parse_m3u(url, country=None):
                     category = assign_category(info["name"], None, info["tvg_name"])
                 info["category"] = category
                 if not info["tvg_id"]:
-                    info["tvg_id"] = re.sub(r'\W+', '', info["name"]).lower()
+                    info["tvg_id"] = normalize(info["name"])
                 if not info["tvg_name"]:
                     info["tvg_name"] = info["name"]
                 entries.append(info.copy())
@@ -201,12 +207,12 @@ with open(PLAYLIST_LANG_OUTPUT, "w", encoding="utf-8") as f:
 print(f"{PLAYLIST_LANG_OUTPUT} written with {len(lang_entries)} language-based channels.")
 
 # -------------------------------
-# Filtered EPG
+# Filtered EPG (robust matching)
 # -------------------------------
 print("Downloading and filtering EPG ...")
 epg_root = ET.Element("tv")
-playlist_ids = [e["tvg_id"].lower() for e in all_entries]
-playlist_names = [e["tvg_name"].lower() for e in all_entries]
+playlist_ids = [normalize(e["tvg_id"]) for e in all_entries]
+playlist_names = [normalize(e["tvg_name"]) for e in all_entries]
 
 for epg_url in EPG_URLS:
     try:
@@ -215,11 +221,11 @@ for epg_url in EPG_URLS:
         doc = ET.fromstring(r.content)
         for chan in doc.findall("channel"):
             dn = chan.find("display-name")
-            epg_name = dn.text.lower() if dn is not None else ""
-            epg_id = chan.get("id", "").lower()
+            epg_name_norm = normalize(dn.text if dn is not None else "")
+            epg_id_norm = normalize(chan.get("id", ""))
 
-            # Include channel only if it matches playlist
-            if epg_id in playlist_ids or epg_name in playlist_names:
+            # Include channel if normalized ID or name matches playlist
+            if epg_id_norm in playlist_ids or epg_name_norm in playlist_names:
                 epg_root.append(chan)
     except Exception as e:
         print(f"Failed to process EPG {epg_url}: {e}")
