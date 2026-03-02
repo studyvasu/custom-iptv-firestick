@@ -7,6 +7,8 @@ https://5b622f07944df.streamlock.net/aghapykids.tv/aghapykids2/playlist.m3u8
 https://cmc-ono.amagi.tv/hls/amagi_hls_data_cmcAAAAAA-cmc-ono/CDN/playlist.m3u8
 #EXTINF:-1 tvg-id="CBNNews.us@SD" tvg-name="CBN News Channel (1080p)" tvg-logo="" group-title="News",CBN News Channel (1080p)
 https://fastly.live.brightcove.com/6380396819112/us-east-1/734546207001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiczFpM3ZpLmVncmVzcy50N2M3emwiLCJhY2NvdW50X2lkIjoiNzM0NTQ2MjA3MDAxIiwiZWhuIjoiZmFzdGx5LmxpdmUuYnJpZ2h0Y292ZS5jb20iLCJpc3MiOiJibGl2ZS1wbGF5YmFjay1zb3VyY2UtYXBpIiwic3ViIjoicGF0aG1hcHRva2VuIiwiYXVkIjpbIjczNDU0NjIwNzAwMSJdLCJqdGkiOiI2MzgwMzk2ODE5MTEyIn0.GDYp4IWtzwPkupEWeeOavnioVknO-Ev3UGlHvM1rE6I/playlist-hls.m3u8
+#EXTINF:-1 tvg-id="CBSSportsGolazoNetwork.us@SD" tvg-name="CBS Sports Golazo Network" tvg-logo="" group-title="Sports",CBS Sports Golazo Network
+https://dai.google.com/linear/hls/event/GxrCGmwST0ixsrc_QgB6qw/master.m3u8
 #EXTINF:-1 tvg-id="CaliforniaMusicChannel.us@SD" tvg-name="CMC (California Music Channel)" tvg-logo="" group-title="Music",CMC (California Music Channel)
 https://cmc-ono.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="CaliforniaMusicChannel.us@SD" tvg-name="CMC-USA (California Music Channel) (720p)" tvg-logo="" group-title="Music",CMC-USA (California Music Channel) (720p)
@@ -37,6 +39,8 @@ https://d368vp0qqzvkid.cloudfront.net/11603/88889704/hls/master.m3u8?ads.xumo_ch
 https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99984003
 #EXTINF:-1 tvg-id="NBCNewsNOW.us@SD" tvg-name="NBC News NOW (1080p)" tvg-logo="" group-title="News",NBC News NOW (1080p)
 https://livehub-voidnet.onrender.com/cluster/streamcore/us/NBC_REDIS.m3u8
+#EXTINF:-1 tvg-id="NBCSportsNOW.us@SD" tvg-name="NBC Sports NOW (1080p)" tvg-logo="" group-title="Sports",NBC Sports NOW (1080p)
+https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008
 #EXTINF:-1 tvg-id="News12PlusConnecticut.us@HD" tvg-name="News12+ Connecticut (1080p) [Geo-blocked]" tvg-logo="" group-title="News",News12+ Connecticut (1080p) [Geo-blocked]
 https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_CT_A1/index_new.m3u8
 #EXTINF:-1 tvg-id="News12PlusHudsonValley.us@HD" tvg-name="News12+ Hudson Valley (1080p) [Geo-blocked]" tvg-logo="" group-title="News",News12+ Hudson Valley (1080p) [Geo-blocked]
@@ -79,22 +83,34 @@ http://api.toonamiaftermath.com:3000/movies/playlist.m3u8
 https://59a564764e2b6.streamlock.net/vallenato/tropical/playlist.m3u8
 #EXTINF:-1 tvg-id="TVSClassicMovies.us@SD" tvg-name="TVS Classic Movies (288p)" tvg-logo="" group-title="Movies",TVS Classic Movies (288p)
 https://rpn.bozztv.com/gusa/gusa-tvsclassicmovies/index.m3u8
+#EXTINF:-1 tvg-id="TVSClassicSports.us@SD" tvg-name="TVS Classic Sports (360p)" tvg-logo="" group-title="Sports",TVS Classic Sports (360p)
+https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8
 #EXTINF:-1 tvg-id="TVSDriveInMovie.us@SD" tvg-name="TVS Drive In Movie (360p)" tvg-logo="" group-title="Movies",TVS Drive In Movie (360p)
 https://rpn.bozztv.com/gusa/gusa-tvsdriveinmovie/index.m3u8
 #EXTINF:-1 tvg-id="TVSMusicNetwork.us@SD" tvg-name="TVS Music Network (720p)" tvg-logo="" group-title="Music",TVS Music Network (720p)
 https://rpn.bozztv.com/gusa/gusa-tvsmusic/index.m3u8
 #EXTINF:-1 tvg-id="TVSNostalgiaMovies.us@SD" tvg-name="TVS Nostalgia Movies (480p)" tvg-logo="" group-title="Movies",TVS Nostalgia Movies (480p)
 https://rpn.bozztv.com/gusa/gusa-tvsNostalgiaMovies/index.m3u8
+#EXTINF:-1 tvg-id="TVSSports.us@SD" tvg-name="TVS Sports (720p) [Not 24/7]" tvg-logo="" group-title="Sports",TVS Sports (720p) [Not 24/7]
+https://rpn.bozztv.com/gusa/gusa-tvssports/index.m3u8
+#EXTINF:-1 tvg-id="TVSSportsBureau.us@SD" tvg-name="TVS Sports Bureau (720p)" tvg-logo="" group-title="Sports",TVS Sports Bureau (720p)
+https://rpn.bozztv.com/gusa/gusa-tvssportsbureau/index.m3u8
 #EXTINF:-1 tvg-id="TVSTravelNetwork.us@SD" tvg-name="TVS Travel Network (720p) [Not 24/7]" tvg-logo="" group-title="Travel",TVS Travel Network (720p) [Not 24/7]
 https://rpn.bozztv.com/gusa/gusa-tvstravel/index.m3u8
 #EXTINF:-1 tvg-id="TVSWesternMovie.us@SD" tvg-name="TVS Western Movie (270p)" tvg-logo="" group-title="Movies",TVS Western Movie (270p)
 https://rpn.bozztv.com/gusa/gusa-tvswesternmovies/index.m3u8
+#EXTINF:-1 tvg-id="TVSWomenSports.us@SD" tvg-name="TVS Women Sports (720p)" tvg-logo="" group-title="Sports",TVS Women Sports (720p)
+https://rpn.bozztv.com/gusa/gusa-tvswsn/index.m3u8
 #EXTINF:-1 tvg-id="VictorValleyTV.us@SD" tvg-name="Victor Valley Movies (1080p) [Not 24/7]" tvg-logo="" group-title="Movies",Victor Valley Movies (1080p) [Not 24/7]
 https://2-fss-2.streamhoster.com/pl_138/201950-5317556-1/playlist.m3u8
 #EXTINF:-1 tvg-id="W14DKD2.us@SD" tvg-name="W14DK-D 14.2 NEWSNET" tvg-logo="" group-title="News",W14DK-D 14.2 NEWSNET
 https://2-fss-2.streamhoster.com/pl_118/204972-1954106-1/playlist.m3u8
+#EXTINF:-1 tvg-id="W14DKD5.us@SD" tvg-name="W14DK-D 14.5 All Sports Television Network" tvg-logo="" group-title="Sports",W14DK-D 14.5 All Sports Television Network
+https://2-fss-2.streamhoster.com/pl_118/204972-2205186-1/playlist.m3u8
 #EXTINF:-1 tvg-id="WBRADT3.us@SD" tvg-name="WBRA PBS Kids (1080p)" tvg-logo="" group-title="Kids",WBRA PBS Kids (1080p)
 https://livestream.pbskids.org/out/v1/1e3d77b418ad4a819b3f4c80ac0373b5/est_124.m3u8
+#EXTINF:-1 tvg-id="WillowSports.us@SD" tvg-name="Willow Sports (1080p) [Geo-blocked]" tvg-logo="" group-title="Sports",Willow Sports (1080p) [Geo-blocked]
+https://amg01269-amg01269c1-firetv-us-5377.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="AfghanistanInternational.uk@SD" tvg-name="Afghanistan International (720p)" tvg-logo="" group-title="Other",Afghanistan International (720p)
 https://hls.afintl.com/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AfrobeatTVEntertainment.uk@SD" tvg-name="Afrobeats (1080p)" tvg-logo="" group-title="Other",Afrobeats (1080p)
