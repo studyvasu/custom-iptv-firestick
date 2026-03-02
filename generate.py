@@ -2,7 +2,7 @@ import requests
 
 CHANNELS_API = "https://iptv-org.github.io/api/channels.json"
 
-# Regional EPG files (US + India only for lightness)
+# Regional EPG files (US + India)
 EPG_US = "https://iptv-org.github.io/epg/guides/us.xml"
 EPG_IN = "https://iptv-org.github.io/epg/guides/in.xml"
 
@@ -27,12 +27,14 @@ INDIA_CATEGORIES = ["travel", "cooking", "kids", "education"]
 
 KIDS_COUNTRIES = ["UK", "AU"]  # UK & Australia kids channels
 
+
 def valid(channel):
     return (
         channel.get("url")
         and not channel.get("is_nsfw")
         and channel.get("status") != "offline"
     )
+
 
 print("Fetching channels...")
 try:
@@ -139,31 +141,21 @@ with open(PLAYLIST_OUTPUT, "w", encoding="utf-8") as f:
             f'{c.get("url")}\n'
         )
 
-print("Downloading US EPG...")
+print("Downloading US + India EPG...")
 epg_content = ""
 
-try:
-    us_epg = requests.get(EPG_US, timeout=60)
-    us_epg.raise_for_status()
-    epg_content += us_epg.text
-    print("US EPG added.")
-except:
-    print("US EPG failed (continuing).")
+for epg_url, region in [(EPG_US, "US"), (EPG_IN, "India")]:
+    try:
+        r = requests.get(epg_url, timeout=60)
+        r.raise_for_status()
+        epg_content += r.text
+        print(f"{region} EPG added.")
+    except:
+        print(f"{region} EPG failed (continuing).")
 
-print("Downloading India EPG...")
-try:
-    in_epg = requests.get(EPG_IN, timeout=60)
-    in_epg.raise_for_status()
-    epg_content += in_epg.text
-    print("India EPG added.")
-except:
-    print("India EPG failed (continuing).")
-
-if epg_content:
-    with open(EPG_OUTPUT, "w", encoding="utf-8") as f:
-        f.write(epg_content)
-    print("EPG file created.")
-else:
-    print("No EPG downloaded (playlist will still work).")
+# Always write epg.xml (even empty)
+with open(EPG_OUTPUT, "w", encoding="utf-8") as f:
+    f.write(epg_content)
+print("EPG file created.")
 
 print("Done.")
