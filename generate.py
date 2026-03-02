@@ -47,11 +47,11 @@ CATEGORY_MAP = {
     "music": "Music",
     "travel": "Travel",
     "cook": "Cooking",
-    "food": "Cooking",  # Added food for better detection of cooking channels
-    "recipe": "Cooking",  # Added recipe-related keyword
+    "food": "Cooking",
+    "recipe": "Cooking",
     "doc": "Documentary",
     "education": "Education",
-    "sports": "Sports",  # Added sports category
+    "sports": "Sports",
 }
 
 # -------------------------------
@@ -162,7 +162,7 @@ for country, url in COUNTRY_PLAYLISTS.items():
 # Language-specific playlists (India + English)
 for lang, url in LANG_PLAYLISTS.items():
     try:
-        entries = parse_m3u(url)  # Include all channels, no filter for English
+        entries = parse_m3u(url)
         for e in entries:
             e["category"] = f"{lang}/{e['category']}"
         all_entries.extend(entries)
@@ -205,4 +205,15 @@ for epg_url in EPG_URLS:
         for chan in doc.findall("channel"):
             dn = chan.find("display-name")
             epg_name = dn.text.lower() if dn is not None else ""
-            epg_id = chan.get("id", "").lower
+            epg_id = chan.get("id", "").lower()  # <- fixed .lower()
+
+            # Include channel only if it matches playlist
+            if epg_id in playlist_ids or epg_name in playlist_names:
+                epg_root.append(chan)
+    except Exception as e:
+        print(f"Failed to process EPG {epg_url}: {e}")
+
+# Write filtered EPG to file
+tree = ET.ElementTree(epg_root)
+tree.write(EPG_OUTPUT, encoding="utf-8", xml_declaration=True)
+print(f"{EPG_OUTPUT} written with filtered channels.")
