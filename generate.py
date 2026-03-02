@@ -3,13 +3,13 @@ import re
 import xml.etree.ElementTree as ET
 
 # -------------------------------
-# IPTV.org Country Playlists
+# Raw M3U URLs from iptv-org repo (actual streams)
 # -------------------------------
 COUNTRY_PLAYLISTS = {
-    "US": "https://iptv-org.github.io/iptv/countries/us.m3u",
-    "UK": "https://iptv-org.github.io/iptv/countries/uk.m3u",
-    "IN": "https://iptv-org.github.io/iptv/countries/in.m3u",
-    "AU": "https://iptv-org.github.io/iptv/countries/au.m3u",
+    "US": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us.m3u",
+    "UK": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/uk.m3u",
+    "IN": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/in.m3u",
+    "AU": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/au.m3u",
 }
 
 # -------------------------------
@@ -31,7 +31,7 @@ PLAYLIST_OUTPUT = "firestick.m3u"
 EPG_OUTPUT = "epg.xml"
 
 # -------------------------------
-# Helper: Parse IPTV.org M3U playlist
+# Helper: Parse IPTV M3U playlist
 # -------------------------------
 def parse_m3u(url):
     print(f"Downloading playlist {url} ...")
@@ -43,7 +43,6 @@ def parse_m3u(url):
     for line in lines:
         if line.startswith("#EXTINF"):
             info = {}
-            # Parse tvg-id, tvg-name, tvg-logo, channel name
             m = re.search(r'tvg-id="([^"]*)" tvg-name="([^"]*)" tvg-logo="([^"]*)",(.+)', line)
             if m:
                 info["tvg_id"], info["tvg_name"], info["tvg_logo"], info["name"] = m.groups()
