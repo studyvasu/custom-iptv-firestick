@@ -36,7 +36,7 @@ PLAYLIST_LANG_OUTPUT = "firestick-lang.m3u"
 EPG_OUTPUT = "epg.xml"
 
 # -------------------------------
-# General category mapping
+# General category mapping (enhanced)
 # -------------------------------
 CATEGORY_MAP = {
     "news": "News",
@@ -46,12 +46,30 @@ CATEGORY_MAP = {
     "cartoon": "Kids",
     "music": "Music",
     "travel": "Travel",
+    "tour": "Travel",
     "cook": "Cooking",
+    "cooking": "Cooking",
     "food": "Cooking",
     "recipe": "Cooking",
+    "kitchen": "Cooking",
+    "chef": "Cooking",
+    "baking": "Cooking",
+    "grill": "Cooking",
+    "bbq": "Cooking",
     "doc": "Documentary",
+    "documentary": "Documentary",
     "education": "Education",
+    "learning": "Education",
     "sports": "Sports",
+    "soccer": "Sports",
+    "football": "Sports",
+    "nba": "Sports",
+    "cricket": "Sports",
+    "hockey": "Sports",
+    "tennis": "Sports",
+    "golf": "Sports",
+    "formula 1": "Sports",
+    "wwe": "Sports",
 }
 
 # -------------------------------
@@ -65,24 +83,17 @@ KIDS_CHANNELS = ["cartoon network", "pogo", "nick", "disney channel", "baby tv"]
 ALLOWED_COUNTRIES = {"US", "GB", "AU"}  # India handled separately
 
 # -------------------------------
-# Sports-related keywords
+# Assign category (enhanced)
 # -------------------------------
-SPORTS_KEYWORDS = [
-    "sports", "soccer", "football", "nba", "cricket", "hockey", "tennis", "golf", "formula 1", "wwe"
-]
-
-# -------------------------------
-# Assign category
-# -------------------------------
-def assign_category(name, country):
-    lname = name.lower()
+def assign_category(name, country, tvg_name=""):
+    lname = (name + " " + tvg_name).lower()
     category = "Other"
-    
-    # Check for sports category
-    if any(kw in lname for kw in SPORTS_KEYWORDS):
+
+    # Check for sports
+    if any(kw in lname for kw in CATEGORY_MAP if CATEGORY_MAP[kw] == "Sports"):
         category = "Sports"
     else:
-        # Assign based on general categories
+        # General category matching
         for kw, cat in CATEGORY_MAP.items():
             if kw in lname:
                 category = cat
@@ -95,7 +106,7 @@ def assign_category(name, country):
         if not any(k in lname for k in CATEGORY_MAP.keys()):
             return None
 
-    # Force Disney and Nick channels into Kids
+    # Force Kids channels
     if "disney" in lname or "nick" in lname or any(k in lname for k in KIDS_CHANNELS):
         category = "Kids"
 
@@ -129,11 +140,11 @@ def parse_m3u(url, country=None):
             if 'info' in locals():
                 info["url"] = line
                 if country:
-                    category = assign_category(info["name"], country)
+                    category = assign_category(info["name"], country, info["tvg_name"])
                     if category is None:
                         continue
                 else:
-                    category = "Other"
+                    category = assign_category(info["name"], None, info["tvg_name"])
                 info["category"] = category
                 if not info["tvg_id"]:
                     info["tvg_id"] = re.sub(r'\W+', '', info["name"]).lower()
@@ -150,7 +161,7 @@ def parse_m3u(url, country=None):
 all_entries = []
 lang_entries = []
 
-# Country-specific playlists (US, UK, AU)
+# Country-specific playlists
 for country, url in COUNTRY_PLAYLISTS.items():
     try:
         entries = parse_m3u(url, country)
@@ -159,7 +170,7 @@ for country, url in COUNTRY_PLAYLISTS.items():
     except Exception as e:
         print(f"Failed {country}: {e}")
 
-# Language-specific playlists (India + English)
+# Language-specific playlists
 for lang, url in LANG_PLAYLISTS.items():
     try:
         entries = parse_m3u(url)
@@ -205,7 +216,7 @@ for epg_url in EPG_URLS:
         for chan in doc.findall("channel"):
             dn = chan.find("display-name")
             epg_name = dn.text.lower() if dn is not None else ""
-            epg_id = chan.get("id", "").lower()  # <- fixed .lower()
+            epg_id = chan.get("id", "").lower()
 
             # Include channel only if it matches playlist
             if epg_id in playlist_ids or epg_name in playlist_names:
