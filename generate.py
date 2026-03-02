@@ -47,9 +47,11 @@ CATEGORY_MAP = {
     "music": "Music",
     "travel": "Travel",
     "cook": "Cooking",
-    "food": "Cooking",
+    "food": "Cooking",  # Added food for better detection of cooking channels
+    "recipe": "Cooking",  # Added recipe-related keyword
     "doc": "Documentary",
     "education": "Education",
+    "sports": "Sports",  # Added sports category
 }
 
 # -------------------------------
@@ -63,15 +65,28 @@ KIDS_CHANNELS = ["cartoon network", "pogo", "nick", "disney channel", "baby tv"]
 ALLOWED_COUNTRIES = {"US", "GB", "AU"}  # India handled separately
 
 # -------------------------------
+# Sports-related keywords
+# -------------------------------
+SPORTS_KEYWORDS = [
+    "sports", "soccer", "football", "nba", "cricket", "hockey", "tennis", "golf", "formula 1", "wwe"
+]
+
+# -------------------------------
 # Assign category
 # -------------------------------
 def assign_category(name, country):
     lname = name.lower()
     category = "Other"
-    for kw, cat in CATEGORY_MAP.items():
-        if kw in lname:
-            category = cat
-            break
+    
+    # Check for sports category
+    if any(kw in lname for kw in SPORTS_KEYWORDS):
+        category = "Sports"
+    else:
+        # Assign based on general categories
+        for kw, cat in CATEGORY_MAP.items():
+            if kw in lname:
+                category = cat
+                break
 
     # US filter: skip foreign-language channels
     if country == "US":
@@ -80,8 +95,8 @@ def assign_category(name, country):
         if not any(k in lname for k in CATEGORY_MAP.keys()):
             return None
 
-    # Force Disney channels into Kids
-    if "disney" in lname or any(k in lname for k in KIDS_CHANNELS):
+    # Force Disney and Nick channels into Kids
+    if "disney" in lname or "nick" in lname or any(k in lname for k in KIDS_CHANNELS):
         category = "Kids"
 
     return category
@@ -190,18 +205,4 @@ for epg_url in EPG_URLS:
         for chan in doc.findall("channel"):
             dn = chan.find("display-name")
             epg_name = dn.text.lower() if dn is not None else ""
-            epg_id = chan.get("id", "").lower()
-            if any(pname in epg_name or epg_name in pname or pid in epg_id or epg_id in pid
-                   for pname, pid in zip(playlist_names, playlist_ids)):
-                epg_root.append(chan)
-        for prog in doc.findall("programme"):
-            prog_chan = prog.get("channel", "").lower()
-            if any(pname in prog_chan or prog_chan in pname or pid in prog_chan or prog_chan in pid
-                   for pname, pid in zip(playlist_names, playlist_ids)):
-                epg_root.append(prog)
-        print(f"EPG added from {epg_url}")
-    except Exception as e:
-        print(f"EPG fetch failed for {epg_url}: {e}")
-
-ET.ElementTree(epg_root).write(EPG_OUTPUT, encoding="utf-8", xml_declaration=True)
-print(f"{EPG_OUTPUT} written. Done.")
+            epg_id = chan.get("id", "").lower
