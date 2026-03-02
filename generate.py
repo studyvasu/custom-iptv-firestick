@@ -31,7 +31,7 @@ PLAYLIST_OUTPUT = "firestick.m3u"
 EPG_OUTPUT = "epg.xml"
 
 # -------------------------------
-# Helper: Parse IPTV M3U playlist
+# Robust M3U parser
 # -------------------------------
 def parse_m3u(url):
     print(f"Downloading playlist {url} ...")
@@ -41,16 +41,23 @@ def parse_m3u(url):
     entries = []
     info = {}
     for line in lines:
+        line = line.strip()
         if line.startswith("#EXTINF"):
             info = {}
-            m = re.search(r'tvg-id="([^"]*)" tvg-name="([^"]*)" tvg-logo="([^"]*)",(.+)', line)
-            if m:
-                info["tvg_id"], info["tvg_name"], info["tvg_logo"], info["name"] = m.groups()
+            # Extract attributes if present
+            info["tvg_id"] = re.search(r'tvg-id="([^"]*)"', line)
+            info["tvg_name"] = re.search(r'tvg-name="([^"]*)"', line)
+            info["tvg_logo"] = re.search(r'tvg-logo="([^"]*)"', line)
+            name_match = re.search(r',(.*)$', line)
+            info["name"] = name_match.group(1).strip() if name_match else ""
+            # Convert match objects to string or empty
+            info = {k: v.group(1) if v else "" for k, v in info.items()}
         elif line and not line.startswith("#"):
             if info:
                 info["url"] = line
                 entries.append(info.copy())
                 info = {}
+    print(f"Parsed {len(entries)} entries")
     return entries
 
 # -------------------------------
