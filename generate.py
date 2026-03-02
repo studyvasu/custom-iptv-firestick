@@ -67,15 +67,12 @@ KIDS_CHANNELS = [
 ]
 
 # -------------------------------
-# US filter keywords (only English categories)
+# Allowed countries
 # -------------------------------
-US_ALLOWED_KEYWORDS = [
-    "news", "movie", "movies", "kids", "cartoon", "music",
-    "travel", "documentary", "education", "cooking"
-]
+ALLOWED_COUNTRIES = {"US", "GB", "AU", "IN"}  # GB is UK
 
-# US exclude list (foreign-language channels)
-US_EXCLUDE = ["afghan", "pashto", "persian"]
+# Allowed Indian languages
+ALLOWED_IN_LANGUAGES = {"Hindi", "Telugu", "English"}
 
 # -------------------------------
 # Assign category
@@ -95,19 +92,23 @@ def assign_category(name, country):
             if ch_name in lname:
                 language = lang
                 break
+        if language not in ALLOWED_IN_LANGUAGES:
+            return None  # skip unwanted language
         # override kids
         for k in KIDS_CHANNELS:
             if k in lname:
                 category = "Kids"
         return f"{language}/{category}"
 
-    # US filter
+    # US/UK/AU: only allowed countries
+    if country not in ALLOWED_COUNTRIES:
+        return None
+
+    # US filter: skip foreign language channels
     if country == "US":
-        # skip excluded channels
-        if any(x in lname for x in US_EXCLUDE):
+        if any(x in lname for x in ["afghan", "pashto", "persian"]):
             return None
-        # check allowed keywords
-        if not any(k in lname for k in US_ALLOWED_KEYWORDS):
+        if not any(k in lname for k in CATEGORY_MAP.keys()):
             return None
 
     return category
@@ -143,7 +144,6 @@ def parse_m3u(url, country):
                 if group_title is None:
                     continue  # skip unwanted channels
                 info["category"] = group_title
-                # generate id/name if missing
                 if not info["tvg_id"]:
                     info["tvg_id"] = re.sub(r'\W+', '', info["name"]).lower()
                 if not info["tvg_name"]:
@@ -182,7 +182,7 @@ with open(PLAYLIST_OUTPUT, "w", encoding="utf-8") as f:
 print(f"firestick.m3u written with {len(all_entries)} channels.")
 
 # -------------------------------
-# Filtered EPG with bi-directional partial match
+# Filtered EPG with partial match
 # -------------------------------
 print("Downloading and filtering EPG files ...")
 epg_root = ET.Element("tv")
