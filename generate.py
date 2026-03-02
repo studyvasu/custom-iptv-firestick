@@ -55,7 +55,7 @@ CATEGORY_MAP = {
 # -------------------------------
 # Kids channels override
 # -------------------------------
-KIDS_CHANNELS = ["cartoon network","pogo","nick","disney channel","baby tv"]
+KIDS_CHANNELS = ["cartoon network", "pogo", "nick", "disney channel", "baby tv"]
 
 # -------------------------------
 # Allowed countries
@@ -195,3 +195,18 @@ for epg_url in EPG_URLS:
         for chan in doc.findall("channel"):
             dn = chan.find("display-name")
             epg_name = dn.text.lower() if dn is not None else ""
+            epg_id = chan.get("id", "").lower()
+            if any(pname in epg_name or epg_name in pname or pid in epg_id or epg_id in pid
+                   for pname, pid in zip(playlist_names, playlist_ids)):
+                epg_root.append(chan)
+        for prog in doc.findall("programme"):
+            prog_chan = prog.get("channel", "").lower()
+            if any(pname in prog_chan or prog_chan in pname or pid in prog_chan or prog_chan in pid
+                   for pname, pid in zip(playlist_names, playlist_ids)):
+                epg_root.append(prog)
+        print(f"EPG added from {epg_url}")
+    except Exception as e:
+        print(f"EPG fetch failed for {epg_url}: {e}")
+
+ET.ElementTree(epg_root).write(EPG_OUTPUT, encoding="utf-8", xml_declaration=True)
+print(f"{EPG_OUTPUT} written. Done.")
