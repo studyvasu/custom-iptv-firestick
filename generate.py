@@ -27,7 +27,7 @@ PLAYLIST_OUTPUT = "firestick.m3u"
 EPG_OUTPUT = "epg.xml"
 
 # -------------------------------
-# Category mapping
+# General category mapping by keywords
 # -------------------------------
 CATEGORY_MAP = {
     "news": "News",
@@ -43,17 +43,79 @@ CATEGORY_MAP = {
     "education": "Education",
 }
 
-def assign_category(name):
+# -------------------------------
+# Manual mapping for Indian channels: Language
+# -------------------------------
+INDIA_LANGUAGE_MAP = {
+    "starplus": "Hindi",
+    "zeetv": "Hindi",
+    "gemini tv": "Telugu",
+    "cartoon network": "Kids",
+    "pogo": "Kids",
+    "discovery": "Education",
+}
+
+# -------------------------------
+# Kids channels override
+# -------------------------------
+KIDS_CHANNELS = [
+    "cartoon network",
+    "pogo",
+    "nick",
+    "disney channel",
+    "baby tv",
+]
+
+# -------------------------------
+# US filter keywords (only English categories)
+# -------------------------------
+US_ALLOWED_KEYWORDS = [
+    "news", "movie", "movies", "kids", "cartoon", "music",
+    "travel", "documentary", "education", "cooking"
+]
+
+# US exclude list (foreign-language channels)
+US_EXCLUDE = ["afghan", "pashto", "persian"]
+
+# -------------------------------
+# Assign category
+# -------------------------------
+def assign_category(name, country):
     lname = name.lower()
+    category = "Other"
     for kw, cat in CATEGORY_MAP.items():
         if kw in lname:
-            return cat
-    return "Other"
+            category = cat
+            break
+
+    # Indian channels
+    if country == "IN":
+        language = "Other"
+        for ch_name, lang in INDIA_LANGUAGE_MAP.items():
+            if ch_name in lname:
+                language = lang
+                break
+        # override kids
+        for k in KIDS_CHANNELS:
+            if k in lname:
+                category = "Kids"
+        return f"{language}/{category}"
+
+    # US filter
+    if country == "US":
+        # skip excluded channels
+        if any(x in lname for x in US_EXCLUDE):
+            return None
+        # check allowed keywords
+        if not any(k in lname for k in US_ALLOWED_KEYWORDS):
+            return None
+
+    return category
 
 # -------------------------------
 # Parse M3U safely
 # -------------------------------
-def parse_m3u(url):
+def parse_m3u(url, country):
     print(f"Downloading playlist {url} ...")
     r = requests.get(url, timeout=30)
     r.raise_for_status()
@@ -77,7 +139,10 @@ def parse_m3u(url):
         elif line and not line.startswith("#"):
             if 'info' in locals():
                 info["url"] = line
-                info["category"] = assign_category(info["name"])
+                group_title = assign_category(info["name"], country)
+                if group_title is None:
+                    continue  # skip unwanted channels
+                info["category"] = group_title
                 # generate id/name if missing
                 if not info["tvg_id"]:
                     info["tvg_id"] = re.sub(r'\W+', '', info["name"]).lower()
@@ -95,7 +160,7 @@ def parse_m3u(url):
 all_entries = []
 for country, url in COUNTRY_PLAYLISTS.items():
     try:
-        entries = parse_m3u(url)
+        entries = parse_m3u(url, country)
         print(f"Found {len(entries)} entries for {country}")
         all_entries.extend(entries)
     except Exception as e:
@@ -135,7 +200,6 @@ for epg_url in EPG_URLS:
             dn = chan.find("display-name")
             epg_name = dn.text.lower() if dn is not None else ""
             epg_id = chan.get("id","").lower()
-            # bi-directional partial match
             if any(pname in epg_name or epg_name in pname or pid in epg_id or epg_id in pid
                    for pname, pid in zip(playlist_names, playlist_ids)):
                 epg_root.append(chan)
