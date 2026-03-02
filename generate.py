@@ -34,26 +34,30 @@ def valid(channel):
     )
 
 
-# Fetch channel list
 print("Fetching channels...")
 channels_resp = requests.get(CHANNELS_API, timeout=30)
-data = channels_resp.json()
+channels_data = channels_resp.json()
 
 selected = []
 
-for c in data:
+for c in channels_data:
     if not valid(c):
         continue
 
     country = c.get("country")
-    cats = c.get("categories", [])
-    langs = c.get("languages", [])
+    categories = c.get("categories", [])
+    languages = c.get("languages", [])
 
-    if country == "US" and cats:
+    # US filter
+    if country == "US" and categories:
         selected.append(c)
-    elif country == "IN" and (cats or langs):
+
+    # India filter
+    elif country == "IN" and (categories or languages):
         selected.append(c)
-    elif country in KIDS_COUNTRIES and any("kid" in cat.lower() for cat in cats):
+
+    # UK & AU kids
+    elif country in KIDS_COUNTRIES and any("kid" in cat.lower() for cat in categories):
         selected.append(c)
 
 # Deduplicate
@@ -63,7 +67,7 @@ for c in selected:
 
 channels = list(unique.values())[:MAX_CHANNELS]
 
-print(f"Selected {len(channels)} channels.")
+print(f"Selected {len(channels)} channels for playlist.")
 
 # Write playlist
 with open(PLAYLIST_OUTPUT, "w", encoding="utf-8") as f:
@@ -71,53 +75,58 @@ with open(PLAYLIST_OUTPUT, "w", encoding="utf-8") as f:
     for c in channels:
         country = c.get("country")
         cats = ", ".join(c.get("categories", []))
+        group = f"{country} - {cats}" if cats else country
         f.write(
             f'#EXTINF:-1 tvg-id="{c.get("id","")}" '
             f'tvg-name="{c.get("name","")}" '
             f'tvg-logo="{c.get("logo","")}" '
-            f'group-title="{country} - {cats}",{c.get("name","")}\n'
+            f'group-title="{group}",{c.get("name","")}\n'
             f'{c.get("url")}\n'
         )
 
-print("Playlist created.")
+print("Playlist written.")
 
-# Fetch guides.json
+# Load guides
 print("Fetching guides list...")
 guides_resp = requests.get(GUIDES_API, timeout=30)
 guides_data = guides_resp.json()
 
-# Build EPG root
-epg_root = ET.Element("tv")
+# Helper: normalize names
+def normalize(s):
+    return "".join(ch.lower() for ch in s if ch.isalnum())
 
-# Track added channels
-added = set()
+# Build EPG
+epg_root = ET.Element("tv")
+added_guides = set()
 
 print("Building filtered EPG...")
+
 for c in channels:
-    chan_id = c.get("id")
-    # Find all guides matching this channel ID
-    matches = [
-        g for g in guides_data
-        if g.get("channel") == chan_id
-    ]
-    for guide in matches:
-        feed_url = guide.get("feed")
-        if not feed_url or feed_url in added:
-            continue
+    chan_name = c.get("name", "").lower()
+    norm_chan = normalize(chan_name)
 
-        try:
-            xml_resp = requests.get(feed_url, timeout=30)
-            xml_resp.raise_for_status()
-            # Parse feed and merge
-            tree = ET.fromstring(xml_resp.content)
-            for elem in tree.findall("programme"):
-                epg_root.append(elem)
-            added.add(feed_url)
-            print(f"Added EPG for {chan_id}")
-        except Exception:
-            print(f"Failed to load EPG feed: {feed_url}")
+    # Try best match in guides
+    for g in guides_data:
+        site_name = g.get("site_name", "") or ""
+        norm_site = normalize(site_name)
 
-# Write merged EPG
+        if norm_chan in norm_site or norm_site in norm_chan:
+            feed_url = g.get("feed")
+            if feed_url and feed_url not in added_guides:
+                try:
+                    xml_resp = requests.get(feed_url, timeout=30)
+                    xml_resp.raise_for_status()
+                    guide_tree = ET.fromstring(xml_resp.content)
+                    for prog in guide_tree.findall("programme"):
+                        epg_root.append(prog)
+                    added_guides.add(feed_url)
+                    print(f"EPG added for {chan_name} via {site_name}")
+                except Exception as e:
+                    print(f"Failed to download EPG feed {feed_url}: {e}")
+
+# Always write epg.xml even if partial
 tree = ET.ElementTree(epg_root)
 tree.write(EPG_OUTPUT, encoding="utf-8", xml_declaration=True)
-print("Filtered EPG created.")
+print("Filtered EPG written.")
+
+print("Done.")
