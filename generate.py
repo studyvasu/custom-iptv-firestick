@@ -100,12 +100,12 @@ with open(PLAYLIST_OUTPUT, "w", encoding="utf-8") as f:
 print(f"firestick.m3u written with {len(all_entries)} channels.")
 
 # -------------------------------
-# Build filtered EPG
+# Build filtered EPG using loose substring matching
 # -------------------------------
 print("Downloading and filtering EPG files ...")
 epg_root = ET.Element("tv")
 playlist_ids = set(e.get("tvg_id","") for e in all_entries)
-playlist_names = set(e.get("tvg_name","").lower() for e in all_entries)
+playlist_names = [e.get("tvg_name","").lower() for e in all_entries if e.get("tvg_name")]
 
 for epg_url in EPG_URLS:
     try:
@@ -118,12 +118,14 @@ for epg_url in EPG_URLS:
             chan_id = chan.get("id","")
             dn = chan.find("display-name")
             name = dn.text.lower() if dn is not None else ""
-            if chan_id in playlist_ids or name in playlist_names:
+            # loose substring matching
+            if chan_id in playlist_ids or any(mname in name for mname in playlist_names):
                 epg_root.append(chan)
 
         # Filter programmes
         for prog in doc.findall("programme"):
-            if prog.get("channel","") in playlist_ids or prog.get("channel","").lower() in playlist_names:
+            prog_chan = prog.get("channel","")
+            if prog_chan in playlist_ids or any(mname in prog_chan.lower() for mname in playlist_names):
                 epg_root.append(prog)
 
         print(f"EPG added from {epg_url}")
