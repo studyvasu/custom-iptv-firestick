@@ -31,7 +31,7 @@ PLAYLIST_OUTPUT = "firestick.m3u"
 EPG_OUTPUT = "epg.xml"
 
 # -------------------------------
-# Robust M3U parser
+# Safe and robust M3U parser
 # -------------------------------
 def parse_m3u(url):
     print(f"Downloading playlist {url} ...")
@@ -39,24 +39,37 @@ def parse_m3u(url):
     r.raise_for_status()
     lines = r.text.splitlines()
     entries = []
-    info = {}
+
     for line in lines:
         line = line.strip()
         if line.startswith("#EXTINF"):
-            info = {}
-            # Extract attributes if present
-            info["tvg_id"] = re.search(r'tvg-id="([^"]*)"', line)
-            info["tvg_name"] = re.search(r'tvg-name="([^"]*)"', line)
-            info["tvg_logo"] = re.search(r'tvg-logo="([^"]*)"', line)
-            name_match = re.search(r',(.*)$', line)
-            info["name"] = name_match.group(1).strip() if name_match else ""
-            # Convert match objects to string or empty
-            info = {k: v.group(1) if v else "" for k, v in info.items()}
+            # default empty values
+            tvg_id = tvg_name = tvg_logo = ""
+            name = ""
+            # safe regex extraction
+            m = re.search(r'tvg-id="([^"]*)"', line)
+            if m: tvg_id = m.group(1)
+            m = re.search(r'tvg-name="([^"]*)"', line)
+            if m: tvg_name = m.group(1)
+            m = re.search(r'tvg-logo="([^"]*)"', line)
+            if m: tvg_logo = m.group(1)
+            # get channel name after last comma
+            if "," in line:
+                name = line.split(",")[-1].strip()
+            # store info in dict
+            info = {
+                "tvg_id": tvg_id,
+                "tvg_name": tvg_name,
+                "tvg_logo": tvg_logo,
+                "name": name
+            }
         elif line and not line.startswith("#"):
-            if info:
+            # next line is URL
+            if 'info' in locals():
                 info["url"] = line
                 entries.append(info.copy())
-                info = {}
+                del info  # reset for next entry
+
     print(f"Parsed {len(entries)} entries")
     return entries
 
