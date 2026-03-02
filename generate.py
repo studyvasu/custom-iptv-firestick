@@ -1,68 +1,73 @@
 import requests
 
+# IPTV.org API for channels
 CHANNELS_API = "https://iptv-org.github.io/api/channels.json"
 
-# External country EPG sources
-EPG_SOURCES = {
-    "US": "https://raw.githubusercontent.com/globetvapp/epg/main/UnitedStates/usa.xml",
-    "IN": "https://raw.githubusercontent.com/globetvapp/epg/main/India/india.xml",
-    "UK": "https://raw.githubusercontent.com/globetvapp/epg/main/UnitedKingdom/uk.xml",
-    "AU": "https://raw.githubusercontent.com/globetvapp/epg/main/Australia/australia.xml"
+# External EPG XMLTV URLs (must exist in globetvapp/epg)
+EPG_URLS = {
+    "US": [
+        "https://raw.githubusercontent.com/globetvapp/epg/main/UnitedStates/usa1.xml",
+        "https://raw.githubusercontent.com/globetvapp/epg/main/UnitedStates/usa2.xml"
+    ],
+    "IN": [
+        "https://raw.githubusercontent.com/globetvapp/epg/main/India/india1.xml"
+    ],
+    "UK": [
+        "https://raw.githubusercontent.com/globetvapp/epg/main/UnitedKingdom/uk1.xml"
+    ],
+    "AU": [
+        "https://raw.githubusercontent.com/globetvapp/epg/main/Australia/australia1.xml"
+    ]
 }
 
+# Output files
 PLAYLIST_OUTPUT = "firestick.m3u"
 EPG_OUTPUT = "epg.xml"
 MAX_CHANNELS = 400
 
-US_CATEGORIES = [
-    "movies", "kids", "business", "travel",
-    "music", "documentary", "education", "cooking"
-]
-INDIA_LANGUAGES = ["hin", "tel"]
-INDIA_CATEGORIES = ["travel", "cooking", "kids", "education"]
-KIDS_COUNTRIES = ["UK", "AU"]
-
+# Helper: check if channel is valid
 def valid(channel):
-    return (
-        channel.get("url")
-        and not channel.get("is_nsfw")
-        and channel.get("status") != "offline"
-    )
+    return channel.get("url") and not channel.get("is_nsfw") and channel.get("status") != "offline"
 
+# Fetch channels from IPTV.org API
 print("Fetching channels...")
-channels_resp = requests.get(CHANNELS_API, timeout=30)
-channels_data = channels_resp.json()
+resp = requests.get(CHANNELS_API, timeout=30)
+channels_data = resp.json()
 
+# Select channels based on country and category/language
 selected = []
 for c in channels_data:
     if not valid(c):
         continue
-
     country = (c.get("country") or "").upper()
-    categories = c.get("categories", [])
-    languages = c.get("languages", [])
+    categories = c.get("categories") or []
+    languages = c.get("languages") or []
 
+    # US channels (any category)
     if country == "US":
-        if categories:
-            selected.append(c)
-    elif country == "IN":
-        if categories or languages:
-            selected.append(c)
-    elif country in KIDS_COUNTRIES and any("kid" in cat.lower() for cat in categories):
         selected.append(c)
 
-unique = {}
-for c in selected:
-    unique[c["url"]] = c
+    # India channels (any category or language)
+    elif country == "IN":
+        selected.append(c)
 
+    # UK/AU kids channels
+    elif country in ["UK", "AU"]:
+        if any("kid" in cat.lower() for cat in categories):
+            selected.append(c)
+
+# Deduplicate by URL
+unique = {c["url"]: c for c in selected}
 channels = list(unique.values())[:MAX_CHANNELS]
-print(f"Selected {len(channels)} channels for playlist.")
 
+print(f"Selected {len(channels)} channels for playlist")
+
+# Write firestick.m3u
 with open(PLAYLIST_OUTPUT, "w", encoding="utf-8") as f:
     f.write('#EXTM3U url-tvg="epg.xml"\n')
     for c in channels:
         country = (c.get("country") or "").upper()
-        cats = ", ".join(c.get("categories", []))
+        cats = ", ".join(c.get("categories") or [])
         group = f"{country} - {cats}" if cats else country
         f.write(
             f'#EXTINF:-1 tvg-id="{c.get("id","")}" '
@@ -74,17 +79,21 @@ with open(PLAYLIST_OUTPUT, "w", encoding="utf-8") as f:
 
 print("Playlist written.")
 
+# Fetch and combine EPG XMLs
+print("Fetching external EPG files...")
 combined_epg = ""
-for country_code, epg_url in EPG_SOURCES.items():
-    try:
-        print(f"Fetching EPG for {country_code}...")
-        r = requests.get(epg_url, timeout=30)
-        combined_epg += r.text
-        print(f"Added EPG for {country_code}")
-    except Exception as e:
-        print(f"Failed to fetch EPG for {country_code}: {e}")
+for country, urls in EPG_URLS.items():
+    for url in urls:
+        try:
+            r = requests.get(url, timeout=30)
+            combined_epg += r.text
+            print(f"Added EPG for {country} from {url}")
+        except Exception as e:
+            print(f"Failed to fetch EPG {url}: {e}")
 
+# Write combined EPG
 with open(EPG_OUTPUT, "w", encoding="utf-8") as f:
     f.write(combined_epg)
 
 print("EPG file created.")
+print("Done.")
