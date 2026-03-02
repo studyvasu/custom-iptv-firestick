@@ -633,7 +633,7 @@ https://mumt05.tangotv.in/DHARMSANDESH/index.m3u8
 https://live.we2live.in/dheerantv/dheerantv/playlist.m3u8
 #EXTINF:-1 tvg-id="DishaTV.in@SD" tvg-name="Disha TV (576p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disha_tv.png" group-title="Hindi/Other",Disha TV (576p)
 https://mumt04.tangotv.in/DISHATV/index.m3u8
-#EXTINF:-1 tvg-id="DisneyChannel.in@SD" tvg-name="Disney Channel (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_CHANNEL/images/LOGO_HD/image.png" group-title="Hindi/Kids",Disney Channel (576p)
+#EXTINF:-1 tvg-id="DisneyChannel.in@SD" tvg-name="Disney Channel (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_CHANNEL/images/LOGO_HD/image.png" group-title="Hindi/Other",Disney Channel (576p)
 http://161.248.38.40:8000/play/a06q/index.m3u8
 #EXTINF:-1 tvg-id="DisneyJunior.in@SD" tvg-name="Disney Junior (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_JUNIOR/images/LOGO_HD/image.png" group-title="Hindi/Other",Disney Junior (576p)
 http://161.248.38.40:8000/play/a068/index.m3u8
@@ -823,9 +823,9 @@ https://cdn-6.pishow.tv/live/10009/master.m3u8
 https://live.legitpro.co.in/newsindia/index.m3u8
 #EXTINF:-1 tvg-id="NewsNation.in@SD" tvg-name="News Nation (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS_NATION/images/LOGO_HD/image.png" group-title="Hindi/Other",News Nation (1080p)
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6cd2f649739a45ca9de1daf81cc7d0f2/index.m3u8
-#EXTINF:-1 tvg-id="NickJr.in@SD" tvg-name="Nick Jr. (576p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/512px-Nick_Jr._logo_2023_(outline).svg.png" group-title="Hindi/Kids",Nick Jr. (576p)
+#EXTINF:-1 tvg-id="NickJr.in@SD" tvg-name="Nick Jr. (576p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/512px-Nick_Jr._logo_2023_(outline).svg.png" group-title="Hindi/Other",Nick Jr. (576p)
 http://161.248.38.40:8000/play/a074/index.m3u8
-#EXTINF:-1 tvg-id="Nickelodeon.in@SD" tvg-name="Nickelodeon (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NICK/images/LOGO_HD/image.png" group-title="Hindi/Kids",Nickelodeon (576p)
+#EXTINF:-1 tvg-id="Nickelodeon.in@SD" tvg-name="Nickelodeon (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NICK/images/LOGO_HD/image.png" group-title="Hindi/Other",Nickelodeon (576p)
 http://103.229.254.25:7001/play/a0cq/index.m3u8
 #EXTINF:-1 tvg-id="NortheastLive.in@HD" tvg-name="Northeast Live (720p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NORTH_EAST_LIVE/images/LOGO_HD/image.png" group-title="Hindi/Other",Northeast Live (720p)
 https://server.thelegitpro.in/northeastlive/northeastlive/index.fmp4.m3u8
@@ -1081,7 +1081,7 @@ http://103.78.149.54:8000/play/a030/index.m3u8
 http://103.78.149.54:8000/play/a02i/index.m3u8
 #EXTINF:-1 tvg-id="DDYadagiri.in@SD" tvg-name="DD Yadagiri (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_YADAGIRI/images/LOGO_HD/image.png" group-title="Telugu/Other",DD Yadagiri (576p)
 http://103.78.149.54:8000/play/a02n/index.m3u8
-#EXTINF:-1 tvg-id="DisneyChannel.in@SD" tvg-name="Disney Channel (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_CHANNEL/images/LOGO_HD/image.png" group-title="Telugu/Kids",Disney Channel (576p)
+#EXTINF:-1 tvg-id="DisneyChannel.in@SD" tvg-name="Disney Channel (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_CHANNEL/images/LOGO_HD/image.png" group-title="Telugu/Other",Disney Channel (576p)
 http://161.248.38.40:8000/play/a06q/index.m3u8
 #EXTINF:-1 tvg-id="DisneyJunior.in@SD" tvg-name="Disney Junior (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_JUNIOR/images/LOGO_HD/image.png" group-title="Telugu/Other",Disney Junior (576p)
 http://161.248.38.40:8000/play/a068/index.m3u8
@@ -1139,7 +1139,7 @@ https://mercury.streambridge.link:8042/telugu/metrotv/index.m3u8
 http://103.113.103.202:8001/play/a007/index.m3u8
 #EXTINF:-1 tvg-id="NationalGeographicWild.in@HD" tvg-name="National Geographic Wild HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NAT_GEO_WILD/images/LOGO_HD/image.png" group-title="Telugu/Other",National Geographic Wild HD (1080p)
 http://103.113.103.202:8001/play/a02s/index.m3u8
-#EXTINF:-1 tvg-id="Nickelodeon.in@SD" tvg-name="Nickelodeon (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NICK/images/LOGO_HD/image.png" group-title="Telugu/Kids",Nickelodeon (576p)
+#EXTINF:-1 tvg-id="Nickelodeon.in@SD" tvg-name="Nickelodeon (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NICK/images/LOGO_HD/image.png" group-title="Telugu/Other",Nickelodeon (576p)
 http://103.229.254.25:7001/play/a0cq/index.m3u8
 #EXTINF:-1 tvg-id="NireekshanaTV.in@SD" tvg-name="Nireekshana TV (576p)" tvg-logo="https://i.imgur.com/nGJv6QR.png" group-title="Telugu/Other",Nireekshana TV (576p)
 https://cdn-1.pishow.tv/live/965/master.m3u8
@@ -2349,13 +2349,13 @@ https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8
 https://ghaasiflu.online/Dijlah/index.m3u8
 #EXTINF:-1 tvg-id="DiscoverFilm.uk@SD" tvg-name="DiscoverFilm" tvg-logo="https://i.imgur.com/oMnpsQ5.png" group-title="English/Other",DiscoverFilm
 https://discoverfilm-discoverfilm-1-nl.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="DisneyChannel.bg@SD" tvg-name="Disney Channel (576p)" tvg-logo="https://i.imgur.com/UxrAiAe.png" group-title="English/Kids",Disney Channel (576p)
+#EXTINF:-1 tvg-id="DisneyChannel.bg@SD" tvg-name="Disney Channel (576p)" tvg-logo="https://i.imgur.com/UxrAiAe.png" group-title="English/Other",Disney Channel (576p)
 http://84.54.128.52:9090/play/3006/index.m3u8
-#EXTINF:-1 tvg-id="DisneyChannel.in@SD" tvg-name="Disney Channel (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_CHANNEL/images/LOGO_HD/image.png" group-title="English/Kids",Disney Channel (576p)
+#EXTINF:-1 tvg-id="DisneyChannel.in@SD" tvg-name="Disney Channel (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_CHANNEL/images/LOGO_HD/image.png" group-title="English/Other",Disney Channel (576p)
 http://161.248.38.40:8000/play/a06q/index.m3u8
-#EXTINF:-1 tvg-id="DisneyChannel.us@East" tvg-name="Disney Channel East (720p) [Not 24/7]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" group-title="English/Kids",Disney Channel East (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="DisneyChannel.us@East" tvg-name="Disney Channel East (720p) [Not 24/7]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" group-title="English/Other",Disney Channel East (720p) [Not 24/7]
 https://tvpass.org/live/DisneyChannelEast/hd
-#EXTINF:-1 tvg-id="DisneyChannel.jp@SD" tvg-name="Disney Channel Japan (544p)" tvg-logo="https://i.imgur.com/VSq7b5E.jpg" group-title="English/Kids",Disney Channel Japan (544p)
+#EXTINF:-1 tvg-id="DisneyChannel.jp@SD" tvg-name="Disney Channel Japan (544p)" tvg-logo="https://i.imgur.com/VSq7b5E.jpg" group-title="English/Other",Disney Channel Japan (544p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs24
 #EXTINF:-1 tvg-id="DisneyInternationalHD.in@SD" tvg-name="Disney International HD (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_INTERNATIONAL_HD/images/LOGO_HD/image.png" group-title="English/Other",Disney International HD (576p)
 http://111.88.78.21:8000/play/a0qo/index.m3u8
@@ -3653,21 +3653,21 @@ https://nhk.lls.pbs.org/index.m3u8
 https://aegis-cloudfront-1.tubi.video/b8c5eb48-349b-454f-9625-63911ee923f5/playlist.m3u8
 #EXTINF:-1 tvg-id="NiceTVKenya.ke@SD" tvg-name="Nice TV Kenya (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/UawxLTW.jpg" group-title="English/Other",Nice TV Kenya (720p) [Not 24/7]
 https://goliveafrica.media:9998/live/64ada04aa7678/index.m3u8
-#EXTINF:-1 tvg-id="Nickelodeon.de@SD" tvg-name="Nick Germany (1080p) [Geo-blocked]" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="English/Kids",Nick Germany (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="Nickelodeon.de@SD" tvg-name="Nick Germany (1080p) [Geo-blocked]" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="English/Other",Nick Germany (1080p) [Geo-blocked]
 https://0d26a00dfbb1.airspace-cdn.cbsivideo.com/nick1999/master/nick1999.m3u8
-#EXTINF:-1 tvg-id="NickHDPlus.in@HD" tvg-name="Nick HD+ (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NICK_HDSYMPLUS/images/LOGO_HD/image.png" group-title="English/Kids",Nick HD+ (1080p)
+#EXTINF:-1 tvg-id="NickHDPlus.in@HD" tvg-name="Nick HD+ (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NICK_HDSYMPLUS/images/LOGO_HD/image.png" group-title="English/Other",Nick HD+ (1080p)
 http://116.90.120.128:8000/play/a0i3/index.m3u88
-#EXTINF:-1 tvg-id="NickJr.in@SD" tvg-name="Nick Jr. (576p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/512px-Nick_Jr._logo_2023_(outline).svg.png" group-title="English/Kids",Nick Jr. (576p)
+#EXTINF:-1 tvg-id="NickJr.in@SD" tvg-name="Nick Jr. (576p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/512px-Nick_Jr._logo_2023_(outline).svg.png" group-title="English/Other",Nick Jr. (576p)
 http://161.248.38.40:8000/play/a074/index.m3u8
-#EXTINF:-1 tvg-id="NickComedyCentralPlus1.de@HD" tvg-name="Nick/Comedy Central +1 HD (1080p) [Geo-Blocked]" tvg-logo="https://i.imgur.com/08ZUI9k.png" group-title="English/Kids",Nick/Comedy Central +1 HD (1080p) [Geo-Blocked]
+#EXTINF:-1 tvg-id="NickComedyCentralPlus1.de@HD" tvg-name="Nick/Comedy Central +1 HD (1080p) [Geo-Blocked]" tvg-logo="https://i.imgur.com/08ZUI9k.png" group-title="English/Other",Nick/Comedy Central +1 HD (1080p) [Geo-Blocked]
 https://viamotionhsi.netplus.ch/live/eds/comedycentralnick/browser-HLS8/comedycentralnick.m3u8
-#EXTINF:-1 tvg-id="Nickelodeon.ee@SD" tvg-name="Nickelodeon (576p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Nickelodeon_2023_logo_%28outline%29.svg/1200px-Nickelodeon_2023_logo_%28outline%29.svg.png" group-title="English/Kids",Nickelodeon (576p)
+#EXTINF:-1 tvg-id="Nickelodeon.ee@SD" tvg-name="Nickelodeon (576p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Nickelodeon_2023_logo_%28outline%29.svg/1200px-Nickelodeon_2023_logo_%28outline%29.svg.png" group-title="English/Other",Nickelodeon (576p)
 http://195.64.140.147:10121/121
-#EXTINF:-1 tvg-id="Nickelodeon.us@East" tvg-name="Nickelodeon" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="English/Kids",Nickelodeon
+#EXTINF:-1 tvg-id="Nickelodeon.us@East" tvg-name="Nickelodeon" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="English/Other",Nickelodeon
 http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
-#EXTINF:-1 tvg-id="Nicktoons.ca@FAST" tvg-name="Nicktoons (720p)" tvg-logo="https://i.ibb.co/ZpmVmC3G/IMG-0291.jpg" group-title="English/Kids",Nicktoons (720p)
+#EXTINF:-1 tvg-id="Nicktoons.ca@FAST" tvg-name="Nicktoons (720p)" tvg-logo="https://i.ibb.co/ZpmVmC3G/IMG-0291.jpg" group-title="English/Other",Nicktoons (720p)
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/654ca7f92c1d3300086b608c/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7b6610-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=359ee837-a829-4fe0-9d99-8dc36018ced2
-#EXTINF:-1 tvg-id="Nicktoons.uk@SD" tvg-name="Nicktoons (576p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png" group-title="English/Kids",Nicktoons (576p)
+#EXTINF:-1 tvg-id="Nicktoons.uk@SD" tvg-name="Nicktoons (576p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png" group-title="English/Other",Nicktoons (576p)
 https://a1xs.vip/100054
 #EXTINF:-1 tvg-id="Nigbati.ng@SD" tvg-name="Nigbati (720p) [Not 24/7]" tvg-logo="https://www.lyngsat.com/logo/tv/nn/nigbati-ng.png" group-title="English/Other",Nigbati (720p) [Not 24/7]
 https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_023/Stream/playlist.m3u8
