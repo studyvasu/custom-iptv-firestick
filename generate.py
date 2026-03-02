@@ -2,7 +2,7 @@ import requests
 
 CHANNELS_API = "https://iptv-org.github.io/api/channels.json"
 
-# Lightweight regional EPG files (much faster than global)
+# Regional EPG files (US + India only for lightness)
 EPG_US = "https://iptv-org.github.io/epg/guides/us.xml"
 EPG_IN = "https://iptv-org.github.io/epg/guides/in.xml"
 
@@ -12,13 +12,20 @@ EPG_OUTPUT = "epg.xml"
 MAX_CHANNELS = 400
 
 US_CATEGORIES = [
-    "movies", "kids", "business", "travel",
-    "music", "documentary", "education", "cooking"
+    "movies",
+    "kids",
+    "business",
+    "travel",
+    "music",
+    "documentary",
+    "education",
+    "cooking"
 ]
 
 INDIA_LANGUAGES = ["hin", "tel"]
 INDIA_CATEGORIES = ["travel", "cooking", "kids", "education"]
 
+KIDS_COUNTRIES = ["UK", "AU"]  # UK & Australia kids channels
 
 def valid(channel):
     return (
@@ -27,10 +34,11 @@ def valid(channel):
         and channel.get("status") != "offline"
     )
 
-
-print("Fetching channel list...")
+print("Fetching channels...")
 try:
-    data = requests.get(CHANNELS_API, timeout=30).json()
+    response = requests.get(CHANNELS_API, timeout=30)
+    response.raise_for_status()
+    data = response.json()
 except Exception as e:
     print("Failed to fetch channels:", e)
     exit(1)
@@ -46,13 +54,20 @@ for c in data:
     languages = c.get("languages", [])
 
     # US filter
-    if country == "US" and any(cat in US_CATEGORIES for cat in categories):
-        selected.append(c)
+    if country == "US":
+        if any(cat in US_CATEGORIES for cat in categories):
+            selected.append(c)
 
     # India filter
     elif country == "IN":
-        if any(lang in INDIA_LANGUAGES for lang in languages) or \
-           any(cat in INDIA_CATEGORIES for cat in categories):
+        if any(lang in INDIA_LANGUAGES for lang in languages) or any(
+            cat in INDIA_CATEGORIES for cat in categories
+        ):
+            selected.append(c)
+
+    # UK & AU kids filter
+    elif country in KIDS_COUNTRIES:
+        if "kids" in categories:
             selected.append(c)
 
 # Deduplicate by URL
@@ -66,13 +81,61 @@ print(f"Generating playlist with {len(channels)} channels...")
 
 with open(PLAYLIST_OUTPUT, "w", encoding="utf-8") as f:
     f.write('#EXTM3U url-tvg="epg.xml"\n')
+
     for c in channels:
+        country = c.get("country")
+        categories = c.get("categories", [])
+        languages = c.get("languages", [])
+
+        # Smart grouping
+        if country == "US":
+            if "movies" in categories:
+                group = "US - Movies"
+            elif "kids" in categories:
+                group = "US - Kids"
+            elif "business" in categories:
+                group = "US - Business"
+            elif "travel" in categories:
+                group = "US - Travel"
+            elif "music" in categories:
+                group = "US - Music"
+            elif "documentary" in categories:
+                group = "US - Documentary"
+            elif "education" in categories:
+                group = "US - Education"
+            elif "cooking" in categories:
+                group = "US - Cooking"
+            else:
+                group = "US - Other"
+
+        elif country == "IN":
+            if "hin" in languages:
+                group = "India - Hindi"
+            elif "tel" in languages:
+                group = "India - Telugu"
+            elif "kids" in categories:
+                group = "India - Kids"
+            elif "education" in categories:
+                group = "India - Education"
+            elif "travel" in categories:
+                group = "India - Travel"
+            elif "cooking" in categories:
+                group = "India - Cooking"
+            else:
+                group = "India - Other"
+
+        elif country == "UK" and "kids" in categories:
+            group = "UK - Kids"
+        elif country == "AU" and "kids" in categories:
+            group = "Australia - Kids"
+        else:
+            group = "Other"
+
         f.write(
             f'#EXTINF:-1 tvg-id="{c.get("id","")}" '
             f'tvg-name="{c.get("name","")}" '
             f'tvg-logo="{c.get("logo","")}" '
-            f'group-title="{",".join(c.get("categories",[]))}",'
-            f'{c.get("name","")}\n'
+            f'group-title="{group}",{c.get("name","")}\n'
             f'{c.get("url")}\n'
         )
 
@@ -80,14 +143,18 @@ print("Downloading US EPG...")
 epg_content = ""
 
 try:
-    epg_content += requests.get(EPG_US, timeout=60).text
+    us_epg = requests.get(EPG_US, timeout=60)
+    us_epg.raise_for_status()
+    epg_content += us_epg.text
     print("US EPG added.")
 except:
     print("US EPG failed (continuing).")
 
 print("Downloading India EPG...")
 try:
-    epg_content += requests.get(EPG_IN, timeout=60).text
+    in_epg = requests.get(EPG_IN, timeout=60)
+    in_epg.raise_for_status()
+    epg_content += in_epg.text
     print("India EPG added.")
 except:
     print("India EPG failed (continuing).")
