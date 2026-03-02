@@ -17,7 +17,7 @@ COUNTRY_PLAYLISTS = {
 LANG_PLAYLISTS = {
     "Hindi": "https://iptv-org.github.io/iptv/languages/hin.m3u",
     "Telugu": "https://iptv-org.github.io/iptv/languages/tel.m3u",
-    "English": "https://iptv-org.github.io/iptv/languages/eng.m3u"
+    "English": "https://iptv-org.github.io/iptv/languages/eng.m3u",
 }
 
 # -------------------------------
@@ -60,7 +60,7 @@ KIDS_CHANNELS = ["cartoon network","pogo","nick","disney channel","baby tv"]
 # -------------------------------
 # Allowed countries
 # -------------------------------
-ALLOWED_COUNTRIES = {"US","GB","AU"}  # India handled separately
+ALLOWED_COUNTRIES = {"US", "GB", "AU"}  # India handled separately
 
 # -------------------------------
 # Assign category
@@ -74,8 +74,8 @@ def assign_category(name, country):
             break
 
     # US filter: skip foreign-language channels
-    if country=="US":
-        if any(x in lname for x in ["afghan","pashto","persian"]):
+    if country == "US":
+        if any(x in lname for x in ["afghan", "pashto", "persian"]):
             return None
         if not any(k in lname for k in CATEGORY_MAP.keys()):
             return None
@@ -84,7 +84,7 @@ def assign_category(name, country):
 # -------------------------------
 # Parse M3U safely
 # -------------------------------
-def parse_m3u(url, country=None):
+def parse_m3u(url, country=None, filter_english=False):
     print(f"Downloading playlist {url} ...")
     r = requests.get(url, timeout=30)
     r.raise_for_status()
@@ -104,24 +104,28 @@ def parse_m3u(url, country=None):
             if m: tvg_logo = m.group(1)
             if "," in line:
                 name = line.split(",")[-1].strip()
-            info = {"tvg_id":tvg_id,"tvg_name":tvg_name,"tvg_logo":tvg_logo,"name":name}
+            info = {"tvg_id": tvg_id, "tvg_name": tvg_name, "tvg_logo": tvg_logo, "name": name}
         elif line and not line.startswith("#"):
             if 'info' in locals():
-                info["url"]=line
+                info["url"] = line
                 if country:
-                    category = assign_category(info["name"],country)
+                    category = assign_category(info["name"], country)
                     if category is None: continue
                 else:
                     category = "Other"
                 # override kids channels
                 if any(k in info["name"].lower() for k in KIDS_CHANNELS):
                     category = "Kids"
-                info["category"]=category
+                info["category"] = category
                 if not info["tvg_id"]:
-                    info["tvg_id"]=re.sub(r'\W+','',info["name"]).lower()
+                    info["tvg_id"] = re.sub(r'\W+', '', info["name"]).lower()
                 if not info["tvg_name"]:
-                    info["tvg_name"]=info["name"]
-                entries.append(info.copy())
+                    info["tvg_name"] = info["name"]
+                # Only add English channels if the `filter_english` flag is True
+                if filter_english and "english" in category.lower():
+                    entries.append(info.copy())
+                elif not filter_english:
+                    entries.append(info.copy())
                 del info
     print(f"Parsed {len(entries)} entries")
     return entries
@@ -129,21 +133,22 @@ def parse_m3u(url, country=None):
 # -------------------------------
 # Combine playlists
 # -------------------------------
-all_entries=[]
-lang_entries=[]
-for country,url in COUNTRY_PLAYLISTS.items():
+all_entries = []
+lang_entries = []
+for country, url in COUNTRY_PLAYLISTS.items():
     try:
-        entries=parse_m3u(url,country)
+        entries = parse_m3u(url, country)
         print(f"{len(entries)} entries for {country}")
         all_entries.extend(entries)
     except Exception as e:
         print(f"Failed {country}: {e}")
 
 for lang, url in LANG_PLAYLISTS.items():
+    filter_english = True if lang == "English" else False
     try:
-        entries=parse_m3u(url)
+        entries = parse_m3u(url, filter_english=filter_english)
         for e in entries:
-            e["category"]=f"{lang}/{e['category']}"
+            e["category"] = f"{lang}/{e['category']}"
         print(f"{len(entries)} entries for {lang}")
         all_entries.extend(entries)
         lang_entries.extend(entries)
@@ -153,49 +158,40 @@ for lang, url in LANG_PLAYLISTS.items():
 # -------------------------------
 # Write firestick.m3u
 # -------------------------------
-with open(PLAYLIST_OUTPUT,"w",encoding="utf-8") as f:
+with open(PLAYLIST_OUTPUT, "w", encoding="utf-8") as f:
     f.write('#EXTM3U url-tvg="epg.xml"\n')
     for e in all_entries:
-        f.write(f'#EXTINF:-1 tvg-id="{e["tvg_id"]}" tvg-name="{e["tvg_name"]}" tvg-logo="{e["tvg_logo"]}" group-title="{e["category"]}",{e["name"]}\n{e["url"]}\n')
+        f.write(
+            f'#EXTINF:-1 tvg-id="{e["tvg_id"]}" tvg-name="{e["tvg_name"]}" tvg-logo="{e["tvg_logo"]}" group-title="{e["category"]}",{e["name"]}\n'
+            f'{e["url"]}\n'
+        )
 print(f"{PLAYLIST_OUTPUT} written with {len(all_entries)} channels.")
 
 # -------------------------------
-# Write firestick-lang.m3u
+# Write firestick-lang.m3u (filtered English)
 # -------------------------------
-with open(PLAYLIST_LANG_OUTPUT,"w",encoding="utf-8") as f:
+with open(PLAYLIST_LANG_OUTPUT, "w", encoding="utf-8") as f:
     f.write('#EXTM3U url-tvg="epg.xml"\n')
     for e in lang_entries:
-        f.write(f'#EXTINF:-1 tvg-id="{e["tvg_id"]}" tvg-name="{e["tvg_name"]}" tvg-logo="{e["tvg_logo"]}" group-title="{e["category"]}",{e["name"]}\n{e["url"]}\n')
+        f.write(
+            f'#EXTINF:-1 tvg-id="{e["tvg_id"]}" tvg-name="{e["tvg_name"]}" tvg-logo="{e["tvg_logo"]}" group-title="{e["category"]}",{e["name"]}\n'
+            f'{e["url"]}\n'
+        )
 print(f"{PLAYLIST_LANG_OUTPUT} written with {len(lang_entries)} language-based channels.")
 
 # -------------------------------
 # Filtered EPG
 # -------------------------------
 print("Downloading and filtering EPG ...")
-epg_root=ET.Element("tv")
-playlist_ids=[e["tvg_id"].lower() for e in all_entries]
-playlist_names=[e["tvg_name"].lower() for e in all_entries]
+epg_root = ET.Element("tv")
+playlist_ids = [e["tvg_id"].lower() for e in all_entries]
+playlist_names = [e["tvg_name"].lower() for e in all_entries]
 
 for epg_url in EPG_URLS:
     try:
-        r=requests.get(epg_url,timeout=30)
+        r = requests.get(epg_url, timeout=30)
         r.raise_for_status()
-        doc=ET.fromstring(r.content)
+        doc = ET.fromstring(r.content)
         for chan in doc.findall("channel"):
-            dn=chan.find("display-name")
-            epg_name=dn.text.lower() if dn is not None else ""
-            epg_id=chan.get("id","").lower()
-            if any(pname in epg_name or epg_name in pname or pid in epg_id or epg_id in pid
-                   for pname,pid in zip(playlist_names,playlist_ids)):
-                epg_root.append(chan)
-        for prog in doc.findall("programme"):
-            prog_chan=prog.get("channel","").lower()
-            if any(pname in prog_chan or prog_chan in pname or pid in prog_chan or prog_chan in pid
-                   for pname,pid in zip(playlist_names,playlist_ids)):
-                epg_root.append(prog)
-        print(f"EPG added from {epg_url}")
-    except Exception as e:
-        print(f"EPG fetch failed for {epg_url}: {e}")
-
-ET.ElementTree(epg_root).write(EPG_OUTPUT,encoding="utf-8",xml_declaration=True)
-print(f"{EPG_OUTPUT} written. Done.")
+            dn = chan.find("display-name")
+            epg_name = dn.text.lower() if dn is not None else ""
