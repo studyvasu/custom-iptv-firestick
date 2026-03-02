@@ -12,7 +12,7 @@ COUNTRY_PLAYLISTS = {
 }
 
 # -------------------------------
-# Language playlists for India
+# Language playlists for India and English
 # -------------------------------
 LANG_PLAYLISTS = {
     "Hindi": "https://iptv-org.github.io/iptv/languages/hin.m3u",
@@ -84,7 +84,7 @@ def assign_category(name, country):
 # -------------------------------
 # Parse M3U safely
 # -------------------------------
-def parse_m3u(url, country=None, filter_english=False):
+def parse_m3u(url, country=None):
     print(f"Downloading playlist {url} ...")
     r = requests.get(url, timeout=30)
     r.raise_for_status()
@@ -110,7 +110,8 @@ def parse_m3u(url, country=None, filter_english=False):
                 info["url"] = line
                 if country:
                     category = assign_category(info["name"], country)
-                    if category is None: continue
+                    if category is None:
+                        continue
                 else:
                     category = "Other"
                 # override kids channels
@@ -121,11 +122,7 @@ def parse_m3u(url, country=None, filter_english=False):
                     info["tvg_id"] = re.sub(r'\W+', '', info["name"]).lower()
                 if not info["tvg_name"]:
                     info["tvg_name"] = info["name"]
-                # Only add English channels if the `filter_english` flag is True
-                if filter_english and "english" in category.lower():
-                    entries.append(info.copy())
-                elif not filter_english:
-                    entries.append(info.copy())
+                entries.append(info.copy())
                 del info
     print(f"Parsed {len(entries)} entries")
     return entries
@@ -135,23 +132,25 @@ def parse_m3u(url, country=None, filter_english=False):
 # -------------------------------
 all_entries = []
 lang_entries = []
+
+# Country-specific playlists (US, UK, AU)
 for country, url in COUNTRY_PLAYLISTS.items():
     try:
         entries = parse_m3u(url, country)
-        print(f"{len(entries)} entries for {country}")
         all_entries.extend(entries)
+        print(f"{len(entries)} entries added from {country}")
     except Exception as e:
         print(f"Failed {country}: {e}")
 
+# Language-specific playlists (India + English)
 for lang, url in LANG_PLAYLISTS.items():
-    filter_english = True if lang == "English" else False
     try:
-        entries = parse_m3u(url, filter_english=filter_english)
+        entries = parse_m3u(url)  # Include all channels, no filter for English
         for e in entries:
             e["category"] = f"{lang}/{e['category']}"
-        print(f"{len(entries)} entries for {lang}")
         all_entries.extend(entries)
         lang_entries.extend(entries)
+        print(f"{len(entries)} entries added from {lang}")
     except Exception as e:
         print(f"Failed {lang}: {e}")
 
@@ -161,22 +160,16 @@ for lang, url in LANG_PLAYLISTS.items():
 with open(PLAYLIST_OUTPUT, "w", encoding="utf-8") as f:
     f.write('#EXTM3U url-tvg="epg.xml"\n')
     for e in all_entries:
-        f.write(
-            f'#EXTINF:-1 tvg-id="{e["tvg_id"]}" tvg-name="{e["tvg_name"]}" tvg-logo="{e["tvg_logo"]}" group-title="{e["category"]}",{e["name"]}\n'
-            f'{e["url"]}\n'
-        )
+        f.write(f'#EXTINF:-1 tvg-id="{e["tvg_id"]}" tvg-name="{e["tvg_name"]}" tvg-logo="{e["tvg_logo"]}" group-title="{e["category"]}",{e["name"]}\n{e["url"]}\n')
 print(f"{PLAYLIST_OUTPUT} written with {len(all_entries)} channels.")
 
 # -------------------------------
-# Write firestick-lang.m3u (filtered English)
+# Write firestick-lang.m3u
 # -------------------------------
 with open(PLAYLIST_LANG_OUTPUT, "w", encoding="utf-8") as f:
     f.write('#EXTM3U url-tvg="epg.xml"\n')
     for e in lang_entries:
-        f.write(
-            f'#EXTINF:-1 tvg-id="{e["tvg_id"]}" tvg-name="{e["tvg_name"]}" tvg-logo="{e["tvg_logo"]}" group-title="{e["category"]}",{e["name"]}\n'
-            f'{e["url"]}\n'
-        )
+        f.write(f'#EXTINF:-1 tvg-id="{e["tvg_id"]}" tvg-name="{e["tvg_name"]}" tvg-logo="{e["tvg_logo"]}" group-title="{e["category"]}",{e["name"]}\n{e["url"]}\n')
 print(f"{PLAYLIST_LANG_OUTPUT} written with {len(lang_entries)} language-based channels.")
 
 # -------------------------------
