@@ -79,6 +79,11 @@ def assign_category(name, country):
             return None
         if not any(k in lname for k in CATEGORY_MAP.keys()):
             return None
+
+    # Force Disney channels into Kids
+    if "disney" in lname or any(k in lname for k in KIDS_CHANNELS):
+        category = "Kids"
+
     return category
 
 # -------------------------------
@@ -114,9 +119,6 @@ def parse_m3u(url, country=None):
                         continue
                 else:
                     category = "Other"
-                # override kids channels
-                if any(k in info["name"].lower() for k in KIDS_CHANNELS):
-                    category = "Kids"
                 info["category"] = category
                 if not info["tvg_id"]:
                     info["tvg_id"] = re.sub(r'\W+', '', info["name"]).lower()
