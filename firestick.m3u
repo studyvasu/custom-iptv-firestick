@@ -583,7 +583,7 @@ https://mumt05.tangotv.in/BVG/index.m3u8
 https://vg-pitaaratvlive.akamaized.net/v1/vglive-sk-906482/playlist.m3u8
 #EXTINF:-1 tvg-id="ChannelY.ca@SD" tvg-name="Channel Y (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/OqSl2Qf.png" group-title="Hindi/Other",Channel Y (720p) [Not 24/7]
 http://cdn19.live247stream.com/channely/tv/playlist.m3u8
-#EXTINF:-1 tvg-id="CNBCAwaaz.in@SD" tvg-name="CNBC Awaaz (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/CNBC_Awaaz_logo.png/512px-CNBC_Awaaz_logo.png" group-title="Hindi/Other",CNBC Awaaz (1080p)
+#EXTINF:-1 tvg-id="CNBCAwaaz.in@SD" tvg-name="CNBC Awaaz (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CNBC_AWAAZ/images/LOGO_HD/image.png" group-title="Hindi/Other",CNBC Awaaz (1080p)
 https://n18syndication.akamaized.net/bpk-tv/CNBC_Awaaz_NW18_MOB/output01/master.m3u8
 #EXTINF:-1 tvg-id="CnewsBharat.in@SD" tvg-name="Cnews Bharat (720p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/C_News_Bharat.png" group-title="Hindi/News",Cnews Bharat (720p)
 https://legitpro.co.in/cnews/cnews/index.fmp4.m3u8
@@ -685,6 +685,8 @@ https://server.livelegitpro.in/globalpunjab/globalpunjab/index.m3u8
 https://online.godstands.tv:5443/WebRTCApp/streams/HindiStreaming.m3u8
 #EXTINF:-1 tvg-id="Goldmines.in@SD" tvg-name="Goldmines (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOLDMINES/images/LOGO_HD/image.png" group-title="Hindi/Other",Goldmines (576p)
 http://103.78.149.54:8000/play/a00z/index.m3u8
+#EXTINF:-1 tvg-id="Goldmines2.in@SD" tvg-name="Goldmines 2 (576p)" tvg-logo="https://www.lyngsat.com/logo/tv/gg/goldmines-2-in.png" group-title="Hindi/Other",Goldmines 2 (576p)
+https://cdn-2.pishow.tv/live/1460/master.m3u8
 #EXTINF:-1 tvg-id="GoldminesMovies.in@SD" tvg-name="Goldmines Movies (576p)" tvg-logo="https://dtil.tmsimg.com/assets/s142881_ld_h15_aa.png?lock=720x540" group-title="Hindi/Movies",Goldmines Movies (576p)
 http://103.78.149.54:8000/play/a01i/index.m3u8
 #EXTINF:-1 tvg-id="GoodNewsToday.in@SD" tvg-name="Good News Today (720p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOOD_NEWS_TODAY/images/LOGO_HD/image.png" group-title="Hindi/News",Good News Today (720p)
@@ -2229,7 +2231,7 @@ https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u
 https://mediacorp-videosbclive.akamaized.net/dd724cfb0e8e4cdc921bbc4ac94614bf/ap-southeast-1/6057994443001/playlist.m3u8
 #EXTINF:-1 tvg-id="CNAOriginals.sg@SD" tvg-name="CNA Originals (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/CNA_new_logo.svg/500px-CNA_new_logo.svg.png" group-title="English/Other",CNA Originals (1080p)
 https://amg01082-cna-amg01082c1-rlaxx-us-11304.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="CNBC.us@SD" tvg-name="CNBC (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/512px-CNBC_2025.svg.png" group-title="English/Other",CNBC (720p)
+#EXTINF:-1 tvg-id="CNBC.us@SD" tvg-name="CNBC (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/960px-CNBC_2025.svg.png" group-title="English/Other",CNBC (720p)
 https://stream.livenewsplay.com:9443/hls/cnbc/cnbcsd.m3u8
 #EXTINF:-1 tvg-id="CNBCAsia.sg@SD" tvg-name="CNBC Asia (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/512px-CNBC_2025.svg.png" group-title="English/Other",CNBC Asia (720p)
 https://liveh34.vtvprime.vn/hls/CNBC/03.m3u8
@@ -3315,8 +3317,8 @@ https://lonestar-rakuten.amagi.tv/playlist.m3u8
 https://edge-f.swagit.com/live/longbeachca/live-3-a/playlist.m3u8
 #EXTINF:-1 tvg-id="LA36.us@SD" tvg-name="Los Angeles Local Television Channel 36 (1080p)" tvg-logo="https://i.imgur.com/JxTzUEq.png" group-title="English/Other",Los Angeles Local Television Channel 36 (1080p)
 https://reflect-channel36-la.cablecast.tv/live-3/live/stream-1/live.m3u8
-#EXTINF:-1 tvg-id="LotusTV.mo@SD" tvg-name="Lotus Macau HD (1080p)" tvg-logo="https://i.imgur.com/7j8Lnog.png" group-title="English/Other",Lotus Macau HD (1080p)
-https://cdn1.skygo.mn/live/disk1/Lotus/HLS-FTA/Lotus.m3u8
+#EXTINF:-1 tvg-id="LotusTV.mo@SD" tvg-name="Lotus Macau HD 720p" tvg-logo="https://i.imgur.com/7j8Lnog.png" group-title="English/Other",Lotus Macau HD 720p
+https://cdn4.skygo.mn/live/disk1/Lotus/HLSv3-FTA/Lotus.m3u8
 #EXTINF:-1 tvg-id="LoveNature.ca@SD" tvg-name="Love Nature (1080p)" tvg-logo="https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png" group-title="English/Other",Love Nature (1080p)
 https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/playlist.m3u8
 #EXTINF:-1 tvg-id="LoveNature.ca@4K" tvg-name="Love Nature 4K (2160p) [Geo-blocked]" tvg-logo="https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png" group-title="English/Other",Love Nature 4K (2160p) [Geo-blocked]
