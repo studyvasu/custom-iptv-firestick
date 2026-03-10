@@ -589,6 +589,8 @@ https://mumt03.tangotv.in/BFLIX/index.m3u8
 https://mumt05.tangotv.in/BHAKTISAGAR/index.m3u8
 #EXTINF:-1 tvg-id="Bharat24.in@SD" tvg-name="Bharat24 (1080p)" tvg-logo="https://dtil.tmsimg.com/assets/s142710_ld_h15_aa.png?lock=720x540" group-title="Hindi/Other",Bharat24 (1080p)
 https://cdn.ottlive.co.in/bharat24/index.fmp4.m3u8
+#EXTINF:-1 tvg-id="BharatSamachar.in@SD" tvg-name="Bharat Samachar (480p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BHARAT_SAMACHAR/images/LOGO_HD/image.png" group-title="Hindi/Other",Bharat Samachar (480p)
+https://idvd.multitvsolution.com/idvo/bharatsamachar.m3u8
 #EXTINF:-1 tvg-id="BigMagic.in@SD" tvg-name="Big Magic (576p)" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002YJ850.png?lock=720x540" group-title="Hindi/Other",Big Magic (576p)
 https://mumt05.tangotv.in/BIGMAGIC/index.m3u8
 #EXTINF:-1 tvg-id="BollywoodHD.ro@SD" tvg-name="Bollywood HD (1080p)" tvg-logo="https://i.imgur.com/scDKOLS.png" group-title="Hindi/Other",Bollywood HD (1080p)
@@ -1055,12 +1057,10 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 https://d34z4embz0hjf6.cloudfront.net/out/v1/d55b3323a9f142638f897378f0b526fe/index.m3u8
 #EXTINF:-1 tvg-id="TotalTVHaryana.in@SD" tvg-name="Total TV Haryana (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TOTAL_TV/images/LOGO_HD/image.png" group-title="Hindi/Other",Total TV Haryana (576p)
 https://cdn-2.pishow.tv/live/1522/master.m3u8
-#EXTINF:-1 tvg-id="Travelxp.in@SD" tvg-name="Travelxp (720p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TRAVELXP/images/LOGO_HD/image.png" group-title="Hindi/Travel",Travelxp (720p)
-https://travelxp-travelxp-1-au.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Travelxp.in@4KHDR" tvg-name="Travelxp 4K HDR (2160p) [Geo-blocked]" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TRAVELXP/images/LOGO_HD/image.png" group-title="Hindi/Travel",Travelxp 4K HDR (2160p) [Geo-blocked]
 https://deltatesttatasky.akamaized.net/out/i/968284.m3u8
-#EXTINF:-1 tvg-id="Travelxp.in@HD" tvg-name="Travelxp HD (1080p) [Geo-blocked]" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TRAVELXP/images/LOGO_HD/image.png" group-title="Hindi/Travel",Travelxp HD (1080p) [Geo-blocked]
-https://amg00416-amg00416c9-samsung-in-4882.playouts.now.amagi.tv/playlist/amg00416-travelxp-travelxphd-samsungin/playlist.m3u8
+#EXTINF:-1 tvg-id="Travelxp.in@HD" tvg-name="Travelxp HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TRAVELXP/images/LOGO_HD/image.png" group-title="Hindi/Travel",Travelxp HD (1080p)
+http://iptvcasomsapi.jprdigital.in/x-media/C0118/master.m3u8
 #EXTINF:-1 tvg-id="TV9Bharatvarsh.in@SD" tvg-name="TV9 Bharatvarsh (720p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TV9_BHARATVARSH/images/LOGO_HD/image.png" group-title="Hindi/Other",TV9 Bharatvarsh (720p)
 https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9hinjzgtpe/liveabr/playlist.m3u8
 #EXTINF:-1 tvg-id="TVAsia.us@SD" tvg-name="TV Asia (1080p)" tvg-logo="https://i.imgur.com/a0BRhvr.png" group-title="Hindi/Other",TV Asia (1080p)
@@ -1295,8 +1295,6 @@ https://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/play
 https://mumbai-edge.smartplaytv.in/SwatantraTV/index.m3u8
 #EXTINF:-1 tvg-id="TNews.in@SD" tvg-name="T News (720p)" tvg-logo="https://dtil.tmsimg.com/assets/s143919_ld_h15_aa.png?lock=720x540" group-title="Telugu/News",T News (720p)
 https://cdn-1.pishow.tv/live/385/master.m3u8
-#EXTINF:-1 tvg-id="TeluguOne.in@HD" tvg-name="Telugu One (1080p)" tvg-logo="https://dvvlqr1rtlak3.cloudfront.net/TeluguOne/teluguone_logo_resized_400x200.png" group-title="Telugu/Other",Telugu One (1080p)
-https://amg02821-amg02821c1-samsung-in-4717.playouts.now.amagi.tv/playlist/amg02821-objectone-teluguone-samsungin/playlist.m3u8
 #EXTINF:-1 tvg-id="TollyTV.in@HD" tvg-name="Tolly TV (1080p)" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/aumnrs.png" group-title="Telugu/Other",Tolly TV (1080p)
 https://streams2.sofast.tv/ptnr-yupptv/title-TOLLY-TV-TEL_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/13b5735d-52c3-4be0-853d-e0ec0127e708/manifest.m3u8
 #EXTINF:-1 tvg-id="TV5News.in@SD" tvg-name="TV5 News (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TV5_TELUGU/images/LOGO_HD/image.png" group-title="Telugu/News",TV5 News (576p)
@@ -2705,8 +2703,6 @@ https://d12a2vxqkkh1bo.cloudfront.net/hls/main.m3u8
 https://cdn.vegasplus.us/vegas/ftv/playlist.m3u8
 #EXTINF:-1 tvg-id="Film4.uk@HD" tvg-name="Film4 HD (1080p) [Geo-Blocked]" tvg-logo="https://i.imgur.com/MTSgoGI.png" group-title="English/Other",Film4 HD (1080p) [Geo-Blocked]
 https://viamotionhsi.netplus.ch/live/eds/film4/browser-HLS8/film4.m3u8
-#EXTINF:-1 tvg-id="Filmazia.pk@SD" tvg-name="Filmazia (576p)" tvg-logo="https://i.imgur.com/hpTCANa.png" group-title="English/Other",Filmazia (576p)
-http://163.61.227.29:8000/play/a02l/index.m3u8
 #EXTINF:-1 tvg-id="FilmRiseAnime.us@SD" tvg-name="FilmRise Anime (720p)" tvg-logo="https://i.imgur.com/3wqeGXM.png" group-title="English/Other",FilmRise Anime (720p)
 https://dvu7aia8rjlfm.cloudfront.net/master.m3u8
 #EXTINF:-1 tvg-id="FilmRiseClassicTV.us@SD" tvg-name="FilmRise Classic TV (720p)" tvg-logo="https://i.imgur.com/8j2npVc.png" group-title="English/Other",FilmRise Classic TV (720p)
@@ -3531,6 +3527,8 @@ https://live.relentlessinnovations.net:1936/rspe-tv/rspe-tv/playlist.m3u8
 https://sendlive.online/hls/mmtv.m3u8
 #EXTINF:-1 tvg-id="MNBWorld.mn@SD" tvg-name="MNB World (1080p)" tvg-logo="https://i.imgur.com/PHlj84Q.png" group-title="English/Other",MNB World (1080p)
 https://cdn4.skygo.mn/live/disk1/MNB_World/DASH-FTA/MNB_World.mpd
+#EXTINF:-1 tvg-id="MNCTV.id@SD" tvg-name="MNCTV (720p)" tvg-logo="https://i.imgur.com/SK8pjQy.png" group-title="English/Other",MNCTV (720p)
+https://cdn10jtedge.indihometv.com/atm/DASH/mnctv/manifest.mpd
 #EXTINF:-1 tvg-id="MNX.in@SD" tvg-name="MNX (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MNX/images/LOGO_HD/image.png" group-title="English/Other",MNX (576p)
 http://iptvcasomsapi.jprdigital.in/x-media/C0089/master.m3u8
 #EXTINF:-1 tvg-id="MNX.in@HD" tvg-name="MNX HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MNX_HD/images/LOGO_HD/image.png" group-title="English/Other",MNX HD (1080p)
@@ -3579,8 +3577,10 @@ http://116.90.120.128:8000/play/a0i4/index.m3u88
 https://shls-live-enc.edgenextcdn.net/out/v1/f6d718e841f8442f8374de47f18c93a7/index.m3u8
 #EXTINF:-1 tvg-id="Movies.us@SD" tvg-name="Movies! (480p)" tvg-logo="https://i.imgur.com/gAGn3mK.png" group-title="English/Movies",Movies! (480p)
 https://bozztv.com/dvrfl03/hdirect/hdirect-ovair1-movies!/index.m3u8
-#EXTINF:-1 tvg-id="MovieSphere.us@SD" tvg-name="MovieSphere (1080p)" tvg-logo="https://i.imgur.com/h1ejU90.png" group-title="English/Movies",MovieSphere (1080p)
+#EXTINF:-1 tvg-id="MovieSphere.us@AU" tvg-name="MovieSphere AU (1080p)" tvg-logo="https://i.imgur.com/h1ejU90.png" group-title="English/Movies",MovieSphere AU (1080p)
 https://amg00353-lionsgatefilmsi-moviesphereaus-samsungau-7qzhf.amagi.tv/playlist/amg00353-lionsgatefilmsi-moviesphereaus-samsungau/playlist.m3u8
+#EXTINF:-1 tvg-id="MovieSphere.us@UK" tvg-name="MovieSphere UK (1080p)" tvg-logo="https://i.imgur.com/h1ejU90.png" group-title="English/Movies",MovieSphere UK (1080p)
+https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="MrBeanLiveAction.uk@SD" tvg-name="Mr Bean Live Action (1080p)" tvg-logo="https://d2yv6y0n3qsl5c.cloudfront.net/MBEANP/MrBeanLiveAction-LG_LOGO_800x200.png" group-title="English/Other",Mr Bean Live Action (1080p)
 https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8
 #EXTINF:-1 tvg-id="MrBeanAnimated.uk@English" tvg-name="Mr. Bean Animated (1080p)" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/Mr._Bean_Animated_Series_stacked_logo.png" group-title="English/Other",Mr. Bean Animated (1080p)
@@ -4641,8 +4641,6 @@ https://live-tbn-ssai.simplestreamcdn.com/v1/master/774d979dd66704abea7c5b62cb34
 https://5d23269b3ec0c.streamlock.net/WEB_Ukraine24/ngrp:Ukraine24.stream-adaptive/playlist.m3u8
 #EXTINF:-1 tvg-id="TCT.us@SD" tvg-name="TCT Network (720p)" tvg-logo="https://i.imgur.com/J5iRMgi.png" group-title="English/Other",TCT Network (720p)
 https://cdn.herringnetwork.com/80A4DFF/n1.herringnetwork.com/live2/tct_720p/playlist.m3u8
-#EXTINF:-1 tvg-id="TDAmeritradeNetwork.us@SD" tvg-name="TD Ameritrade Network (1080p)" tvg-logo="https://i.imgur.com/RbVdkJ5.png" group-title="English/Other",TD Ameritrade Network (1080p)
-https://tdameritrade-distro.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TechStorm.sg@SD" tvg-name="Tech Storm (720p) [Geo-blocked]" tvg-logo="https://i.imgur.com/fAprFBJ.png" group-title="English/Other",Tech Storm (720p) [Geo-blocked]
 https://cdn-telkomsel-01.akamaized.net/Content/HLS/Live/channel(abe4ead2-1a88-4330-9f41-382fcf94bba2)/index.m3u8
 #EXTINF:-1 tvg-id="TED.us@SD" tvg-name="TED (1080p)" tvg-logo="https://i.imgur.com/KeIhwNP.png" group-title="English/Other",TED (1080p)
@@ -4825,12 +4823,10 @@ https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
 https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TravelPlusAdventure.ru@SD" tvg-name="Travel+Adventure" tvg-logo="https://i.imgur.com/AlpdXC4.png" group-title="English/Travel",Travel+Adventure
 http://31.148.48.15/Travel_Adventure_HD/index.m3u8
-#EXTINF:-1 tvg-id="Travelxp.in@SD" tvg-name="Travelxp (720p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TRAVELXP/images/LOGO_HD/image.png" group-title="English/Travel",Travelxp (720p)
-https://travelxp-travelxp-1-au.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Travelxp.in@4KHDR" tvg-name="Travelxp 4K HDR (2160p) [Geo-blocked]" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TRAVELXP/images/LOGO_HD/image.png" group-title="English/Travel",Travelxp 4K HDR (2160p) [Geo-blocked]
 https://deltatesttatasky.akamaized.net/out/i/968284.m3u8
-#EXTINF:-1 tvg-id="Travelxp.in@HD" tvg-name="Travelxp HD (1080p) [Geo-blocked]" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TRAVELXP/images/LOGO_HD/image.png" group-title="English/Travel",Travelxp HD (1080p) [Geo-blocked]
-https://amg00416-amg00416c9-samsung-in-4882.playouts.now.amagi.tv/playlist/amg00416-travelxp-travelxphd-samsungin/playlist.m3u8
+#EXTINF:-1 tvg-id="Travelxp.in@HD" tvg-name="Travelxp HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TRAVELXP/images/LOGO_HD/image.png" group-title="English/Travel",Travelxp HD (1080p)
+http://iptvcasomsapi.jprdigital.in/x-media/C0118/master.m3u8
 #EXTINF:-1 tvg-id="CommunityTVChannel189.us@SD" tvg-name="Traverse Area Community Media CommunityTV Channel 189 (Traverse City MI) (1080p) [Geo-blocked]" tvg-logo="https://i.imgur.com/jmkLR6L.png" group-title="English/Other",Traverse Area Community Media CommunityTV Channel 189 (Traverse City MI) (1080p) [Geo-blocked]
 https://reflect-tacm.cablecast.tv/live-3/live/live.m3u8
 #EXTINF:-1 tvg-id="TribecaChannel.us@SD" tvg-name="Tribeca Channel [Geo-blocked]" tvg-logo="https://i.imgur.com/JCpFAll.png" group-title="English/Other",Tribeca Channel [Geo-blocked]
