@@ -729,8 +729,6 @@ http://iptvcasomsapi.jprdigital.in/x-media/C0449/master.m3u8
 https://ott.livelegitpro.in:9899/hnnnews/hnnnews/tracks-v1/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="HornbillTV.in@SD" tvg-name="Hornbill TV (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_HORNBILL/images/LOGO_HD/image.png" group-title="Hindi/Other",Hornbill TV (576p)
 https://cdn-2.pishow.tv/live/1463/master.m3u8
-#EXTINF:-1 tvg-id="HungamaTV.in@SD" tvg-name="Hungama TV (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_HUNGAMA/images/LOGO_HD/image.png" group-title="Hindi/Other",Hungama TV (576p)
-http://iptvcasomsapi.jprdigital.in/x-media/C0408/master.m3u8
 #EXTINF:-1 tvg-id="HyderTV.ca@SD" tvg-name="Hyder TV" tvg-logo="https://i.imgur.com/reHjjRZ.png" group-title="Hindi/Other",Hyder TV
 https://cdn.live247stream.com/hyder/tv/playlist.m3u8
 #EXTINF:-1 tvg-id="IBC24.in@SD" tvg-name="IBC 24 (720p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_IBC24/images/LOGO_HD/image.png" group-title="Hindi/Other",IBC 24 (720p)
@@ -949,10 +947,6 @@ http://116.90.120.151:8000/play/a0jf/index.m3u8
 http://116.90.120.151:8000/play/a0km/index.m3u8
 #EXTINF:-1 tvg-id="SonyPix.in@HD" tvg-name="Sony Pix HD (1080p)" tvg-logo="https://i.postimg.cc/Z5G8j67L/PIX-HD-WHITE.png" group-title="Hindi/Other",Sony Pix HD (1080p)
 http://103.229.254.25:7001/play/a0ed/index.m3u8
-#EXTINF:-1 tvg-id="SonySAB.in@SD" tvg-name="Sony SAB (720p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SAB/images/LOGO_HD/image.png" group-title="Hindi/Other",Sony SAB (720p)
-http://103.229.254.25:7001/play/a09s/index.m3u8
-#EXTINF:-1 tvg-id="SonySAB.in@HD" tvg-name="Sony SAB HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SAB/images/LOGO_HD/image.png" group-title="Hindi/Other",Sony SAB HD (1080p)
-http://103.229.254.25:7001/play/a0db/index.m3u8
 #EXTINF:-1 tvg-id="SonySportsTen3Hindi.in@SD" tvg-name="Sony Sports Ten 3 Hindi (576p)" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025TCMR.png?lock=720x540" group-title="Hindi/Sports",Sony Sports Ten 3 Hindi (576p)
 http://103.229.254.25:7001/play/a09q/index.m3u8
 #EXTINF:-1 tvg-id="SonyWah.in@SD" tvg-name="Sony Wah (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_WAH/images/LOGO_HD/image.png" group-title="Hindi/Other",Sony Wah (576p)
@@ -961,8 +955,6 @@ http://116.90.120.151:8000/play/a0kt/index.m3u8
 http://116.90.120.151:8000/play/a0hf/index.m3u8
 #EXTINF:-1 tvg-id="StarBharat.in@SD" tvg-name="Star Bharat (576p)" tvg-logo="https://i.imgur.com/Q8ajPij.png" group-title="Hindi/Other",Star Bharat (576p)
 http://116.90.120.151:8000/play/a0h2/index.m3u8
-#EXTINF:-1 tvg-id="StarBharat.in@HD" tvg-name="Star Bharat HD (1080p)" tvg-logo="https://i.imgur.com/Q8ajPij.png" group-title="Hindi/Other",Star Bharat HD (1080p)
-http://103.121.6.5:8000/play/a05z/index.m3u8
 #EXTINF:-1 tvg-id="StarGold2.in@SD" tvg-name="Star Gold 2 (576p)" tvg-logo="https://i.imgur.com/G0ZfzZr.png" group-title="Hindi/Other",Star Gold 2 (576p)
 http://116.90.120.151:8000/play/a0gz/index.m3u8
 #EXTINF:-1 tvg-id="StarGold2.in@HD" tvg-name="Star Gold 2 HD (1080p)" tvg-logo="https://i.imgur.com/G0ZfzZr.png" group-title="Hindi/Other",Star Gold 2 HD (1080p)
@@ -995,17 +987,15 @@ http://iptvcasomsapi.jprdigital.in/x-media/C0423/master.m3u8
 http://116.90.120.151:8000/play/a0kc/index.m3u8
 #EXTINF:-1 tvg-id="StarUtsavMovies.in@SD" tvg-name="Star Utsav Movies (576p)" tvg-logo="https://i.imgur.com/k5QHfH2.png" group-title="Hindi/Movies",Star Utsav Movies (576p)
 http://116.90.120.151:8000/play/a0ka/index.m3u8
-#EXTINF:-1 tvg-id="StarPlus.in@SD" tvg-name="StarPlus (576p)" tvg-logo="https://i.imgur.com/xWxNy3L.png" group-title="Hindi/Other",StarPlus (576p)
-http://103.229.254.25:7001/play/a09p/index.m3u8
-#EXTINF:-1 tvg-id="StarPlus.in@HD" tvg-name="StarPlus HD (1080p)" tvg-logo="https://i.imgur.com/xWxNy3L.png" group-title="Hindi/Other",StarPlus HD (1080p)
-http://103.229.254.25:7001/play/a09z/index.m3u8
+#EXTINF:-1 tvg-id="StarPlus.in@HD" tvg-name="StarPlus HD (720p)" tvg-logo="https://i.imgur.com/xWxNy3L.png" group-title="Hindi/Other",StarPlus HD (720p)
+https://padmaonline.duckdns.org:8088/StarPlusHD/index.m3u8
 #EXTINF:-1 tvg-id="SteelbirdMusic.in@SD" tvg-name="Steelbird Music (720p) [Not 24/7]" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Steelbird_Music.png" group-title="Hindi/Music",Steelbird Music (720p) [Not 24/7]
 https://cdn2.in/SteelbirdMusicTVhls/live.m3u8
 #EXTINF:-1 tvg-id="SudarshanNews.in@SD" tvg-name="Sudarshan News (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUDARSHAN_NEWS/images/LOGO_HD/image.png" group-title="Hindi/News",Sudarshan News (1080p)
 https://ott.livelegitpro.in/sudarshannews/sudarshannews/tracks-v1/index.fmp4.m3u8
-#EXTINF:-1 tvg-id="SunNeo.in@SD" tvg-name="Sun Neo (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUN_NEO/images/LOGO_HD/image.png" group-title="Hindi/Other",Sun Neo (576p)
+#EXTINF:-1 tvg-id="SunNeo.in@SD" tvg-name="Sun Neo (576p)" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002Z06B5.png?lock=720x540" group-title="Hindi/Other",Sun Neo (576p)
 http://163.61.227.29:8000/play/a04t/index.m3u8
-#EXTINF:-1 tvg-id="SunNeo.in@HD" tvg-name="Sun Neo HD (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUN_NEO/images/LOGO_HD/image.png" group-title="Hindi/Other",Sun Neo HD (576p)
+#EXTINF:-1 tvg-id="SunNeo.in@HD" tvg-name="Sun Neo HD (576p)" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002Z06B5.png?lock=720x540" group-title="Hindi/Other",Sun Neo HD (576p)
 http://iptvcasomsapi.jprdigital.in/x-media/C0582/master.m3u8
 #EXTINF:-1 tvg-id="SuperHungama.in@SD" tvg-name="Super Hungama (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUPER_HUNGAMA/images/LOGO_HD/image.png" group-title="Hindi/Other",Super Hungama (576p)
 http://103.161.153.165:8000/play/a05a/index.m3u8
@@ -1157,29 +1147,15 @@ https://dssp63pjfajz9.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8
 https://d2z3q47xzd535o.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_HD_H264-2_cloud_in/index.m3u8
 #EXTINF:-1 tvg-id="ETVTelugu.in@USA" tvg-name="ETV Telugu USA (720p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_TELUGU/images/LOGO_HD/image.png" group-title="Telugu/Other",ETV Telugu USA (720p)
 https://livegeorouus.akamaized.net/100823/etvhd_2500/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
-#EXTINF:-1 tvg-id="GeminiComedy.in@SD" tvg-name="Gemini Comedy (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GEMINI_COMEDY/images/LOGO_HD/image.png" group-title="Telugu/Other",Gemini Comedy (576p)
-http://iptvcasomsapi.jprdigital.in/x-media/C0573/master.m3u8
-#EXTINF:-1 tvg-id="GeminiLife.in@SD" tvg-name="Gemini Life (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GEMINI_LIFE/images/LOGO_HD/image.png" group-title="Telugu/Other",Gemini Life (576p)
-http://iptvcasomsapi.jprdigital.in/x-media/C0584/master.m3u8
-#EXTINF:-1 tvg-id="GeminiMovies.in@SD" tvg-name="Gemini Movies (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GEMINI_MOVIES/images/LOGO_HD/image.png" group-title="Telugu/Movies",Gemini Movies (576p)
-http://iptvcasomsapi.jprdigital.in/x-media/C0586/master.m3u8
-#EXTINF:-1 tvg-id="GeminiMovies.in@HD" tvg-name="Gemini Movies HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GEMINI_MOVIES/images/LOGO_HD/image.png" group-title="Telugu/Movies",Gemini Movies HD (1080p)
-http://111.88.78.21:8000/play/a0zf/index.m3u8
-#EXTINF:-1 tvg-id="GeminiMusic.in@SD" tvg-name="Gemini Music SD (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GEMINI_MUSIC/images/LOGO_HD/image.png" group-title="Telugu/Music",Gemini Music SD (576p)
-http://iptvcasomsapi.jprdigital.in/x-media/C0589/master.m3u8
-#EXTINF:-1 tvg-id="GeminiTV.in@SD" tvg-name="Gemini TV (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GEMINI_TV/images/LOGO_HD/image.png" group-title="Telugu/Other",Gemini TV (576p)
-http://iptvcasomsapi.jprdigital.in/x-media/C0568/master.m3u8
 #EXTINF:-1 tvg-id="HistoryTV18.in@SD" tvg-name="History TV18 (576p)" tvg-logo="https://dtil.tmsimg.com/assets/s143132_ld_h15_aa.png?lock=720x540" group-title="Telugu/Other",History TV18 (576p)
 http://iptvcasomsapi.jprdigital.in/x-media/C0427/master.m3u8
 #EXTINF:-1 tvg-id="HistoryTV18.in@HD" tvg-name="History TV18 HD (1080p)" tvg-logo="https://dtil.tmsimg.com/assets/s143133_ld_h15_aa.png?lock=720x540" group-title="Telugu/Other",History TV18 HD (1080p)
 http://iptvcasomsapi.jprdigital.in/x-media/C0449/master.m3u8
 #EXTINF:-1 tvg-id="HMTV.in@SD" tvg-name="HMTV (720p)" tvg-logo="https://dtil.tmsimg.com/assets/s143136_ld_h15_aa.png?lock=720x540" group-title="Telugu/Other",HMTV (720p)
 https://cdn-1.pishow.tv/live/280/master.m3u8
-#EXTINF:-1 tvg-id="HungamaTV.in@SD" tvg-name="Hungama TV (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_HUNGAMA/images/LOGO_HD/image.png" group-title="Telugu/Other",Hungama TV (576p)
-http://iptvcasomsapi.jprdigital.in/x-media/C0408/master.m3u8
 #EXTINF:-1 tvg-id="INews.in@SD" tvg-name="INews (720p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/I_News.png" group-title="Telugu/News",INews (720p)
 https://cdn-1.pishow.tv/live/411/master.m3u8
-#EXTINF:-1 tvg-id="KushiTV.in@SD" tvg-name="Kushi TV (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_KUSHI_TV/images/LOGO_HD/LOGO_HD_image.png" group-title="Telugu/Other",Kushi TV (576p)
+#EXTINF:-1 tvg-id="KushiTV.in@SD" tvg-name="Kushi TV (576p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Kushi_TV.png" group-title="Telugu/Other",Kushi TV (576p)
 http://iptvcasomsapi.jprdigital.in/x-media/C0583/master.m3u8
 #EXTINF:-1 tvg-id="MahaaMax.in@SD" tvg-name="Mahaa Max (1080p)" tvg-logo="https://objectstorage.ap-mumbai-1.oraclecloud.com/p/7Eg7LPw1gBcncVDrfwf__7yyrg13awaU6DmMk4gutavGYZgoAuAziv8e0aSEdU4G/n/bmaqqlwez184/b/GTPL_CHANNEL_LOGO/o/gtpl/MAHAA+MAX+LOGO.png" group-title="Telugu/Other",Mahaa Max (1080p)
 https://d8wpu6ewxtzy0.cloudfront.net/mahaamaxx/index.m3u8
@@ -2385,6 +2361,8 @@ https://reflect-collier-countyboc.cablecast.tv/live-4/live/stream-1/live.m3u8
 https://streamer2.nexgen.bz/12-CBTV/index.m3u8
 #EXTINF:-1 tvg-id="ColorsInfinity.in@HD" tvg-name="Colors Infinity HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_INFINITY/images/LOGO_HD/image.png" group-title="English/Other",Colors Infinity HD (1080p)
 http://103.229.254.25:7001/play/a0du/index.m3u8
+#EXTINF:-1 tvg-id="ComedyCentral.pl@SD" tvg-name="Comedy Central" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png" group-title="English/Other",Comedy Central
+https://liveovh010.cda.pl/zkr7GNESGht4_0Wk12c78A/17538736/2782059/enc006/comedycentralhdraw/comedycentralhdraw.m3u8
 #EXTINF:-1 tvg-id="ComedyCentralPlutoTV.us@US" tvg-name="Comedy Central Pluto TV" tvg-logo="https://i.imgur.com/9y6TtjF.png" group-title="English/Other",Comedy Central Pluto TV
 https://jmp2.uk/plu-5ca671f215a62078d2ec0abf.m3u8
 #EXTINF:-1 tvg-id="ComedyDynamics.us@SD" tvg-name="Comedy Dynamics (1080p)" tvg-logo="https://i.imgur.com/1lEvUOa.png" group-title="English/Other",Comedy Dynamics (1080p)
@@ -2549,6 +2527,8 @@ https://amg01314-amg01314c8-distrotv-us-10218.playouts.now.amagi.tv/playlist/amg
 http://84.54.128.52:9090/play/3006/index.m3u8
 #EXTINF:-1 tvg-id="DisneyChannel.in@SD" tvg-name="Disney Channel (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_CHANNEL/images/LOGO_HD/image.png" group-title="English/Kids",Disney Channel (576p)
 http://103.182.170.32:8888/play/a04g
+#EXTINF:-1 tvg-id="DisneyChannel.pl@SD" tvg-name="Disney Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" group-title="English/Kids",Disney Channel
+https://liveovh010.cda.pl/zkr7GNESGht4_0Wk12c78A/17538736/2782059/enc103/disneychannelhdraw/disneychannelhdraw.m3u8
 #EXTINF:-1 tvg-id="DisneyChannel.us@East" tvg-name="Disney Channel East (720p) [Not 24/7]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg" group-title="English/Kids",Disney Channel East (720p) [Not 24/7]
 https://tvpass.org/live/DisneyChannelEast/hd
 #EXTINF:-1 tvg-id="DisneyChannel.jp@SD" tvg-name="Disney Channel Japan (544p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg" group-title="English/Kids",Disney Channel Japan (544p)
@@ -4509,6 +4489,8 @@ https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 https://db34cc6127ac459db55cab5f97cd66b9.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-680-WORBAUENFAST-WHALETVPLUS/680/whaletvplus/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="RedBullTV.at@UK" tvg-name="Red Bull TV UK (1080p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Red_Bull_TV.png" group-title="English/Other",Red Bull TV UK (1080p)
 https://1a3566cb46914c5499fbc86fbc4ac87e.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-932-WORBUKENFAST-WHALETVPLUS/932/whaletvplus/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="RedBullTV.at@US" tvg-name="Red Bull TV US (1080p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Red_Bull_TV.png" group-title="English/Other",Red Bull TV US (1080p)
+https://0b73ace69ebb45eaa249bb87837cb958.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-644-WORBUSENFAST-LG_US/644/lgtv/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="RedCCTV.bo@SD" tvg-name="Red CCTV (480p)" tvg-logo="https://i.imgur.com/YC5FRmq.png" group-title="English/Other",Red CCTV (480p)
 https://solo.disfrutaenlared.com:1936/redcctv/redcctv/playlist.m3u8
 #EXTINF:-1 tvg-id="RedemptionTelevisionMinistry.za@SD" tvg-name="Redemption TV Ministry (720p)" tvg-logo="https://i.imgur.com/63SmAby.png" group-title="English/Other",Redemption TV Ministry (720p)
