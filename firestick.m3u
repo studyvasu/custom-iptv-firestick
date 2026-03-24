@@ -273,8 +273,6 @@ https://live.kanshitv.co.uk/mobile/kanshitvkey.m3u8
 https://5a0e89631aa14.streamlock.net/live/LatestTelevision/playlist.m3u8
 #EXTINF:-1 tvg-id="MagnavisionTV.uk@SD" tvg-name="Magna Vision (1080p)" tvg-logo="" group-title="Other",Magna Vision (1080p)
 https://j78dpa3edq5r-hls-live.5centscdn.com/abr/0864028584026e6ad9cdf922473177a4/playlist.m3u8
-#EXTINF:-1 tvg-id="Manoto.uk@SD" tvg-name="Manoto TV" tvg-logo="" group-title="Other",Manoto TV
-https://late-sky-0e1a.zahsytwdtjgjhasxby.workers.dev/?url=https://m3u.iranvids.com/manoto/output.m3u8
 #EXTINF:-1 tvg-id="MBC.uk@HD" tvg-name="MBC (1080p)" tvg-logo="" group-title="Other",MBC (1080p)
 https://cdn8.fntvchannel.com/v1/master/02eeb1726c343dc9c30c32e93dee82013e157021/FNTV-CHANNEL_CDN77/index.m3u8
 #EXTINF:-1 tvg-id="MiracleTV.uk@SD" tvg-name="Miracle TV" tvg-logo="" group-title="Other",Miracle TV
@@ -977,8 +975,6 @@ https://cdn2.in/SteelbirdMusicTVhls/live.m3u8
 https://mumt04.tangotv.in/SUBHARTITV/index.m3u8
 #EXTINF:-1 tvg-id="SudarshanNews.in@SD" tvg-name="Sudarshan News (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUDARSHAN_NEWS/images/LOGO_HD/image.png" group-title="Hindi/News",Sudarshan News (1080p)
 https://ott.livelegitpro.in/sudarshannews/sudarshannews/tracks-v1/index.fmp4.m3u8
-#EXTINF:-1 tvg-id="SunNeo.in@SD" tvg-name="Sun Neo (576p)" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002Z06B5.png?lock=720x540" group-title="Hindi/Other",Sun Neo (576p)
-http://163.61.227.29:8000/play/a04t/index.m3u8
 #EXTINF:-1 tvg-id="SuperHungama.in@SD" tvg-name="Super Hungama (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUPER_HUNGAMA/images/LOGO_HD/image.png" group-title="Hindi/Other",Super Hungama (576p)
 http://103.161.153.165:8000/play/a05a/index.m3u8
 #EXTINF:-1 tvg-id="SVBC4.in@SD" tvg-name="SVBC 4 (1080p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/SVBC4.png" group-title="Hindi/Other",SVBC 4 (1080p)
@@ -1577,7 +1573,7 @@ https://bbc-antiquesroadshowuk-1-us.roku.wurl.tv/playlist.m3u8
 http://115.42.65.142:9981/stream/channelid/1273966657
 #EXTINF:-1 tvg-id="AppleValleyChannel180.us@SD" tvg-name="Apple Valley Channel 180" tvg-logo="https://i.imgur.com/3h9RkFA.png" group-title="English/Other",Apple Valley Channel 180
 https://reflect-applevalley.cablecast.tv/live-3/live/live.m3u8
-#EXTINF:-1 tvg-id="ApprovalTV.ng@HD" tvg-name="Approval TV (720p)" tvg-logo="https://live.approvaltv.com/logov.png" group-title="English/Other",Approval TV (720p)
+#EXTINF:-1 tvg-id="ApprovalTV.ng@HD" tvg-name="Approval TV (720p)" tvg-logo="https://storage.approvaltv.com/2026/03/approvallogo.png" group-title="English/Other",Approval TV (720p)
 https://live.approvaltv.com/approvaltv/index.m3u8
 #EXTINF:-1 tvg-id="AreWeThereYet.us@SD" tvg-name="Are We There Yet? (720p)" tvg-logo="https://i.imgur.com/3BJQiHP.png" group-title="English/Other",Are We There Yet? (720p)
 https://aegis-cloudfront-1.tubi.video/453e03c1-3a9f-415c-9370-5c744b19a748/playlist.m3u8
@@ -2303,6 +2299,8 @@ https://stream.livenewsplay.com:9443/hls/cnbc/cnbcsd.m3u8
 https://liveh34.vtvprime.vn/hls/CNBC/03.m3u8
 #EXTINF:-1 tvg-id="CNBCEurope.uk@HD" tvg-name="CNBC Europe HD (1080p) [Geo-Blocked]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/960px-CNBC_2025.svg.png" group-title="English/Other",CNBC Europe HD (1080p) [Geo-Blocked]
 https://viamotionhsi.netplus.ch/live/eds/cnbc/browser-HLS8/cnbc.m3u8
+#EXTINF:-1 tvg-id="CNBCMongolia.mn@SD" tvg-name="CNBC Mongolia (720p)" tvg-logo="https://www.lyngsat.com/logo/tv/cc/cnbc-mongolia-us-mn.png" group-title="English/Other",CNBC Mongolia (720p)
+https://cdn4.skygo.mn/live/disk1/CNBC/HLSv3-FTA/CNBC.m3u8
 #EXTINF:-1 tvg-id="CNBCTV18.in@SD" tvg-name="CNBC TV18 (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CNBC_TV18/images/LOGO_HD/image.png" group-title="English/Other",CNBC TV18 (1080p)
 https://n18syndication.akamaized.net/bpk-tv/CNBC_TV18_NW18_MOB/output01/index.m3u8
 #EXTINF:-1 tvg-id="CNBCTV18PrimeHD.in@SD" tvg-name="CNBC TV18 Prime HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CNBC_PRIME_HD/images/LOGO_HD/LOGO_HD_image.png" group-title="English/Other",CNBC TV18 Prime HD (1080p)
