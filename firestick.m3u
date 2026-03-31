@@ -955,6 +955,8 @@ http://116.90.120.151:8000/play/a0he/index.m3u8
 http://103.229.254.25:7001/play/a032/index.m3u8
 #EXTINF:-1 tvg-id="StarGoldThrills.in@SD" tvg-name="Star Gold Thrills (576p)" tvg-logo="https://i.imgur.com/azqtpYh.png" group-title="Hindi/Other",Star Gold Thrills (576p)
 http://116.90.120.151:8000/play/a0gw/index.m3u8
+#EXTINF:-1 tvg-id="StarMovies.in@HD" tvg-name="Star Movies HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_MOVIES/images/LOGO_HD/image.png" group-title="Hindi/Movies",Star Movies HD (1080p)
+http://ptu.ridsys.in/riptv/live/STAR_MOVIES_HD/index.m3u8
 #EXTINF:-1 tvg-id="StarMoviesSelect.in@HD" tvg-name="Star Movies Select HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_MOVIES_SELECT_HD/images/LOGO_HD/image.png" group-title="Hindi/Movies",Star Movies Select HD (1080p)
 http://116.90.120.151:8000/play/a0ij/index.m3u8
 #EXTINF:-1 tvg-id="StarSports1Hindi.in@SD" tvg-name="Star Sports 1 Hindi (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_SPORTS_1_HINDI/images/LOGO_HD/image.png" group-title="Hindi/Sports",Star Sports 1 Hindi (576p)
@@ -3147,7 +3149,7 @@ https://amg00861-amg00861c6-stirr-us-8229.playouts.now.amagi.tv/playlist.m3u8
 https://amg00861-amg00861c7-firetv-us-4725.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="INWILD.nl@SD" tvg-name="INWILD (1080p)" tvg-logo="https://cdn.uc.assets.prezly.com/92770c71-9d6f-400f-8311-38e9cfec52c2/InWild_landscape-green.png" group-title="English/Other",INWILD (1080p)
 https://amg00861-amg00861c7-stirr-us-8227.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="InWonder.nl@SD" tvg-name="InWonder (1080p)" tvg-logo="https://i.imgur.com/7kOhGef.png" group-title="English/Other",InWonder (1080p)
+#EXTINF:-1 tvg-id="InWonder.nl@SD" tvg-name="InWonder (1080p)" tvg-logo="https://cdn.uc.assets.prezly.com/f12e798d-6da4-46e1-8ec5-e391d6762659/InWonder_portrait-purple.png" group-title="English/Other",InWonder (1080p)
 https://amg00861-terninternation-inwonder-samsungau-1k63k.amagi.tv/playlist/amg00861-terninternation-inwonder-samsungau/playlist.m3u8
 #EXTINF:-1 tvg-id="IONTV.us@East" tvg-name="ION (1080p) [Geo-blocked]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ion_logo.svg/960px-Ion_logo.svg.png" group-title="English/Other",ION (1080p) [Geo-blocked]
 https://pb-xhb3ic8b61whm.akamaized.net/Ion_US.m3u8
@@ -4746,7 +4748,7 @@ https://cdnlive.myspirit.tv/LS-ATL-43240-2/index.m3u8
 #EXTINF:-1 tvg-id="SpookyNights.sa@SD" tvg-name="Spooky Nights (1080p)" tvg-logo="https://shahid.mbc.net/mediaObject/b0016b19-b35b-4ea6-afb9-5b74a0aac825?height=auto&width=512&croppingPoint=&version=1&type=png" group-title="English/Other",Spooky Nights (1080p)
 https://shls-live-enc.edgenextcdn.net/out/v1/18cffab0757d448ca6c1a686d330b346/index.m3u8
 #EXTINF:-1 tvg-id="SportdigitalFUSSBALL.de@HD" tvg-name="Sportdigital FUSSBALL HD (1080p)" tvg-logo="https://i.imgur.com/NDbWxqF.png" group-title="English/Other",Sportdigital FUSSBALL HD (1080p)
-https://live20.bozztv.com/akamaissh101/ssh101/sportdigtal1/playlist.m3u8
+https://live20.bozztv.com/akamaissh101/ssh101/sddd1hdde/playlist.m3u8
 #EXTINF:-1 tvg-id="SportsConnect.za@SD" tvg-name="Sports Connect (720p)" tvg-logo="https://i.imgur.com/0sNWg54.png" group-title="English/Sports",Sports Connect (720p)
 https://streamdot.broadpeak.io/cff02a74da64d1459391ce1f72d58f1a/afxpstr/SportsConnect/index.m3u8
 #EXTINF:-1 tvg-id="SportsGrid.us@SD" tvg-name="SportsGrid (1080p)" tvg-logo="https://i.imgur.com/ulGKX30.png" group-title="English/Sports",SportsGrid (1080p)
@@ -4763,6 +4765,8 @@ https://wurl120sports.global.transmit.live/hls/679a907dce42a042c23ace37/v1/stadi
 https://live2.tensila.com/knut-v-1.choice/hls/master.m3u8
 #EXTINF:-1 tvg-id="StarAsia.pk@SD" tvg-name="Star Asia (720p)" tvg-logo="https://i.imgur.com/9coLhX8.png" group-title="English/Other",Star Asia (720p)
 http://103.250.28.74:8000/play/a010/index.m3u8
+#EXTINF:-1 tvg-id="StarMovies.in@HD" tvg-name="Star Movies HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_MOVIES/images/LOGO_HD/image.png" group-title="English/Movies",Star Movies HD (1080p)
+http://ptu.ridsys.in/riptv/live/STAR_MOVIES_HD/index.m3u8
 #EXTINF:-1 tvg-id="StarMoviesSelect.in@HD" tvg-name="Star Movies Select HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_MOVIES_SELECT_HD/images/LOGO_HD/image.png" group-title="English/Movies",Star Movies Select HD (1080p)
 http://116.90.120.151:8000/play/a0ij/index.m3u8
 #EXTINF:-1 tvg-id="StarSports1.in@HD" tvg-name="Star Sports 1 HD (1080p)" tvg-logo="https://i.imgur.com/E5jjKHI.png" group-title="English/Sports",Star Sports 1 HD (1080p)
