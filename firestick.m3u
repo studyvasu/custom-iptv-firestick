@@ -691,7 +691,7 @@ http://103.182.170.32:8888/play/a04g
 https://mumt04.tangotv.in/E24/index.m3u8
 #EXTINF:-1 tvg-id="EpicMusic.in@SD" tvg-name="Epic Music (720p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHOWBOX/images/LOGO_HD/image.png" group-title="Hindi/Music",Epic Music (720p)
 http://103.213.31.109:90/ShowBox/playlist.m3u8
-#EXTINF:-1 tvg-id="EpicTV.in@SD" tvg-name="Epic TV (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_EPIC/images/LOGO_HD/image.png" group-title="Hindi/Other",Epic TV (1080p)
+#EXTINF:-1 tvg-id="EpicTV.in@Digital" tvg-name="Epic TV Digital (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_EPIC/images/LOGO_HD/image.png" group-title="Hindi/Other",Epic TV Digital (1080p)
 https://cc-czbq30x55knit.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-czbq30x55knit/DIYC/PMSL/IN10/Epic_TV_IN_B/Epic_TV_IN_B.m3u8
 #EXTINF:-1 tvg-id="FatehTV.in@SD" tvg-name="Fateh TV (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/c4ItNkB.png" group-title="Hindi/Other",Fateh TV (1080p) [Not 24/7]
 https://ott.livelegitpro.in/fatehtv/fatehtv/index.m3u8
@@ -883,6 +883,8 @@ https://6n3yow8pl9ok-hls-live.5centscdn.com/sadhanalivetv/live.stream/playlist.m
 https://6n3yow8pl9ok-hls-live.5centscdn.com/sadhananewstv/live.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="SahanaNews.in@SD" tvg-name="Sahana News (576p)" tvg-logo="https://i.imgur.com/3odbJJq.png" group-title="Hindi/News",Sahana News (576p)
 https://mumt03.tangotv.in/SAHANANEWS/index.m3u8
+#EXTINF:-1 tvg-id="SamacharPlus.in@SD" tvg-name="Samachar Plus" tvg-logo="https://i.imgur.com/n7FhveH.png" group-title="Hindi/Other",Samachar Plus
+https://cdn-2.pishow.tv/live/269/master.m3u8
 #EXTINF:-1 tvg-id="SamacharPlus24x7.in@SD" tvg-name="Samachar Plus 24x7 (576p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Samachar_Plus.png" group-title="Hindi/Other",Samachar Plus 24x7 (576p)
 https://mumt05.tangotv.in/VERTENTSAMACHARPLUS/index.m3u8
 #EXTINF:-1 tvg-id="SansadTV1.in@SD" tvg-name="Sansad TV 1 (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SANSAD_TV_SYMHYP_1_HD/images/LOGO_HD/LOGO_HD_image.png" group-title="Hindi/Other",Sansad TV 1 (1080p)
@@ -2615,8 +2617,6 @@ https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/playlist.m3u8
 https://enterbcef94b.airspace-cdn.cbsivideo.com/master.m3u8
 #EXTINF:-1 tvg-id="EntrepreneurTV.us@SD" tvg-name="Entrepreneur TV [Geo-blocked]" tvg-logo="https://i.imgur.com/isRfHYZ.png" group-title="English/Other",Entrepreneur TV [Geo-blocked]
 https://cineverse-entrepreneurtv-entrepreneurtv-1-us.ono.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="EpicTV.in@SD" tvg-name="Epic TV (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_EPIC/images/LOGO_HD/image.png" group-title="English/Other",Epic TV (1080p)
-https://cc-czbq30x55knit.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-czbq30x55knit/DIYC/PMSL/IN10/Epic_TV_IN_B/Epic_TV_IN_B.m3u8
 #EXTINF:-1 tvg-id="EquinoxeTV.cm@SD" tvg-name="Equinoxe TV (720p)" tvg-logo="https://i.imgur.com/GKbnBlo.png" group-title="English/Other",Equinoxe TV (720p)
 http://69.64.57.208/equinoxtv/playlist.m3u8
 #EXTINF:-1 tvg-id="ERiTV1.er@SD" tvg-name="ERi-TV 1 (576p)" tvg-logo="https://i.imgur.com/bTR0Huw.png" group-title="English/Other",ERi-TV 1 (576p)
