@@ -3204,7 +3204,7 @@ https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main
 #EXTINF:-1 tvg-id="HITS.sg@SD" tvg-name="HITS (720p)" tvg-logo="https://i.imgur.com/IM8Gy1l.png" group-title="English/Other",HITS (720p)
 https://cdn10jtedge.indihometv.com/atm/DASH/hits/manifest.mpd
 #EXTINF:-1 tvg-id="HITSMovies.sg@HD" tvg-name="HITS Movies HD (720p)" tvg-logo="https://i.imgur.com/kyE3vXf.png" group-title="English/Movies",HITS Movies HD (720p)
-https://cdn10jtedge.indihometv.com/atm/DASH/hitsmovie/hitsmovie-avc1_2500000=7-3277707030000000.mpd
+https://cdn10jtedge.indihometv.com/atm/DASH/hitsmovie/manifest.mpd
 #EXTINF:-1 tvg-id="HitzTV.bz@SD" tvg-name="Hitz TV (1080p)" tvg-logo="https://i.imgur.com/SbZgsDh.png" group-title="English/Other",Hitz TV (1080p)
 https://streamer2.nexgen.bz/13-HITZ/index.m3u8
 #EXTINF:-1 tvg-id="HLCTV.ke@SD" tvg-name="HLC TV (480p) [Not 24/7]" tvg-logo="https://i.imgur.com/TPZoSXM.jpg" group-title="English/Other",HLC TV (480p) [Not 24/7]
