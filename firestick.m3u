@@ -383,8 +383,6 @@ http://92.114.85.72:8000/play/a09i
 http://92.114.85.72:8000/play/a0bi
 #EXTINF:-1 tvg-id="UW.uk@SD" tvg-name="U&W" tvg-logo="" group-title="Other",U&W
 http://92.114.85.72:8000/play/a0bj
-#EXTINF:-1 tvg-id="UniversalSomaliTV.uk@SD" tvg-name="Universal Somali TV" tvg-logo="" group-title="Other",Universal Somali TV
-http://dvrfl05.bozztv.com/gin-universalsomali/index.m3u8
 #EXTINF:-1 tvg-id="V2BEATTV.uk@SD" tvg-name="V2BEAT (720p) [Not 24/7]" tvg-logo="" group-title="Other",V2BEAT (720p) [Not 24/7]
 https://abr.de1se01.v2beat.live/playlist.m3u8
 #EXTINF:-1 tvg-id="VoxAfrica.uk@SD" tvg-name="VoxAfrica (720p)" tvg-logo="" group-title="Other",VoxAfrica (720p)
@@ -999,8 +997,6 @@ http://149.71.34.166:8000/play/a00z/index.m3u8
 http://103.122.249.134:8000/play/a05a
 #EXTINF:-1 tvg-id="SonyPix.in@HD" tvg-name="Sony Pix HD (1080p) [Geo-blocked]" tvg-logo="https://i.postimg.cc/Z5G8j67L/PIX-HD-WHITE.png" group-title="Hindi/Other",Sony Pix HD (1080p) [Geo-blocked]
 https://sl.vodep39240327.workers.dev/channel/SONY%20PIX%20HD.m3u8
-#EXTINF:-1 tvg-id="SonySAB.in@HD" tvg-name="Sony SAB HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SAB/images/LOGO_HD/image.png" group-title="Hindi/Other",Sony SAB HD (1080p)
-http://103.122.249.134:8000/play/a04h
 #EXTINF:-1 tvg-id="SonySportsTen3Hindi.in@SD" tvg-name="Sony Sports Ten 3 Hindi (1080p) [Geo-blocked]" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025TCMR.png?lock=720x540" group-title="Hindi/Sports",Sony Sports Ten 3 Hindi (1080p) [Geo-blocked]
 https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%203.m3u8
 #EXTINF:-1 tvg-id="SonySportsTen3Hindi.in@HD" tvg-name="Sony Sports Ten 3 Hindi HD (1080p) [Geo-blocked]" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025TCMR.png?lock=720x540" group-title="Hindi/Sports",Sony Sports Ten 3 Hindi HD (1080p) [Geo-blocked]
@@ -2645,8 +2641,6 @@ https://cdn-4.pishow.tv/live/8/master.m3u8
 https://d1mgh147xpmgs8.cloudfront.net/DeadlyWomen_GB.m3u8
 #EXTINF:-1 tvg-id="DealorNoDeal.us@SD" tvg-name="Deal or No Deal (1080p)" tvg-logo="https://i.imgur.com/lZvNXA1.png" group-title="English/Other",Deal or No Deal (1080p)
 https://amg00627-banijaygroup-dealornodeal-samsungau-si7xg.amagi.tv/playlist/amg00627-banijaygroup-dealornodeal-samsungau/playlist.m3u8
-#EXTINF:-1 tvg-id="Decades.us@SD" tvg-name="Decades" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Decades_Logo.svg/960px-Decades_Logo.svg.png" group-title="English/Other",Decades
-https://dvrfl03.bozztv.com/hdirect/hdirect-ovair1-decades/index.m3u8
 #EXTINF:-1 tvg-id="Declassified.ca@SD" tvg-name="Declassified (720p)" tvg-logo="https://images.pluto.tv/channels/62bdaf9cf1bdc500073a8bcb/colorLogoPNG.png" group-title="English/Other",Declassified (720p)
 https://jmp2.uk/plu-62bdaf9cf1bdc500073a8bcb.m3u8
 #EXTINF:-1 tvg-id="DeFianceMedia.pr@SD" tvg-name="DeFiance Media (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/DISTROTV/LIVECHANNEL/66698943bac4421ebc533695/images/logo_20231219_193005_68.png" group-title="English/Other",DeFiance Media (1080p)
@@ -4259,8 +4253,6 @@ https://pbcvideostreams1.pbc.gov/memfs/1af49f9a-6b90-4ec2-a640-7f65ceebed4a.m3u8
 https://live.feed.thepalmbeaches.tv/index.m3u8
 #EXTINF:-1 tvg-id="PamirTV.ca@SD" tvg-name="Pamir TV (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/sCBbBOj.png" group-title="English/Other",Pamir TV (1080p) [Not 24/7]
 http://live.stream.cdn.pamirtv.com/ptv/d0dbe915091d400bd8ee7f27f0791303.sdp/index.m3u8
-#EXTINF:-1 tvg-id="ParadiseTV.gm@SD" tvg-name="Paradise TV" tvg-logo="https://i.imgur.com/0aT45vk.png" group-title="English/Other",Paradise TV
-https://dvrfl06.bozztv.com/astv-ptvgambia/index.m3u8
 #EXTINF:-1 tvg-id="ParamountMovieChannel.us@SD" tvg-name="Paramount Movie Channel" tvg-logo="https://i.imgur.com/sj5h9bl.png" group-title="English/Movies",Paramount Movie Channel
 https://jmp2.uk/plu-5cb0cae7a461406ffe3f5213.m3u8
 #EXTINF:-1 tvg-id="ParamountPlusPicks.us@SD" tvg-name="Paramount+ Picks" tvg-logo="https://images.pluto.tv/channels/5ff8c708653d080007361b14/featuredImage.jpg" group-title="English/Other",Paramount+ Picks
@@ -5633,8 +5625,6 @@ https://2-fss-2.streamhoster.com/pl_118/204972-2205186-1/playlist.m3u8
 https://tvpass.org/live/WABCDT1/hd
 #EXTINF:-1 tvg-id="WaffiTV.ng@SD" tvg-name="Waffi TV (240p)" tvg-logo="https://i.imgur.com/3uEuzVH.jpeg" group-title="English/Other",Waffi TV (240p)
 https://oqgdro3xd4rm-hls-live.5centscdn.com/waffiitvstreaminglivetfmediacast/e0885d428bea69e372309657f3bd895f.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="WAGATV51.us@HD" tvg-name="WAGA-DT1" tvg-logo="https://i.imgur.com/DcZoeGw.jpg" group-title="English/Other",WAGA-DT1
-https://dvrfl03.bozztv.com/hondu/hondu-rick-fox5/index.m3u8
 #EXTINF:-1 tvg-id="WairarapaTV.nz@SD" tvg-name="Wairarapa TV (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/xm4KBwE.png" group-title="English/Other",Wairarapa TV (1080p) [Not 24/7]
 https://stream1.np.co.nz/WAITVABR/WAITVABR/playlist.m3u8
 #EXTINF:-1 tvg-id="WantedDeadorAlive.us@SD" tvg-name="Wanted: Dead or Alive (720p)" tvg-logo="https://i.imgur.com/vaSXaFp.png" group-title="English/Other",Wanted: Dead or Alive (720p)
@@ -5729,8 +5719,6 @@ https://whittier.cablecast.tv/live/stream-1/live.m3u8
 https://mn-nl.mncdn.com/wholewordtv/wholewordtv/index.m3u8
 #EXTINF:-1 tvg-id="WHPSCD152.us@SD" tvg-name="WHPS Detroit" tvg-logo="https://i.imgur.com/KW1iQ5W.png" group-title="English/Other",WHPS Detroit
 https://f-tx-edge-87.christianworldmedia.com/313watkins/mp4:313watkins/playlist.m3u8
-#EXTINF:-1 tvg-id="WHSGTV634.us@SD" tvg-name="WHSG-DT4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Enlace_Televisi%C3%B3n_logo.svg/960px-Enlace_Televisi%C3%B3n_logo.svg.png" group-title="English/Other",WHSG-DT4
-https://dvrfl03.bozztv.com/hondu/hondu-ovair1-enlacetv-atl/index.m3u8
 #EXTINF:-1 tvg-id="WildNOut.us@SD" tvg-name="Wild 'N Out" tvg-logo="https://www.samsung.com/us/smg/content/dam/s7/home/televisions-and-home-theater/tvs/tv-plus/all-channels/08182020/Wild%20N%20Out_190x190.png?raw=true" group-title="English/Other",Wild 'N Out
 https://jmp2.uk/plu-5d48678d34ceb37d3c458a55.m3u8
 #EXTINF:-1 tvg-id="WildatHeart.us@UK" tvg-name="Wild at Heart" tvg-logo="https://i.imgur.com/kyVB8Ik.png" group-title="English/Other",Wild at Heart
@@ -5769,18 +5757,10 @@ https://e5.thetvapp.to/hls/metv-wjlp-new-jerseynew-york/index.m3u8
 https://e3.thetvapp.to/hls/metv-toons/index.m3u8
 #EXTINF:-1 tvg-id="WJXT71.us@HD" tvg-name="WJXT News4JAX (Jacksonville FL) (720p)" tvg-logo="https://i.imgur.com/mrWo0P1.png" group-title="English/News",WJXT News4JAX (Jacksonville FL) (720p)
 https://dai.google.com/linear/hls/event/RDmbn03GRCOLNG1eetEKhg/master.m3u8
-#EXTINF:-1 tvg-id="WKCF22.us@SD" tvg-name="WKCF-DT2" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/True_Crime_Network_logo.svg/960px-True_Crime_Network_logo.svg.png" group-title="English/Other",WKCF-DT2
-https://dvrfl03.bozztv.com/hondu-lxnews/index.m3u8
-#EXTINF:-1 tvg-id="WKMGTV61.us@HD" tvg-name="WKMG-DT1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png" group-title="English/Other",WKMG-DT1
-https://dvrfl03.bozztv.com/hondu-cbsorlando/index.m3u8
-#EXTINF:-1 tvg-id="WKOH314.us@SD" tvg-name="WKOH-DT4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/PBS_Kids_logo_%282022%29.svg" group-title="English/Other",WKOH-DT4
-https://dvrfl03.bozztv.com/hondu/hondu-pbs-kids/index.m3u8
 #EXTINF:-1 tvg-id="WLMB.us@SD" tvg-name="WLMB (1080p)" tvg-logo="https://i.imgur.com/KeELZ1Y.png" group-title="English/Other",WLMB (1080p)
 https://rpn.bozztv.com/wlmb/wlmb/wlmb/index.m3u8
 #EXTINF:-1 tvg-id="WLNGRadio.us@SD" tvg-name="WLNG Radio (410p) [Not 24/7]" tvg-logo="" group-title="English/Other",WLNG Radio (410p) [Not 24/7]
 http://wlngstudiowebcam.srfms.com:1935/wlngstudiowebcam/livestream/playlist.m3u8
-#EXTINF:-1 tvg-id="WLVTTV691.us@HD" tvg-name="WLVT-DT1" tvg-logo="https://i.imgur.com/3FPFBjU.png" group-title="English/Other",WLVT-DT1
-https://dvrfl03.bozztv.com/hondu/hondu-gbp-pbs/index.m3u8
 #EXTINF:-1 tvg-id="WMBCTV631.us@HD" tvg-name="WMBC-DT1 (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e0/WMBC_logo.jpg" group-title="English/Other",WMBC-DT1 (720p)
 http://d029dcec.kazmazpaz.ru/iptv/GVR4V8HYAGBS5V/1098/manifest.m3u8
 #EXTINF:-1 tvg-id="WMGTTV411.us@HD" tvg-name="WMGT-TV News (Macon GA) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/960px-NBC_logo_2022_%28vertical%29.svg.png" group-title="English/News",WMGT-TV News (Macon GA) (720p)
@@ -5853,8 +5833,6 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox13tampabaywtvt-
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox29philadelphiawtx-vizious/playlist.m3u8
 #EXTINF:-1 tvg-id="WuTangCollection.us@SD" tvg-name="Wu Tang Collection (720p)" tvg-logo="https://i.imgur.com/sz55sBl.png" group-title="English/Other",Wu Tang Collection (720p)
 https://dbrb49pjoymg4.cloudfront.net/10001/99991745/hls/master.m3u8?ads.xumo_channelId=99991745
-#EXTINF:-1 tvg-id="WUPA691.us@HD" tvg-name="WUPA-DT1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/The_CW_2024.svg/960px-The_CW_2024.svg.png" group-title="English/Other",WUPA-DT1
-https://dvrfl03.bozztv.com/hondu/hondu-ovair1-cwhd/index.m3u8
 #EXTINF:-1 tvg-id="WVCULP.us@SD" tvg-name="WVCU-LP Concord University Radio The Cure 97.7 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0f/WVCU-LP_2015.PNG" group-title="English/Other",WVCU-LP Concord University Radio The Cure 97.7 (1080p)
 https://video1.getstreamhosting.com:1936/8152/8152/playlist.m3u8
 #EXTINF:-1 tvg-id="WVIT301.us@HD" tvg-name="WVIT-DT1 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/WVIT_Logo_2017.svg/960px-WVIT_Logo_2017.svg.png" group-title="English/Other",WVIT-DT1 (1080p)
