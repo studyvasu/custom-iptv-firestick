@@ -341,8 +341,6 @@ https://linear-1224.frequency.stream/dist/lg-uk/1224/hls/master/playlist.m3u8
 http://92.114.85.72:8000/play/a0la
 #EXTINF:-1 tvg-id="talkSPORT.uk@SD" tvg-name="talkSPORT (1080p)" tvg-logo="" group-title="Other",talkSPORT (1080p)
 https://af7a8b4e.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfdGFsa1NQT1JUX0hMUw/playlist.m3u8
-#EXTINF:-1 tvg-id="TalkTV.uk@SD" tvg-name="TalkTV (1080p)" tvg-logo="" group-title="Other",TalkTV (1080p)
-https://live-talktv-ssai.simplestreamcdn.com/v1/master/774d979dd66704abea7c5b62cb34c6815fda0d35/talktv-live/index.m3u8
 #EXTINF:-1 tvg-id="TBNUK.uk@SD" tvg-name="TBN UK (1080p)" tvg-logo="" group-title="Other",TBN UK (1080p)
 https://live-tbn-ssai.simplestreamcdn.com/v1/master/774d979dd66704abea7c5b62cb34c6815fda0d35/tbn-live/manifest.m3u8
 #EXTINF:-1 tvg-id="Thats70s.uk@SD" tvg-name="That's 70s (576p)" tvg-logo="" group-title="Other",That's 70s (576p)
@@ -429,6 +427,8 @@ http://23.237.104.106:8080/USA_BBC_NEWS/index.m3u8
 https://xykt-fix.github.io/iptv/streams/SP88/index.m3u8
 #EXTINF:-1 tvg-id="GODTV.uk@SD" tvg-name="GOD TV (396p)" tvg-logo="" group-title="Other",GOD TV (396p)
 https://d1msejlow1t3l4.cloudfront.net/211125/godtv/chunks.m3u8
+#EXTINF:-1 tvg-id="TalkTV.uk@SD" tvg-name="TalkTV (1080p)" tvg-logo="" group-title="Other",TalkTV (1080p)
+https://488f4ce4.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfVGFsa19ITFM/playlist.m3u8
 #EXTINF:-1 tvg-id="2GB.au@SD" tvg-name="2GB Sydney (1080p)" tvg-logo="" group-title="Other",2GB Sydney (1080p)
 https://2gblive.akamaized.net/hls/live/2033805/2GB/index.m3u8
 #EXTINF:-1 tvg-id="3AW.au@SD" tvg-name="3AW Melbourne (1080p)" tvg-logo="" group-title="Other",3AW Melbourne (1080p)
@@ -3703,6 +3703,8 @@ https://goliveafrica.media:9998/live/628e5c1991061/index.m3u8
 https://tglmp04.akamaized.net/out/v1/898b1cbac7c747e3b1f3deb460e9b67e/manifest.mpd
 #EXTINF:-1 tvg-id="Mezzo.fr@SD" tvg-name="Mezzo (1080p) [Geo-Blocked]" tvg-logo="https://i.imgur.com/auNdGeW.png" group-title="English/Other",Mezzo (1080p) [Geo-Blocked]
 https://viamotionhsi.netplus.ch/live/eds/mezzo/browser-HLS8/mezzo.m3u8
+#EXTINF:-1 tvg-id="MezzoLive.fr@SD" tvg-name="Mezzo Live" tvg-logo="https://i.imgur.com/H9ytKPN.png" group-title="English/Other",Mezzo Live
+https://test.946985.filegear-sg.me/proxy/749755700e4ed9c6
 #EXTINF:-1 tvg-id="MHZ.ca@SD" tvg-name="MHZ" tvg-logo="https://i.imgur.com/a5fw83n.jpg" group-title="English/Other",MHZ
 https://mhz-samsung-linear-ca.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="MBTV.us@SD" tvg-name="Miami Beach Tv (MBTV) (Miami Beach FL) (720p)" tvg-logo="https://i.imgur.com/LyqFr9E.png" group-title="English/Other",Miami Beach Tv (MBTV) (Miami Beach FL) (720p)
@@ -5030,7 +5032,7 @@ http://92.114.85.72:8000/play/a0la
 #EXTINF:-1 tvg-id="talkSPORT.uk@SD" tvg-name="talkSPORT (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9d/Talksport_logo.png" group-title="English/Other",talkSPORT (1080p)
 https://af7a8b4e.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfdGFsa1NQT1JUX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-id="TalkTV.uk@SD" tvg-name="TalkTV (1080p)" tvg-logo="https://i.imgur.com/KxHWpQB.png" group-title="English/Other",TalkTV (1080p)
-https://live-talktv-ssai.simplestreamcdn.com/v1/master/774d979dd66704abea7c5b62cb34c6815fda0d35/talktv-live/index.m3u8
+https://488f4ce4.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfVGFsa19ITFM/playlist.m3u8
 #EXTINF:-1 tvg-id="TBCN.us@SD" tvg-name="Tampa Bay Communnity Network TBCN (Tampa Bay FL) (480p)" tvg-logo="https://i.imgur.com/nNxl3F4.png" group-title="English/Other",Tampa Bay Communnity Network TBCN (Tampa Bay FL) (480p)
 https://reflect-tampa-bay-community.cablecast.tv/live-16/live/live.m3u8
 #EXTINF:-1 tvg-id="TanzaniaSafariChannel.tz@SD" tvg-name="Tanzania Safari Channel (576p)" tvg-logo="https://i.imgur.com/fcLFYhn.png" group-title="English/Other",Tanzania Safari Channel (576p)
