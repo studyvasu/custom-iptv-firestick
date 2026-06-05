@@ -1957,6 +1957,8 @@ https://ve-uhd-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uhd_stream_
 https://ve-uhd-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uhd_stream_05/iptv_uhd_v1.mpd
 #EXTINF:-1 tvg-id="BBNTV.bz@SD" tvg-name="BBN TV (720p)" tvg-logo="https://i.imgur.com/Hs988Ku.jpg" group-title="English/Other",BBN TV (720p)
 https://streamer2.nexgen.bz/06-BBN/index.m3u8
+#EXTINF:-1 tvg-id="BCNTV.rw@SD" tvg-name="BCN TV" tvg-logo="https://i.imgur.com/rP46S5B.png" group-title="English/Other",BCN TV
+https://live.bcntv.org/live/bcn_16_9.m3u8
 #EXTINF:-1 tvg-id="BCSStarCrossTV.ng@SD" tvg-name="BCS StarCross TV (576p)" tvg-logo="https://i.imgur.com/VKv1Y6p.png" group-title="English/Other",BCS StarCross TV (576p)
 https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_001/Stream/playlist.m3u8
 #EXTINF:-1 tvg-id="BeachTVCSULB.us@SD" tvg-name="Beach TV CSULB (160p) [Not 24/7]" tvg-logo="https://i.imgur.com/EJjfSWi.png" group-title="English/Other",Beach TV CSULB (160p) [Not 24/7]
