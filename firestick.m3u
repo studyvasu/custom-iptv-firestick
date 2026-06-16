@@ -159,8 +159,6 @@ https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxI
 https://xykt-fix.github.io/iptv/streams/SP88/index.m3u8
 #EXTINF:-1 tvg-id="BabyTV.uk@Turkiye" tvg-name="BabyTV Turkiye (1080p) [Geo-blocked]" tvg-logo="" group-title="Other",BabyTV Turkiye (1080p) [Geo-blocked]
 https://saran-live.ercdn.net/babytv/index.m3u8
-#EXTINF:-1 tvg-id="BBCFour.uk@UKHD" tvg-name="BBC Four UK HD" tvg-logo="" group-title="Other",BBC Four UK HD
-https://streamer.nexyl.uk/48559ccd-6400-457d-8acc-06b9e24c2ed8.m3u8
 #EXTINF:-1 tvg-id="BBCNews.uk@Europe" tvg-name="BBC News Europe (1080p)" tvg-logo="" group-title="News",BBC News Europe (1080p)
 http://103.213.31.109:90/BBCNewsHD/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCNews.uk@NorthAmerica" tvg-name="BBC News North America (1080p)" tvg-logo="" group-title="News",BBC News North America (1080p)
@@ -451,6 +449,8 @@ https://4bc5d2b3.wurl.com/v1/asia_tv_limited_zeeworld_1/ohlscdn_us/V00000001/720
 https://mini.allinonereborn.fun/tata.php?id=11783
 #EXTINF:-1 tvg-id="AMCEurope.uk@RO" tvg-name="AMC Europe" tvg-logo="" group-title="Other",AMC Europe
 https://dokagents.site/live/amc/mono.m3u8
+#EXTINF:-1 tvg-id="EpicDrama.uk@ROM" tvg-name="Epic Drama" tvg-logo="" group-title="Other",Epic Drama
+https://dokagents.site/live/epicd/mono.m3u8
 #EXTINF:-1 tvg-id="2GB.au@SD" tvg-name="2GB Sydney (1080p)" tvg-logo="" group-title="Other",2GB Sydney (1080p)
 https://2gblive.akamaized.net/hls/live/2033805/2GB/index.m3u8
 #EXTINF:-1 tvg-id="3AW.au@SD" tvg-name="3AW Melbourne (1080p)" tvg-logo="" group-title="Other",3AW Melbourne (1080p)
@@ -639,8 +639,6 @@ https://mumt05.tangotv.in/BHAKTISAGAR/index.m3u8
 https://cdn.ottlive.co.in/bharat24/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="BharatSamachar.in@SD" tvg-name="Bharat Samachar (480p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BHARAT_SAMACHAR/images/LOGO_HD/image.png" group-title="Hindi/Other",Bharat Samachar (480p)
 https://idvd.multitvsolution.com/idvo/bharatsamachar.m3u8
-#EXTINF:-1 tvg-id="BigMagic.in@SD" tvg-name="Big Magic (576p)" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002YJ850.png?lock=720x540" group-title="Hindi/Other",Big Magic (576p)
-https://mumt05.tangotv.in/BIGMAGIC/index.m3u8
 #EXTINF:-1 tvg-id="BollywoodHD.ro@Russia" tvg-name="Bollywood HD Russia (576p)" tvg-logo="https://i.imgur.com/scDKOLS.png" group-title="Hindi/Other",Bollywood HD Russia (576p)
 https://xykt-fix.github.io/cinerama_edge01/hls/BOLLYWOOD_RU/Movie009.m3u8
 #EXTINF:-1 tvg-id="BoxCinema.in@SD" tvg-name="Box Cinema (1080p)" tvg-logo="https://i.imgur.com/LGJlmtp.png" group-title="Hindi/Other",Box Cinema (1080p)
@@ -1019,10 +1017,8 @@ https://edge2.roarzone.info:8447/roarzone/edge3/sony-max/index.m3u8
 http://149.71.34.166:8000/play/a00z/index.m3u8
 #EXTINF:-1 tvg-id="SonyPix.in@HD" tvg-name="Sony Pix HD (1080p) [Geo-blocked]" tvg-logo="https://i.postimg.cc/Z5G8j67L/PIX-HD-WHITE.png" group-title="Hindi/Other",Sony Pix HD (1080p) [Geo-blocked]
 https://sl.vodep39240327.workers.dev/channel/SONY+PIX+HD.m3u8
-#EXTINF:-1 tvg-id="SonySportsTen3Hindi.in@SD" tvg-name="Sony Sports Ten 3 Hindi (1080p) [Geo-blocked]" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025TCMR.png?lock=720x540" group-title="Hindi/Sports",Sony Sports Ten 3 Hindi (1080p) [Geo-blocked]
-https://sl.vodep39240327.workers.dev/channel/SONY+TEN+3.m3u8
-#EXTINF:-1 tvg-id="SonySportsTen3Hindi.in@HD" tvg-name="Sony Sports Ten 3 Hindi HD (1080p) [Geo-blocked]" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025TCMR.png?lock=720x540" group-title="Hindi/Sports",Sony Sports Ten 3 Hindi HD (1080p) [Geo-blocked]
-https://sl.vodep39240327.workers.dev/channel/SONY+TEN+3+HD.m3u8
+#EXTINF:-1 tvg-id="SonySportsTen3Hindi.in@SD" tvg-name="Sony Sports Ten 3 Hindi (576p)" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025TCMR.png?lock=720x540" group-title="Hindi/Sports",Sony Sports Ten 3 Hindi (576p)
+http://103.229.254.25:7001/play/a09q/index.m3u8
 #EXTINF:-1 tvg-id="SonyWah.in@SD" tvg-name="Sony Wah (1080p) [Geo-blocked]" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_WAH/images/LOGO_HD/image.png" group-title="Hindi/Other",Sony Wah (1080p) [Geo-blocked]
 https://sl.vodep39240327.workers.dev/channel/SONY+WAH.m3u8
 #EXTINF:-1 tvg-id="SonyYay.in@SD" tvg-name="Sony Yay! (1080p) [Geo-blocked]" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_YAY/images/LOGO_HD/image.png" group-title="Hindi/Other",Sony Yay! (1080p) [Geo-blocked]
@@ -1341,8 +1337,6 @@ https://mumt04.tangotv.in/RAJNEWSTELUGU/index.m3u8
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/sakshi-tv/index.m3u8?ads.vf=V-hlmSQNYO4
 #EXTINF:-1 tvg-id="SonyPix.in@HD" tvg-name="Sony Pix HD (1080p) [Geo-blocked]" tvg-logo="https://i.postimg.cc/Z5G8j67L/PIX-HD-WHITE.png" group-title="Telugu/Other",Sony Pix HD (1080p) [Geo-blocked]
 https://sl.vodep39240327.workers.dev/channel/SONY+PIX+HD.m3u8
-#EXTINF:-1 tvg-id="SonySportsTen4.in@Telugu" tvg-name="Sony Sports Ten 4 Telugu (1080p)" tvg-logo="https://dtil.tmsimg.com/assets/s149166_ld_h15_aa.png?lock=720x540" group-title="Telugu/Sports",Sony Sports Ten 4 Telugu (1080p)
-https://sl.vodep39240327.workers.dev/channel/SONY+TEN+4+HD.m3u8
 #EXTINF:-1 tvg-id="SonyYay.in@SD" tvg-name="Sony Yay! (1080p) [Geo-blocked]" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_YAY/images/LOGO_HD/image.png" group-title="Telugu/Other",Sony Yay! (1080p) [Geo-blocked]
 https://sl.vodep39240327.workers.dev/channel/SONY+YAY.m3u8
 #EXTINF:-1 tvg-id="StarMaaGold.in@SD" tvg-name="Star Maa Gold (576p)" tvg-logo="https://i.imgur.com/8v4JXYu.png" group-title="Telugu/Other",Star Maa Gold (576p)
@@ -1571,8 +1565,6 @@ https://abcnews-streams.akamaized.net/hls/live/2023565/abcnewshudson6/master_400
 https://abcnews-streams.akamaized.net/hls/live/2023566/abcnewshudson7/master_4000.m3u8
 #EXTINF:-1 tvg-id="ABCNewsLive8.us@SD" tvg-name="ABC News Live 8 (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="English/News",ABC News Live 8 (720p)
 https://abcnews-streams.akamaized.net/hls/live/2023567/abcnewshudson8/master_4000.m3u8
-#EXTINF:-1 tvg-id="ABCNewsLive9.us@SD" tvg-name="ABC News Live 9 (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="English/News",ABC News Live 9 (720p)
-https://abcnews-streams.akamaized.net/hls/live/2023568/abcnewshudson9/master_4000.m3u8
 #EXTINF:-1 tvg-id="ABCNewsLive10.us@SD" tvg-name="ABC News Live 10 (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="English/News",ABC News Live 10 (720p)
 https://abcnews-streams.akamaized.net/hls/live/2023569/abcnewshudson10/master_4000.m3u8
 #EXTINF:-1 tvg-id="ABCTV.au@ACT" tvg-name="ABC TV ACT (720p)" tvg-logo="https://i.imgur.com/DPVQSjM.png" group-title="English/Other",ABC TV ACT (720p)
@@ -1879,8 +1871,6 @@ https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEar
 https://d1e9r0b71zfwk7.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCFour.uk@UK" tvg-name="BBC Four HD (720p) [Geo-blocked]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/BBC_Four_logo_2021.svg/960px-BBC_Four_logo_2021.svg.png" group-title="English/Other",BBC Four HD (720p) [Geo-blocked]
 https://matchmaker.live.bidi.net.uk/vs-cmaf-pushb-uk/x=4/i=urn:bbc:pips:service:bbc_four_hd/pc_hd_abr_v2.fmp4.m3u8
-#EXTINF:-1 tvg-id="BBCFour.uk@UKHD" tvg-name="BBC Four UK HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/BBC_Four_logo_2021.svg/960px-BBC_Four_logo_2021.svg.png" group-title="English/Other",BBC Four UK HD
-https://streamer.nexyl.uk/48559ccd-6400-457d-8acc-06b9e24c2ed8.m3u8
 #EXTINF:-1 tvg-id="BBCHomeGarden.us@SD" tvg-name="BBC Home & Garden (1080p)" tvg-logo="https://i.imgur.com/rC0pi1D.png" group-title="English/Other",BBC Home & Garden (1080p)
 https://d11r33s5i066xh.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCKids.us@SD" tvg-name="BBC Kids (720p)" tvg-logo="https://i.imgur.com/vKUD64a.png" group-title="English/Kids",BBC Kids (720p)
@@ -2255,6 +2245,8 @@ https://1740288887.rsc.cdn77.org/1740288887/index.m3u8
 https://cbcrclinear-tor.akamaized.net/hls/live/2042768/CBCRCLINEAR_TOR_14/master5.m3u8
 #EXTINF:-1 tvg-id="CBETDT.ca@SD" tvg-name="CBC Windsor (CBET-DT) (720p) [Geo-blocked]" tvg-logo="https://i.imgur.com/NFts1uU.png" group-title="English/Other",CBC Windsor (CBET-DT) (720p) [Geo-blocked]
 https://cbcrclinear-tor.akamaized.net/hls/live/2042759/CBCRCLINEAR_TOR_5/master5.m3u8
+#EXTINF:-1 tvg-id="CBeebies.pl@SD" tvg-name="CBeebies (576p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/16/CBeebies.svg/960px-CBeebies.svg.png" group-title="English/Other",CBeebies (576p)
+http://81.15.109.89:8001/play/BBCCBeebies
 #EXTINF:-1 tvg-id="CBeebiesAsia.uk@SD" tvg-name="CBeebies Asia (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/16/CBeebies.svg/960px-CBeebies.svg.png" group-title="English/Other",CBeebies Asia (720p)
 https://cdn10jtedge.indihometv.com/atm/DASH/cbeebies/manifest.mpd
 #EXTINF:-1 tvg-id="CBeebies.uk@SD" tvg-name="CBeebies HD (720p) [Geo-blocked]" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CBEEBIES/images/LOGO_HD/image.png" group-title="English/Other",CBeebies HD (720p) [Geo-blocked]
@@ -2687,6 +2679,8 @@ https://discoverfilm-discoverfilm-1-gb.samsung.wurl.tv/playlist.m3u8
 https://amg01314-amg01314c8-distrotv-us-10218.playouts.now.amagi.tv/playlist/amg01314-cgtn-cgtndiscoveringchina-distrotvus/playlist.m3u8
 #EXTINF:-1 tvg-id="DisneyChannel.bg@SD" tvg-name="Disney Channel (576p)" tvg-logo="https://i.imgur.com/UxrAiAe.png" group-title="English/Kids",Disney Channel (576p)
 http://84.54.128.52:9090/play/3006/index.m3u8
+#EXTINF:-1 tvg-id="DisneyChannel.pl@SD" tvg-name="Disney Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" group-title="English/Kids",Disney Channel
+http://81.15.109.89:8001/play/DisneyChannel2
 #EXTINF:-1 tvg-id="DisneyInternationalHD.in@SD" tvg-name="Disney International HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_INTERNATIONAL_HD/images/LOGO_HD/image.png" group-title="English/Kids",Disney International HD (1080p)
 http://149.71.34.166:8002/play/a01p/index.m3u8
 #EXTINF:-1 tvg-id="DisneyJunior.in@SD" tvg-name="Disney Junior (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_JUNIOR/images/LOGO_HD/image.png" group-title="English/Kids",Disney Junior (576p)
@@ -3743,8 +3737,8 @@ https://all3media-midsomer-1-us.roku.wurl.tv/playlist.m3u8
 https://685c08ed6d81a.streamlock.net/live/mp4:MCTV_aac/playlist.m3u8
 #EXTINF:-1 tvg-id="MindanowNetworkTV.ph@SD" tvg-name="Mindanow Network TV (1080p)" tvg-logo="https://i.imgur.com/xBlYirh.jpeg" group-title="English/Other",Mindanow Network TV (1080p)
 https://cdn.vegasplus.us/vegas/mmn01/playlist.m3u8
-#EXTINF:-1 tvg-id="MinikaGo.tr@SD" tvg-name="Minika Go (480p)" tvg-logo="https://i.imgur.com/qIoipDq.png" group-title="English/Other",Minika Go (480p)
-https://tgn.bozztv.com/dvrfl05/gin-minikago/index.m3u8
+#EXTINF:-1 tvg-id="MinikaGo.tr@SD" tvg-name="Minika Go (720p)" tvg-logo="https://i.imgur.com/qIoipDq.png" group-title="English/Other",Minika Go (720p)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
 #EXTINF:-1 tvg-id="MinimaxCEE.cz@SD" tvg-name="Minimax (576p) (576p)" tvg-logo="https://i.imgur.com/WWOlm1x.png" group-title="English/Other",Minimax (576p) (576p)
 http://88.212.15.19/live/test_minimax/playlist.m3u8
 #EXTINF:-1 tvg-id="MiracleTV.uk@SD" tvg-name="Miracle TV (480p)" tvg-logo="https://i.imgur.com/pTn8Vc3.png" group-title="English/Other",Miracle TV (480p)
@@ -4133,8 +4127,8 @@ https://stream-204968.castr.net/64e0c91d08bff3041638aee3/live_a4243540d4b911f0b6
 https://uni6rtmp.tulix.tv/nrbnetwork/myStream.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="NTAInternational.ng@SD" tvg-name="NTA International (576p) [Not 24/7]" tvg-logo="https://i.imgur.com/mN8j8CR.png" group-title="English/Other",NTA International (576p) [Not 24/7]
 https://api.visionip.tv/live/ASHTTP/visiontvuk-entertainment-ntai-hsslive-25f-4x3-MB/playlist.m3u8
-#EXTINF:-1 tvg-id="NTDTV.us@East" tvg-name="NTD TV" tvg-logo="https://i.imgur.com/QtFM5Oo.png" group-title="English/Other",NTD TV
-https://live.ntdtv.com/live900/playlist.m3u8
+#EXTINF:-1 tvg-id="NTDTV.us@East" tvg-name="NTD TV (1080p)" tvg-logo="https://i.imgur.com/QtFM5Oo.png" group-title="English/Other",NTD TV (1080p)
+https://ntd02.akamaized.net/HD-NY/index.m3u8
 #EXTINF:-1 tvg-id="NTDTVCanada.us@East" tvg-name="NTD TV Canada" tvg-logo="https://i.imgur.com/iyFXcDy.png" group-title="English/Other",NTD TV Canada
 https://live.ntdtv.com/mllive860/playlist.m3u8
 #EXTINF:-1 tvg-id="NTDTVCanada.us@West" tvg-name="NTD TV Canada West" tvg-logo="https://i.imgur.com/iyFXcDy.png" group-title="English/Other",NTD TV Canada West
@@ -4749,8 +4743,6 @@ https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/64
 https://sabconeta.cdn.mangomolo.com/sabc1/smil:sabc1.stream.smil/master.m3u8
 #EXTINF:-1 tvg-id="SABC2.za@SD" tvg-name="SABC 2 [Geo-blocked]" tvg-logo="https://i.imgur.com/rj6i9sn.png" group-title="English/Other",SABC 2 [Geo-blocked]
 https://sabctwota.cdn.mangomolo.com/sabc2/smil:sabc2.stream.smil/master.m3u8
-#EXTINF:-1 tvg-id="SABC3.za@SD" tvg-name="SABC 3 [Geo-blocked]" tvg-logo="https://i.imgur.com/eEhLk1D.png" group-title="English/Other",SABC 3 [Geo-blocked]
-https://sabctreta.cdn.mangomolo.com/sabc3/smil:sabc3.stream.smil/master.m3u8
 #EXTINF:-1 tvg-id="SABCLehae.za@SD" tvg-name="SABC Lehae [Geo-blocked]" tvg-logo="https://i.imgur.com/YhdnZHH.png" group-title="English/Other",SABC Lehae [Geo-blocked]
 https://sabctretalh.cdn.mangomolo.com/lehae/smil:lehae.stream.smil/master.m3u8
 #EXTINF:-1 tvg-id="SABCNews.za@SD" tvg-name="SABC News (720p) [Geo-blocked]" tvg-logo="https://i.imgur.com/liLta8j.png" group-title="English/News",SABC News (720p) [Geo-blocked]
@@ -4899,14 +4891,6 @@ https://all3media-soreal-1-gb.samsung.wurl.tv/playlist.m3u8
 https://edge2.roarzone.info:8447/roarzone/edge3/sony-max/index.m3u8
 #EXTINF:-1 tvg-id="SonyPix.in@HD" tvg-name="Sony Pix HD (1080p) [Geo-blocked]" tvg-logo="https://i.postimg.cc/Z5G8j67L/PIX-HD-WHITE.png" group-title="English/Other",Sony Pix HD (1080p) [Geo-blocked]
 https://sl.vodep39240327.workers.dev/channel/SONY+PIX+HD.m3u8
-#EXTINF:-1 tvg-id="SonySportsTen1.in@SD" tvg-name="Sony Sports Ten 1 (1080p) [Geo-blocked]" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_1/images/LOGO_HD/image.png" group-title="English/Sports",Sony Sports Ten 1 (1080p) [Geo-blocked]
-https://sl.vodep39240327.workers.dev/channel/SONY+TEN+1.m3u8
-#EXTINF:-1 tvg-id="SonySportsTen1.in@HD" tvg-name="Sony Sports Ten 1 HD (1080p) [Geo-blocked]" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_1/images/LOGO_HD/image.png" group-title="English/Sports",Sony Sports Ten 1 HD (1080p) [Geo-blocked]
-https://sl.vodep39240327.workers.dev/channel/SONY+TEN+1+HD.m3u8
-#EXTINF:-1 tvg-id="SonySportsTen2.in@SD" tvg-name="Sony Sports Ten 2 (1080p) [Geo-blocked]" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_2/images/LOGO_HD/image.png" group-title="English/Sports",Sony Sports Ten 2 (1080p) [Geo-blocked]
-https://sl.vodep39240327.workers.dev/channel/SONY+TEN+2.m3u8
-#EXTINF:-1 tvg-id="SonySportsTen2.in@HD" tvg-name="Sony Sports Ten 2 HD (1080p) [Geo-blocked]" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_2/images/LOGO_HD/image.png" group-title="English/Sports",Sony Sports Ten 2 HD (1080p) [Geo-blocked]
-https://sl.vodep39240327.workers.dev/channel/SONY+TEN+2+HD.m3u8
 #EXTINF:-1 tvg-id="SoundViewCommunityMedia.us@SD" tvg-name="Sound View Community Media Education (480p)" tvg-logo="https://i.imgur.com/3gASzGc.png" group-title="English/Education",Sound View Community Media Education (480p)
 https://livestream.telvue.com/soundviewcmt2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="SoundcityTV.ng@SD" tvg-name="Soundcity TV" tvg-logo="https://i.imgur.com/fKtPcT4.png" group-title="English/Other",Soundcity TV
@@ -5649,8 +5633,8 @@ http://103.250.28.74:8000/play/a00w/index.m3u8
 https://vsin-sgrewind.streamguys1.com/scte/live-2k/playlist.m3u8
 #EXTINF:-1 tvg-id="KVTNDT251.us@HD" tvg-name="VTN Victory Television Network (720p)" tvg-logo="https://i.imgur.com/CjKQuEP.png" group-title="English/Other",VTN Victory Television Network (720p)
 https://jk3lzkn4lw79-hls-live.5centscdn.com/VTN2/bcaafe9ad8d42834b08e762ac58596b8.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="VTV1.vn@HD" tvg-name="VTV1 HD (1080p) [Geo-blocked]" tvg-logo="https://i.imgur.com/vZYlGIW.png" group-title="English/Other",VTV1 HD (1080p) [Geo-blocked]
-https://live.fptplay53.net/fnxch2/vtv1hd_abr.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="VTV1.vn@HD" tvg-name="VTV1 HD (1080p)" tvg-logo="https://i.imgur.com/vZYlGIW.png" group-title="English/Other",VTV1 HD (1080p)
+https://live.fptplay53.net/live/media/vtv1/live247-hls-avc/index.m3u8
 #EXTINF:-1 tvg-id="VyasChannel.in@SD" tvg-name="Vyas NIC (576p)" tvg-logo="https://www.yupptv.com/seo_img/UGC_GEC_big.jpg" group-title="English/Other",Vyas NIC (576p)
 https://playhls.media.nic.in/hls/live/vyas/vyas.m3u8
 #EXTINF:-1 tvg-id="W14DKD141.us@HD" tvg-name="W14DK-D 14.1 TV Delmarva" tvg-logo="https://i.imgur.com/TjQP7kS.png" group-title="English/Other",W14DK-D 14.1 TV Delmarva
@@ -5945,7 +5929,7 @@ https://zainabia.livebox.co.in/ZainabiaChannelhls/channel.m3u8
 https://amg17931-zee-amg17931c8-samsung-th-6526.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ZeeBollymovies.in@Australia" tvg-name="Zee Bollymovies Australia (1080p) [Geo-blocked]" tvg-logo="https://framerusercontent.com/images/mqfJ18x4jYe0GbZUbxSHsbnWU.png?scale-down-to=512" group-title="English/Movies",Zee Bollymovies Australia (1080p) [Geo-blocked]
 https://amg17931-zee-amg17931c8-samsung-au-8871.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="ZeeCafe.in@HD" tvg-name="Zee Cafe HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CAFE_HD/images/LOGO_HD/LOGO_HD_image.png" group-title="English/Other",Zee Cafe HD (1080p)
+#EXTINF:-1 tvg-id="ZeeCafe.in@HD" tvg-name="Zee Cafe HD (1080p)" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022ZMMH.png?lock=720x540" group-title="English/Other",Zee Cafe HD (1080p)
 http://103.72.101.252:8080/live/1319.m3u8
 #EXTINF:-1 tvg-id="ZeeOne.uk@UK" tvg-name="Zee One (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Zee_One_Logo_2025.png" group-title="English/Other",Zee One (1080p)
 https://amg17931-zee-amg17931c6-samsung-au-8872.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeeworld-samsungau/playlist.m3u8
