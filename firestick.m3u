@@ -611,6 +611,20 @@ https://adpnetworkhd-cmd.github.io/iptv/ChallengeUK.m3u8
 https://adpnetworkhd-cmd.github.io/iptv/Channel4.m3u8
 #EXTINF:-1 tvg-id="Channel5.uk@HD" tvg-name="Channel 5 HD (720p)" tvg-logo="" group-title="Other",Channel 5 HD (720p)
 https://adpnetworkhd-cmd.github.io/iptv/Channel5Milkshake.m3u8
+#EXTINF:-1 tvg-id="GREATaction.uk@SD" tvg-name="GREAT! action (576p)" tvg-logo="" group-title="Other",GREAT! action (576p)
+https://adpnetworkhd-cmd.github.io/iptv/GreatAction.m3u8
+#EXTINF:-1 tvg-id="GREATmystery.uk@SD" tvg-name="GREAT! mystery (576p)" tvg-logo="" group-title="Other",GREAT! mystery (576p)
+https://adpnetworkhd-cmd.github.io/iptv/GreatMystery.m3u8
+#EXTINF:-1 tvg-id="GREATromance.uk@UK" tvg-name="GREAT! romance (576p)" tvg-logo="" group-title="Other",GREAT! romance (576p)
+https://adpnetworkhd-cmd.github.io/iptv/GreatRomance.m3u8
+#EXTINF:-1 tvg-id="GREATtv.uk@SD" tvg-name="GREAT! tv (576p)" tvg-logo="" group-title="Other",GREAT! tv (576p)
+https://adpnetworkhd-cmd.github.io/iptv/GreatTV.m3u8
+#EXTINF:-1 tvg-id="IraneFardaTV.uk@SD" tvg-name="IraneFarda TV" tvg-logo="" group-title="Other",IraneFarda TV
+https://iranefardalive.com/stream/live.m3u8
+#EXTINF:-1 tvg-id="More4.uk@SD" tvg-name="More4 (576p)" tvg-logo="" group-title="Other",More4 (576p)
+https://adpnetworkhd-cmd.github.io/iptv/More4.m3u8
+#EXTINF:-1 tvg-id="Really.uk@SD" tvg-name="Really (576p)" tvg-logo="" group-title="Other",Really (576p)
+https://adpnetworkhd-cmd.github.io/iptv/Really.m3u8
 #EXTINF:-1 tvg-id="2GB.au@SD" tvg-name="2GB Sydney (1080p)" tvg-logo="" group-title="Other",2GB Sydney (1080p)
 https://2gblive.akamaized.net/hls/live/2033805/2GB/index.m3u8
 #EXTINF:-1 tvg-id="3AW.au@SD" tvg-name="3AW Melbourne (1080p)" tvg-logo="" group-title="Other",3AW Melbourne (1080p)
@@ -1787,6 +1801,8 @@ http://185.9.2.18/chid_326/index.m3u8
 https://raycom-accdn-firetv.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Access4PAC.us@SD" tvg-name="Access 4 PAC" tvg-logo="https://i.imgur.com/DQu3gES.png" group-title="English/Other",Access 4 PAC
 https://reflect-channel18vod-springfield-il-us.cablecast.tv/live-16/live/stream-4/live.m3u8
+#EXTINF:-1 tvg-id="Access19.us@SD" tvg-name="Access 19" tvg-logo="https://i.imgur.com/7F4LJMT.png" group-title="English/Other",Access 19
+https://reflect-montgomerycommunitymedia.cablecast.tv/live-8/live/stream-3/live.m3u8
 #EXTINF:-1 tvg-id="AccessHumboldt.us@SD" tvg-name="Access Humboldt (1080p)" tvg-logo="https://i.imgur.com/tJl43uM.png" group-title="English/Other",Access Humboldt (1080p)
 https://rtmp-live-ingest-ap-northeast-2-universe-dacast-com.akamaized.net/transmuxv1/streams/f08fcd45-1d04-9a8c-39ca-f56091820e5c.m3u8
 #EXTINF:-1 tvg-id="AMP1.us@SD" tvg-name="Access Media Productions Channel (720p)" tvg-logo="https://i.imgur.com/3ZhrthD.png" group-title="English/Other",Access Media Productions Channel (720p)
@@ -1999,6 +2015,8 @@ https://linear-900.frequency.stream/dist/cineverse/900/hls/master/playlist.m3u8
 http://66.242.170.53/hls/live/temp/index.m3u8
 #EXTINF:-1 tvg-id="AtHomewithFamilyHandyman.us@SD" tvg-name="At Home with Family Handyman (720p)" tvg-logo="https://i.imgur.com/WfKlGbX.png" group-title="English/Other",At Home with Family Handyman (720p)
 https://d1ik2p49apxqjf.cloudfront.net/playlist.m3u8
+#EXTINF:-1 tvg-id="ATL26.us@SD" tvg-name="ATL 26" tvg-logo="https://i.imgur.com/s4fqNMt.png" group-title="English/Other",ATL 26
+https://securestream11.champds.com/LIVE/AtlantaGALIVE/AtlantaGALIVE.m3u8
 #EXTINF:-1 tvg-id="AtlantaChannel.us@SD" tvg-name="Atlanta Channel (720p)" tvg-logo="https://i.imgur.com/MOGQAns.png" group-title="English/Other",Atlanta Channel (720p)
 http://media4.tripsmarter.com:1935/LiveTV/ACVBHD/playlist.m3u8
 #EXTINF:-1 tvg-id="WATCDT571.us@HD" tvg-name="Atlanta's 57 WATC 57.1 (720p)" tvg-logo="https://i.imgur.com/FhIRe7O.png" group-title="English/Other",Atlanta's 57 WATC 57.1 (720p)
@@ -2441,8 +2459,12 @@ http://69.64.57.208/canal2international/playlist.m3u8
 https://digicom.hls.iptvdc.com/canalmotor/index.m3u8
 #EXTINF:-1 tvg-id="CapeTownTV.za@SD" tvg-name="Cape Town TV (576p)" tvg-logo="https://i.imgur.com/Y8FK1Kk.png" group-title="English/Other",Cape Town TV (576p)
 https://cdn.freevisiontv.co.za/sttv/smil:ctv.stream.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="CapuchinTV.ke@SD" tvg-name="Capuchin TV" tvg-logo="https://i.imgur.com/VCDSjX7.png" group-title="English/Other",Capuchin TV
+https://goliveafrica.media:9998/live/64227f58b8413/index.m3u8
 #EXTINF:-1 tvg-id="CAtv.pr@SD" tvg-name="Caribbean Advantage TV (1080p) [Not 24/7]" tvg-logo="https://caribbeanadvantage.com/images/CAtv-logo-512.png" group-title="English/Other",Caribbean Advantage TV (1080p) [Not 24/7]
 https://video2.getstreamhosting.com:19360/8216/8216.m3u8
+#EXTINF:-1 tvg-id="CaribbeanGospelTV.jm@SD" tvg-name="Caribbean Gospel TV" tvg-logo="https://i.imgur.com/lhgrqmA.png" group-title="English/Other",Caribbean Gospel TV
+https://25466019af9b7aed.servers.dvcloud.tv/hls/iptv_providers/fhvtgifbqbcjp0g19mdd76t18tpalu4k.m3u8
 #EXTINF:-1 tvg-id="CaribbeanHot7TV.lc@SD" tvg-name="Caribbean Hot 7 TV (720p)" tvg-logo="https://i.ibb.co/sjTS4xD/logo116x90-2.png" group-title="English/Other",Caribbean Hot 7 TV (720p)
 https://586a9edea75f1.streamlock.net/caribbeanhot7tv/ch7-1.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="CityTVCarlsbad.us@SD" tvg-name="Carlsbad City TV Channel (Carlsbad CA) (720p)" tvg-logo="https://i.imgur.com/G6h8efT.png" group-title="English/Other",Carlsbad City TV Channel (Carlsbad CA) (720p)
@@ -2947,6 +2969,14 @@ https://livestream.telvue.com/derrynh1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/play
 https://livestream.telvue.com/derrynh2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="DesignatedSurvivor.us@SD" tvg-name="Designated Survivor (1080p) [Geo-blocked]" tvg-logo="https://provider-static.plex.tv/epg/cms/production/6f31f52b-2b65-49eb-91e5-52e07edd1927/DesignatedSurvivor_Plex_1500x1000_Logo_Dark.png" group-title="English/Other",Designated Survivor (1080p) [Geo-blocked]
 https://amg00353-amg00353c40-xumo-us-4839.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="DetroitChannel10.us@SD" tvg-name="Detroit Channel 10" tvg-logo="https://i.imgur.com/zAdcg9m.png" group-title="English/Other",Detroit Channel 10
+https://reflect-detroit-vod.cablecast.tv/live-2/live/stream-6/live.m3u8
+#EXTINF:-1 tvg-id="DetroitChannel21.us@SD" tvg-name="Detroit Channel 21" tvg-logo="https://i.imgur.com/yXXEGKg.png" group-title="English/Other",Detroit Channel 21
+https://reflect-detroit-vod.cablecast.tv/live-9/live/stream-4/live.m3u8
+#EXTINF:-1 tvg-id="DetroitChannel22.us@SD" tvg-name="Detroit Channel 22" tvg-logo="https://i.imgur.com/zAdcg9m.png" group-title="English/Other",Detroit Channel 22
+https://reflect-detroit-vod.cablecast.tv/live-3/live/stream-3/live.m3u8
+#EXTINF:-1 tvg-id="DetroitChannel68.us@SD" tvg-name="Detroit Channel 68" tvg-logo="https://i.imgur.com/zAdcg9m.png" group-title="English/Other",Detroit Channel 68
+https://reflect-detroit-vod.cablecast.tv/live-10/live/stream-5/live.m3u8
 #EXTINF:-1 tvg-id="DHA.tr@SD" tvg-name="DHA (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/VZhag2x.png" group-title="English/Other",DHA (720p) [Not 24/7]
 https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8
 #EXTINF:-1 tvg-id="DijlahTV.iq@SD" tvg-name="Dijlah TV (1080p)" tvg-logo="https://i.imgur.com/kyzH3G5.png" group-title="English/Other",Dijlah TV (1080p)
@@ -3197,6 +3227,8 @@ https://amg00627-banijaygroup-fearfactor-samsungau-9vdod.amagi.tv/playlist/amg00
 https://edge-f.swagit.com/live/fernandinabeachfl/live-1-a/playlist.m3u8
 #EXTINF:-1 tvg-id="FEVATV.ca@SD" tvg-name="FEVA TV (1080p)" tvg-logo="https://i.imgur.com/QSi0YTS.png" group-title="English/Other",FEVA TV (1080p)
 https://d21x3vavxu7p2x.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-FEVATV/416.m3u8?ads.vf=nn5CUAdOxVu
+#EXTINF:-1 tvg-id="FGTV.us@SD" tvg-name="FGTV" tvg-logo="https://i.imgur.com/RXFmzVY.png" group-title="English/Other",FGTV
+https://securestream11.champds.com/LIVE/FultonCoGALIVE/FultonCoGALIVE.m3u8
 #EXTINF:-1 tvg-id="FIFAPlus.uk@English" tvg-name="FIFA+ (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png" group-title="English/Other",FIFA+ (720p)
 https://jmp2.uk/plu-660c29b5aec9680008f5b4a4.m3u8
 #EXTINF:-1 tvg-id="FIFAPlus.uk@UnitedStates" tvg-name="FIFA+ United States (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png" group-title="English/Other",FIFA+ United States (720p)
@@ -3217,18 +3249,18 @@ http://80.194.62.172:50002/stream/channelid/1764271106
 http://103.250.28.74:8000/play/a02k/index.m3u8
 #EXTINF:-1 tvg-id="FilmBox.nl@Netherlands" tvg-name="FilmBox (1080p)" tvg-logo="https://i.imgur.com/VyaslIY.png" group-title="English/Other",FilmBox (1080p)
 http://193.239.186.231/FILMBOX/index.m3u8
-#EXTINF:-1 tvg-id="FilmBoxExtra.nl@Adria" tvg-name="FilmBox Extra" tvg-logo="https://i.imgur.com/ML7SlIW.png" group-title="English/Other",FilmBox Extra
-https://webtvstream.bhtelecom.ba/hls7/filmbox_extra.m3u8
-#EXTINF:-1 tvg-id="FilmBoxFamily.nl@Africa" tvg-name="FilmBox Family" tvg-logo="https://i.imgur.com/CGFyAyc.png" group-title="English/Other",FilmBox Family
+#EXTINF:-1 tvg-id="FilmBoxFamily.nl@Africa" tvg-name="FilmBox+ Comedy" tvg-logo="https://i.imgur.com/CGFyAyc.png" group-title="English/Other",FilmBox+ Comedy
 http://88.212.15.19/live/test_filmbox_family_atk_1200/playlist.m3u8
-#EXTINF:-1 tvg-id="FilmBoxFamily.nl@Hungary" tvg-name="FilmBox Family Hungary" tvg-logo="https://i.imgur.com/CGFyAyc.png" group-title="English/Other",FilmBox Family Hungary
+#EXTINF:-1 tvg-id="FilmBoxFamily.nl@Hungary" tvg-name="FilmBox+ Comedy Hungary" tvg-logo="https://i.imgur.com/CGFyAyc.png" group-title="English/Other",FilmBox+ Comedy Hungary
 http://46.149.191.217:9000/play/a057
-#EXTINF:-1 tvg-id="FilmBoxPremium.nl@Adria" tvg-name="FilmBox Premium" tvg-logo="https://i.imgur.com/RydfsE9.png" group-title="English/Other",FilmBox Premium
-https://webtvstream.bhtelecom.ba/hls7/filmbox_premium.m3u8
-#EXTINF:-1 tvg-id="FilmBoxStars.nl@Adria" tvg-name="FilmBox Stars" tvg-logo="https://i.imgur.com/eZFdHbR.png" group-title="English/Other",FilmBox Stars
-https://webtvstream.bhtelecom.ba/hls7/filmbox_stars.m3u8
+#EXTINF:-1 tvg-id="FilmBoxExtra.nl@Adria" tvg-name="FilmBox+ Emotion Adria" tvg-logo="https://i.imgur.com/ML7SlIW.png" group-title="English/Other",FilmBox+ Emotion Adria
+https://webtvstream.bhtelecom.ba/hls7/filmbox_extra.m3u8
 #EXTINF:-1 tvg-id="FilmBoxArthouse.nl@SD" tvg-name="FilmBox+ Festival (576p)" tvg-logo="https://i.imgur.com/hDg35ne.png" group-title="English/Other",FilmBox+ Festival (576p)
 https://iptv.prosto.tv/ch63/index.m3u8
+#EXTINF:-1 tvg-id="FilmBoxPremium.nl@Adria" tvg-name="FilmBox+ Hits Adria" tvg-logo="https://i.imgur.com/RydfsE9.png" group-title="English/Other",FilmBox+ Hits Adria
+https://webtvstream.bhtelecom.ba/hls7/filmbox_premium.m3u8
+#EXTINF:-1 tvg-id="FilmBoxStars.nl@Adria" tvg-name="FilmBox+ Love & Crime Adria" tvg-logo="https://i.imgur.com/eZFdHbR.png" group-title="English/Other",FilmBox+ Love & Crime Adria
+https://webtvstream.bhtelecom.ba/hls7/filmbox_stars.m3u8
 #EXTINF:-1 tvg-id="FilmBoxBaltics.nl@SD" tvg-name="FilmBox+ One Baltics (576p)" tvg-logo="https://i.imgur.com/gXu36aD.png" group-title="English/Other",FilmBox+ One Baltics (576p)
 https://iptv.prosto.tv/ch64/index.m3u8
 #EXTINF:-1 tvg-id="FilmRiseAnime.us@SD" tvg-name="FilmRise Anime (720p)" tvg-logo="https://i.imgur.com/3wqeGXM.png" group-title="English/Other",FilmRise Anime (720p)
@@ -3459,10 +3491,16 @@ https://livecdn.live247stream.com/grace/tv/playlist.m3u8
 https://mumt03.tangotv.in/GRACETV/index.m3u8
 #EXTINF:-1 tvg-id="GravitasMovies.us@SD" tvg-name="Gravitas Movies (1080p)" tvg-logo="https://i.imgur.com/H2hD4vT.png" group-title="English/Movies",Gravitas Movies (1080p)
 https://d6dg3ebeih71x.cloudfront.net/Gravitas_Movies.m3u8
+#EXTINF:-1 tvg-id="GREATaction.uk@SD" tvg-name="GREAT! action (576p)" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3708.png" group-title="English/Other",GREAT! action (576p)
+https://adpnetworkhd-cmd.github.io/iptv/GreatAction.m3u8
 #EXTINF:-1 tvg-id="GREATmovies.uk@UK" tvg-name="GREAT! movies (1080p)" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3709.png" group-title="English/Movies",GREAT! movies (1080p)
 https://amg01753-narrativeuk-amg01753c3-lg-gb-1833.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatmovies-lggb/playlist.m3u8
+#EXTINF:-1 tvg-id="GREATmystery.uk@SD" tvg-name="GREAT! mystery (576p)" tvg-logo="https://image-cdn.suggestedtv.com/api/client/v1/image/ac0cfdfd-868c-4894-8dd9-dbe9f1a18a74?tenant=GREAT&mode=fit&width=300&height=73&format=png" group-title="English/Other",GREAT! mystery (576p)
+https://adpnetworkhd-cmd.github.io/iptv/GreatMystery.m3u8
 #EXTINF:-1 tvg-id="GREATromance.uk@UK" tvg-name="GREAT! romance (1080p)" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3643.png" group-title="English/Other",GREAT! romance (1080p)
 https://amg01753-narrativeuk-amg01753c2-lg-gb-1832.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatchristmas-lggb/playlist.m3u8
+#EXTINF:-1 tvg-id="GREATtv.uk@SD" tvg-name="GREAT! tv (576p)" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb4266.png" group-title="English/Other",GREAT! tv (576p)
+https://adpnetworkhd-cmd.github.io/iptv/GreatTV.m3u8
 #EXTINF:-1 tvg-id="GreensboroTV.us@SD" tvg-name="Greensboro TV (Greensboro NC) (720p)" tvg-logo="" group-title="English/Other",Greensboro TV (Greensboro NC) (720p)
 https://lin12.isilive.ca/live/greensboro/GTN/index.m3u8
 #EXTINF:-1 tvg-id="GritXtra.us@SD" tvg-name="Grit Xtra (1080p)" tvg-logo="https://provider-static.plex.tv/epg/cms/production/dbbb9bca-0b08-43b5-a0e7-715df9a6dbfd/_ChannelLogo_1500x1000.png" group-title="English/Other",Grit Xtra (1080p)
@@ -3685,6 +3723,8 @@ https://amg00861-terninternation-lifestyle-samsungau-kdlyy.amagi.tv/playlist/amg
 https://freespeech.akamaized.net/hls/live/2016712/live1/playlist.m3u8
 #EXTINF:-1 tvg-id="InkMaster.us@SD" tvg-name="Ink Master" tvg-logo="https://i.imgur.com/DiBojYh.png" group-title="English/Other",Ink Master
 https://jmp2.uk/plu-655f2d713944b60008bc7e90.m3u8
+#EXTINF:-1 tvg-id="InooroTV.ke@SD" tvg-name="Inooro TV" tvg-logo="https://i.imgur.com/5qFJtmo.png" group-title="English/Other",Inooro TV
+https://live-onesignal.royalmedia.co.ke/live/T-MxRsFebq6zx7k2QFMbLw.m3u8
 #EXTINF:-1 tvg-id="InsaytTV.ru@4K" tvg-name="Insayt TV (2160p)" tvg-logo="https://i.imgur.com/slLuRel.png" group-title="English/Other",Insayt TV (2160p)
 https://stream8.cinerama.uz/1416/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="InsideCrime.us@UK" tvg-name="Inside Crime (1080p)" tvg-logo="https://i.imgur.com/wvQYWsj.png" group-title="English/Other",Inside Crime (1080p)
@@ -3741,6 +3781,8 @@ https://reflect-jacksonville.cablecast.tv/live-8/live/live.m3u8
 https://jktglobe.secureswiftcontent.com/han/jktglobe/jktglober/srtoutput/manifest.m3u8
 #EXTINF:-1 tvg-id="JamaicaOnlineTV.jm@SD" tvg-name="Jamaica Online TV (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/Aw9u4Ax.png" group-title="English/Other",Jamaica Online TV (1080p) [Not 24/7]
 https://tvsw7-hls.secdn.net/tvsw7-chorigin/play/prod-bb11dd0e11ca45229a3f58aeff5213d8/playlist.m3u8
+#EXTINF:-1 tvg-id="JamaicaTravelChannel.jm@SD" tvg-name="Jamaica Travel Channel (720p)" tvg-logo="https://i.imgur.com/ewdPTh8.png" group-title="English/Travel",Jamaica Travel Channel (720p)
+https://stream-207076.castr.net/651b2d8bde8119abf5dabf19/live_2e935360c78c11eea7a2615e1a7388f3/index.m3u8
 #EXTINF:-1 tvg-id="JBS.us@SD" tvg-name="JBS (404p) [Not 24/7]" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_lDWY-W9dD7UvLlp1NuWLJs1wV6t_KjeOT-1iVVIGuLZ8U=s512-c-k-c0x00ffffff-no-rj" group-title="English/Other",JBS (404p) [Not 24/7]
 http://uni8rtmp.tulix.tv:1935/shalomtv-pc/smil:shalomtv.smil/master.m3u8
 #EXTINF:-1 tvg-id="JCMTV.ke@SD" tvg-name="JCM TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/28YB7dD.jpg" group-title="English/Other",JCM TV (720p) [Not 24/7]
@@ -3769,6 +3811,8 @@ https://amg00514-noseybaxterllc-realnosey-cineverse-tqbpv.amagi.tv/playlist/amg0
 https://juicex.nz/hls/mystream.m3u8
 #EXTINF:-1 tvg-id="JustforLaughsGags.us@SD" tvg-name="Just for Laughs Gags (1080p)" tvg-logo="https://i.imgur.com/HjVEVMJ.png" group-title="English/Other",Just for Laughs Gags (1080p)
 https://streams2.sofast.tv/ptnr-yupptv/title-JUST_FOR_LAUGHS_GAGS_YUPPTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2790d143-5874-4146-bf91-9063c52b2f15/manifest.m3u8
+#EXTINF:-1 tvg-id="K24.ke@SD" tvg-name="K24" tvg-logo="https://i.imgur.com/SUjo6Bm.png" group-title="English/Other",K24
+https://livecdn.premiumfree.tv/afxpstr/K24Backup/index.m3u8
 #EXTINF:-1 tvg-id="KContentbyCJENM.us@SD" tvg-name="K Content by CJ ENM (1080p)" tvg-logo="https://i.imgur.com/lRy231d.png" group-title="English/Other",K Content by CJ ENM (1080p)
 https://d2q0mzb9bm4w5z.cloudfront.net/68fee8e1_605a_437b_b968_244c3c0d5f24/hls/playlist.m3u8
 #EXTINF:-1 tvg-id="KaloopyTV.us@SD" tvg-name="Kaloopy TV (1080p)" tvg-logo="https://i.imgur.com/XPyOTZF.jpeg" group-title="English/Other",Kaloopy TV (1080p)
@@ -4149,6 +4193,8 @@ https://indihuy.streamized.net/atm/DASH/mnctv/manifest.mpd
 http://149.71.34.166:8000/play/a05u/index.m3u8
 #EXTINF:-1 tvg-id="MCPSSTV.us@SD" tvg-name="Mobile County Public Schools TV Network (MCPSS)" tvg-logo="https://i.imgur.com/qo5sk1g.png" group-title="English/Other",Mobile County Public Schools TV Network (MCPSS)
 https://5b200f5268ceb.streamlock.net/MCPSS/MCPSS247.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="MOFTV.ke@SD" tvg-name="MOF TV" tvg-logo="https://i.imgur.com/XVBNfaa.png" group-title="English/Other",MOF TV
+https://goliveafrica.media:9998/live/6425a6efa15c8/index.m3u8
 #EXTINF:-1 tvg-id="MOGPATV.gh@SD" tvg-name="MOGPA TV (720p)" tvg-logo="https://i.imgur.com/34PmVAq.png" group-title="English/Other",MOGPA TV (720p)
 https://livestream.anojed.com/ablazetv/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="MOGPATVPlus.gh@SD" tvg-name="MOGPA TV Plus" tvg-logo="https://i.imgur.com/0YLSM3R.png" group-title="English/Other",MOGPA TV Plus
@@ -4165,12 +4211,16 @@ https://castus-vod-dev.s3.amazonaws.com/vod_clients/monroe/live/ch1/video.m3u8
 https://jmp2.uk/plu-65bcc9c8d77d450008b34c6b.m3u8
 #EXTINF:-1 tvg-id="MonteCarloDigitalTelevision.fr@HD" tvg-name="Monte Carlo Digital Television (1080p)" tvg-logo="https://i.imgur.com/99h8F1y.jpeg" group-title="English/Other",Monte Carlo Digital Television (1080p)
 https://fl718492-exthls-p1.flovp.com/fl718492/live/live.m3u8
+#EXTINF:-1 tvg-id="MontgomeryChannel.us@SD" tvg-name="Montgomery Channel" tvg-logo="https://i.imgur.com/mU1Ixfj.png" group-title="English/Other",Montgomery Channel
+https://reflect-montgomerycommunitymedia.cablecast.tv/live-11/live/stream-4/live.m3u8
 #EXTINF:-1 tvg-id="MontrealGreekTV.ca@SD" tvg-name="Montreal Greek TV (480p)" tvg-logo="https://i.imgur.com/Y5YnUit.png" group-title="English/Other",Montreal Greek TV (480p)
 http://live.greektv.ca/hls1/greektv.m3u8
 #EXTINF:-1 tvg-id="MoonbugKids.uk@SD" tvg-name="Moonbug Kids (1080p)" tvg-logo="https://i.imgur.com/vZHtxQb.png" group-title="English/Kids",Moonbug Kids (1080p)
 https://moonbug-rokuus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="MPTV.us@SD" tvg-name="Moorpark Government Channel (360p)" tvg-logo="https://i.imgur.com/OOQqMQz.png" group-title="English/Other",Moorpark Government Channel (360p)
 https://cdn3.wowza.com/5/cXdyRHF0Z3kxN0k2/moorpark/G0086_003/playlist.m3u8
+#EXTINF:-1 tvg-id="More4.uk@SD" tvg-name="More4 (576p)" tvg-logo="https://i.imgur.com/cx5YcAU.png" group-title="English/Other",More4 (576p)
+https://adpnetworkhd-cmd.github.io/iptv/More4.m3u8
 #EXTINF:-1 tvg-id="MoreGraceTV.ng@SD" tvg-name="More Grace TV (410p) [Not 24/7]" tvg-logo="https://i.imgur.com/DNTeCQt.png" group-title="English/Other",More Grace TV (410p) [Not 24/7]
 https://atechgroupuk.site/ETV.m3u8
 #EXTINF:-1 tvg-id="MoreTVDrama.us@SD" tvg-name="More TV Drama" tvg-logo="https://i.imgur.com/Tw3rTxP.png" group-title="English/Other",More TV Drama
@@ -4321,6 +4371,8 @@ https://livestream.telvue.com/natickpegasus2/f7b44cfafd5c52223d5498196c8a2e7b.sd
 http://213.91.179.28:8000/play/a0ct
 #EXTINF:-1 tvg-id="NationalGeographic.in@HD" tvg-name="National Geographic HD (576p)" tvg-logo="https://dtil.tmsimg.com/assets/s143574_ld_h15_aa.png?lock=720x540" group-title="English/Other",National Geographic HD (576p)
 http://149.71.34.166:8002/play/a013/index.m3u8
+#EXTINF:-1 tvg-id="NationalGeographic.ro@HD" tvg-name="National Geographic HD (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="English/Other",National Geographic HD (1080p)
+https://adpnetworkhd-cmd.github.io/iptv/NatGeoRomania.m3u8
 #EXTINF:-1 tvg-id="NationalGeographic.us@HDEast" tvg-name="National Geographic HD East (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="English/Other",National Geographic HD East (720p)
 http://198.58.104.90:8989/natgeo/index.m3u8
 #EXTINF:-1 tvg-id="NationalGeographicWild.in@HD" tvg-name="National Geographic Wild HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NAT_GEO_WILD/images/LOGO_HD/image.png" group-title="English/Other",National Geographic Wild HD (1080p)
@@ -4491,6 +4543,8 @@ https://jmp2.uk/plu-5ca6748a37b88b269472dad9.m3u8
 http://195.64.140.147:10121/121
 #EXTINF:-1 tvg-id="Nickelodeon.nl@SD" tvg-name="Nickelodeon (1080p)" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="English/Kids",Nickelodeon (1080p)
 http://193.239.186.231/NICK/index.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.ru@SD" tvg-name="Nickelodeon (576p)" tvg-logo="https://i.imgur.com/w8iE8dV.png" group-title="English/Kids",Nickelodeon (576p)
+https://adpnetworkhd-cmd.github.io/iptv/NickelodeonRussia.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.uk@SD" tvg-name="Nickelodeon (576p)" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="English/Kids",Nickelodeon (576p)
 https://trs1.aynaott.com/nicklodean/index.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.us@East" tvg-name="Nickelodeon (1080p)" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="English/Kids",Nickelodeon (1080p)
@@ -5081,8 +5135,8 @@ https://jmp2.uk/plu-6683cd71a1d7ad000866ec6a.m3u8
 https://jmp2.uk/plu-687007a8ee4155e89a8f6d67.m3u8
 #EXTINF:-1 tvg-id="PokerGo.us@US" tvg-name="Poker Go (1080p)" tvg-logo="https://i.imgur.com/1603HED.png" group-title="English/Other",Poker Go (1080p)
 https://aegis-cloudfront-1.tubi.video/b474c2bb-b34d-4c53-a94b-c4ffe884563c/playlist.m3u8
-#EXTINF:-1 tvg-id="PolsatJimJam.pl@SD" tvg-name="Polsat JimJam (576p) [Not 24/7]" tvg-logo="https://i.imgur.com/GjppUlg.png" group-title="English/Other",Polsat JimJam (576p) [Not 24/7]
-http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/7298/index.m3u8
+#EXTINF:-1 tvg-id="PolsatJimJam.pl@SD" tvg-name="Polsat JimJam (576p)" tvg-logo="https://i.imgur.com/GjppUlg.png" group-title="English/Other",Polsat JimJam (576p)
+https://adpnetworkhd-cmd.github.io/iptv/JimJamPolsat.m3u8
 #EXTINF:-1 tvg-id="PomonaInternetStreamingChannel.us@SD" tvg-name="Pomona Internet Streaming Channel (Pomona CA) (720p)" tvg-logo="https://i.imgur.com/80gaUbq.png" group-title="English/Other",Pomona Internet Streaming Channel (Pomona CA) (720p)
 https://reflect-pomona.cablecast.tv/live-1/live/live.m3u8
 #EXTINF:-1 tvg-id="CityofPompanoBeach.us@SD" tvg-name="Pompano Beach Web Streaming (Pompano Beach FL) (720p)" tvg-logo="https://i.imgur.com/Bv9OGrH.png" group-title="English/Other",Pompano Beach Web Streaming (Pompano Beach FL) (720p)
@@ -5235,6 +5289,8 @@ https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_039/Stream/playlist.m3u
 https://stream.weathernationtv.com/RAVStirr_poekxujeisurekugzezyg/O1/playlistSCTE35.m3u8
 #EXTINF:-1 tvg-id="RealWild.uk@SD" tvg-name="Real Wild (1080p)" tvg-logo="https://i.imgur.com/T9HHmAO.png" group-title="English/Other",Real Wild (1080p)
 https://lds-realwild-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Really.uk@SD" tvg-name="Really (576p)" tvg-logo="https://i.imgur.com/lY5sFgo.png" group-title="English/Other",Really (576p)
+https://adpnetworkhd-cmd.github.io/iptv/Really.m3u8
 #EXTINF:-1 tvg-id="RedApple21.us@SD" tvg-name="Red Apple 21 (Fairfax County Public Schools) (480p) [Not 24/7]" tvg-logo="https://i.imgur.com/ICcQUCH.png" group-title="English/Other",Red Apple 21 (Fairfax County Public Schools) (480p) [Not 24/7]
 https://cs.ebmcdn.net/eastbay-live-hs-1/fcps/mp4:fcps/playlist.m3u8
 #EXTINF:-1 tvg-id="RedBullTV.at@EUMENA" tvg-name="Red Bull TV (1080p)" tvg-logo="https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png" group-title="English/Other",Red Bull TV (1080p)
@@ -5545,6 +5601,8 @@ https://jmp2.uk/plu-5c393cad2de254456f7ef8c2.m3u8
 https://jmp2.uk/plu-5812bcc8237a6ff45d16c407.m3u8
 #EXTINF:-1 tvg-id="SpiritTV.us@SD" tvg-name="Spirit TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/yCp6vXz.png" group-title="English/Other",Spirit TV (720p) [Not 24/7]
 https://cdnlive.myspirit.tv/LS-ATL-43240-2/index.m3u8
+#EXTINF:-1 tvg-id="Sport1Baltic.ua@SD" tvg-name="Sport 1 Baltic" tvg-logo="https://i.imgur.com/aBY7QK4.png" group-title="English/Other",Sport 1 Baltic
+http://ott.watch/XE5QWWBZ87/461/tracks-v2a1/mono.ts.m3u8?sid=c3f03b2b-bf32-49e2-8675-d1a321912ce8
 #EXTINF:-1 tvg-id="SportsConnect.za@SD" tvg-name="Sports Connect (720p)" tvg-logo="https://i.imgur.com/0sNWg54.png" group-title="English/Sports",Sports Connect (720p)
 https://streamdot.broadpeak.io/cff02a74da64d1459391ce1f72d58f1a/afxpstr/SportsConnect/index.m3u8
 #EXTINF:-1 tvg-id="SportsGrid.us@SD" tvg-name="SportsGrid (1080p)" tvg-logo="https://i.imgur.com/ulGKX30.png" group-title="English/Sports",SportsGrid (1080p)
@@ -5985,6 +6043,8 @@ https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
 https://d2l4tng0wskzvn.cloudfront.net/Trace_GB.m3u8
 #EXTINF:-1 tvg-id="TraceUrban.fr@SD" tvg-name="Trace Urban (Australia) (1080p)" tvg-logo="https://i.imgur.com/DLIbUMx.png" group-title="English/Other",Trace Urban (Australia) (1080p)
 https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TraceUrban.fr@HD" tvg-name="Trace Urban HD" tvg-logo="https://i.imgur.com/DLIbUMx.png" group-title="English/Other",Trace Urban HD
+https://channels.trace.plus/Traceprod/URBAN_FR_hd/index.m3u8
 #EXTINF:-1 tvg-id="Trailers.es@UK" tvg-name="Trailers (1080p)" tvg-logo="https://i.imgur.com/RwZ1hCN.png" group-title="English/Other",Trailers (1080p)
 https://amg01821-lovetvchannels-lovemagazineuk-samsungse-p1sf1.amagi.tv/playlist/amg01821-lovetvchannels-lovemagazineuk-samsungse/playlist.m3u8
 #EXTINF:-1 tvg-id="TransformersTV.cm@SD" tvg-name="Transformers TV (720p)" tvg-logo="https://i.imgur.com/EQRyJMI.png" group-title="English/Other",Transformers TV (720p)
