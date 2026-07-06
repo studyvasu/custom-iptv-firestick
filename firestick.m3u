@@ -145,8 +145,10 @@ https://reflect-hudsonctv.cablecast.tv/live-26/live/stream-1/live.m3u8
 http://41.205.77.102/FOX-NEWS/index.m3u8
 #EXTINF:-1 tvg-id="HallmarkMoviesMore.us@SD" tvg-name="Hallmark Movies & More (1080p)" tvg-logo="" group-title="Movies",Hallmark Movies & More (1080p)
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991709
-#EXTINF:-1 tvg-id="Movies.us@SD" tvg-name="Movies! (576p)" tvg-logo="" group-title="Movies",Movies! (576p)
+#EXTINF:-1 tvg-id="KPVMLD252.us@SD" tvg-name="KPVM Movies!" tvg-logo="" group-title="Movies",KPVM Movies!
 https://2-fss-2.streamhoster.com/pl_120/206858-4412962-1/playlist.m3u8
+#EXTINF:-1 tvg-id="KPVMLD255.us@SD" tvg-name="KPVM Newsmax 2 [Not 24/7]" tvg-logo="" group-title="News",KPVM Newsmax 2 [Not 24/7]
+https://2-fss-2.streamhoster.com/pl_120/206858-4404556-1/playlist.m3u8
 #EXTINF:-1 tvg-id="PBSKids.us@SD" tvg-name="PBS Kids (720p)" tvg-logo="" group-title="Kids",PBS Kids (720p)
 http://206.212.244.63/669/index.m3u8
 #EXTINF:-1 tvg-id="ABCNewsLive.us@SD" tvg-name="ABC News Live (720p)" tvg-logo="" group-title="News",ABC News Live (720p)
