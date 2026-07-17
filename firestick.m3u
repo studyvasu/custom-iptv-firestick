@@ -265,6 +265,8 @@ https://d1ewctnvcwvvvu.cloudfront.net/playlist.m3u8
 https://streamvidex.qzz.io/videx/fox2usa/index.m3u8
 #EXTINF:-1 tvg-id="DNews.us@SD" tvg-name="DNews (720p)" tvg-logo="" group-title="News",DNews (720p)
 http://38.19.16.151:8000/play/a0a3
+#EXTINF:-1 tvg-id="LifetimeMovies.us@West" tvg-name="Lifetime Movies West (1080p)" tvg-logo="" group-title="Movies",Lifetime Movies West (1080p)
+http://108.181.20.255:27347/livehttpplay?channel_id=23107
 #EXTINF:-1 tvg-id="AfghanistanInternational.uk@SD" tvg-name="Afghanistan International (720p)" tvg-logo="" group-title="Other",Afghanistan International (720p)
 https://hls.afintl.com/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AfrobeatTVEntertainment.uk@SD" tvg-name="Afrobeats (1080p)" tvg-logo="" group-title="Other",Afrobeats (1080p)
@@ -345,8 +347,6 @@ https://hls.autopo.st/hls/britasiatv/index.m3u8
 https://5caf24a595d94.streamlock.net:1937/pvyugfkzkc/pvyugfkzkc/playlist.m3u8
 #EXTINF:-1 tvg-id="CBeebiesAsia.uk@SD" tvg-name="CBeebies Asia (720p)" tvg-logo="" group-title="Other",CBeebies Asia (720p)
 https://cdn10jtedge.indihometv.com/atm/DASH/cbeebies/manifest.mpd
-#EXTINF:-1 tvg-id="Channel4.uk@UK" tvg-name="Channel 4 (1080p)" tvg-logo="" group-title="Other",Channel 4 (1080p)
-http://80.194.62.172:50002/stream/channelid/1940621521
 #EXTINF:-1 tvg-id="Channel5.uk@HD" tvg-name="Channel 5 HD (720p)" tvg-logo="" group-title="Other",Channel 5 HD (720p)
 http://193.46.58.239:8080/Channel5/index.m3u8
 #EXTINF:-1 tvg-id="ChannelS.uk@SD" tvg-name="Channel S (576p)" tvg-logo="" group-title="Other",Channel S (576p)
@@ -1593,6 +1593,8 @@ https://stream.sen-gt.com/A2itv/myStream/playlist.m3u8
 https://streams.comclark.com/pknsd/a2z/playlist.m3u8
 #EXTINF:-1 tvg-id="AE.us@East" tvg-name="A&E (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png" group-title="English/Other",A&E (720p)
 http://23.239.31.26:8989/aande/index.m3u8
+#EXTINF:-1 tvg-id="AE.us@West" tvg-name="A&E West (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png" group-title="English/Other",A&E West (720p)
+http://108.181.20.255:27347/livehttpplay?channel_id=23104
 #EXTINF:-1 tvg-id="KIIOLD104.us@SD" tvg-name="AABC TV (480p)" tvg-logo="https://i.imgur.com/Spu4s89.png" group-title="English/Other",AABC TV (480p)
 https://streamer1.connectto.com/AABC_WEB_1201/index.m3u8
 #EXTINF:-1 tvg-id="AbanteTV.ph@HD" tvg-name="Abante TV (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d9/Abante_masthead.svg" group-title="English/Other",Abante TV (1080p)
@@ -2721,8 +2723,6 @@ https://mn-nl.mncdn.com/dogusdyg_drone/cgtn/playlist.m3u8
 https://amg01314-amg01314c6-distrotv-us-10220.playouts.now.amagi.tv/playlist/amg01314-cgtn-cgtnglobalbiz-distrotvus/playlist.m3u8
 #EXTINF:-1 tvg-id="CGTV.us@SD" tvg-name="Champaign Government Television (CGTV) (Champaign IL) (720p)" tvg-logo="https://champaignil.gov/wp-content/uploads/2011/06/cgtv-page-logo.jpg" group-title="English/Other",Champaign Government Television (CGTV) (Champaign IL) (720p)
 https://champaign-cablecast.cablecast.tv/live/stream-2/live.m3u8
-#EXTINF:-1 tvg-id="Channel4.uk@UK" tvg-name="Channel 4 (1080p)" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1621.png" group-title="English/Other",Channel 4 (1080p)
-http://80.194.62.172:50002/stream/channelid/1940621521
 #EXTINF:-1 tvg-id="Channel5.uk@HD" tvg-name="Channel 5 HD (720p)" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1800.png" group-title="English/Other",Channel 5 HD (720p)
 http://193.46.58.239:8080/Channel5/index.m3u8
 #EXTINF:-1 tvg-id="Channel7.au@Sydney" tvg-name="Channel 7 (720p) [Geo-blocked]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Seven_Network_logo.svg/500px-Seven_Network_logo.svg.png" group-title="English/Other",Channel 7 (720p) [Geo-blocked]
@@ -2897,8 +2897,8 @@ https://cdn4.skygo.mn/live/disk1/CNBC/HLSv3-FTA/CNBC.m3u8
 https://n18syndication.akamaized.net/bpk-tv/CNBC_TV18_NW18_MOB/output01/index.m3u8
 #EXTINF:-1 tvg-id="CNBCTV18PrimeHD.in@SD" tvg-name="CNBC TV18 Prime HD (1080p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/CNBCTV18Prime.png" group-title="English/Other",CNBC TV18 Prime HD (1080p)
 https://n18syndication.akamaized.net/bpk-tv/CNBC_Tv18_Prime_HD_NW18_MOB/output01/index.m3u8
-#EXTINF:-1 tvg-id="CNBCWorld.us@SD" tvg-name="CNBC World (576p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CNBC_World_2025.svg/960px-CNBC_World_2025.svg.png" group-title="English/Other",CNBC World (576p)
-http://40.160.24.52/CNBC_WORLD/index.m3u8
+#EXTINF:-1 tvg-id="CNBCWorld.us@SD" tvg-name="CNBC World (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CNBC_World_2025.svg/960px-CNBC_World_2025.svg.png" group-title="English/Other",CNBC World (720p)
+http://108.181.20.255:27347/livehttpplay?channel_id=23117
 #EXTINF:-1 tvg-id="WRDELD311.us@HD" tvg-name="CoastTV NBC (WRDE-LD) (720p) [Not 24/7]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/960px-NBC_logo_2022_%28vertical%29.svg.png" group-title="English/Other",CoastTV NBC (WRDE-LD) (720p) [Not 24/7]
 https://live.field59.com/wrde/wrde1/playlist.m3u8
 #EXTINF:-1 tvg-id="ColdCaseFiles.us@SD" tvg-name="Cold Case Files (1080p)" tvg-logo="https://i.imgur.com/mowSfj6.png" group-title="English/Other",Cold Case Files (1080p)
@@ -3499,10 +3499,10 @@ http://193.239.186.231/FILMBOX/index.m3u8
 https://dash3.antik.sk/live/test_filmbox_arthouse_atk_1200/playlist.m3u8
 #EXTINF:-1 tvg-id="FilmBoxBaltics.nl@SD" tvg-name="FilmBox Baltics (450p) [Geo-blocked]" tvg-logo="https://i.imgur.com/gXu36aD.png" group-title="English/Other",FilmBox Baltics (450p) [Geo-blocked]
 https://s70378.cdn.ngenix.net/filmbox/index.m3u8
+#EXTINF:-1 tvg-id="FilmBoxFamily.nl@Hungary" tvg-name="FilmBox Family Hungary (576p)" tvg-logo="https://i.imgur.com/CGFyAyc.png" group-title="English/Other",FilmBox Family Hungary (576p)
+http://88.212.15.19/live/test_filmbox_family_hun_atk_1200/playlist.m3u8
 #EXTINF:-1 tvg-id="FilmBoxFamily.nl@Africa" tvg-name="FilmBox+ Comedy" tvg-logo="https://i.imgur.com/CGFyAyc.png" group-title="English/Other",FilmBox+ Comedy
 http://88.212.15.19/live/test_filmbox_family_atk_1200/playlist.m3u8
-#EXTINF:-1 tvg-id="FilmBoxFamily.nl@Hungary" tvg-name="FilmBox+ Comedy Hungary" tvg-logo="https://i.imgur.com/CGFyAyc.png" group-title="English/Other",FilmBox+ Comedy Hungary
-http://46.149.191.217:9000/play/a057
 #EXTINF:-1 tvg-id="FilmBoxExtra.nl@Adria" tvg-name="FilmBox+ Emotion Adria" tvg-logo="https://i.imgur.com/ML7SlIW.png" group-title="English/Other",FilmBox+ Emotion Adria
 https://webtvstream.bhtelecom.ba/hls7/filmbox_extra.m3u8
 #EXTINF:-1 tvg-id="FilmBoxPremium.nl@Adria" tvg-name="FilmBox+ Hits Adria" tvg-logo="https://i.imgur.com/RydfsE9.png" group-title="English/Other",FilmBox+ Hits Adria
@@ -3653,6 +3653,8 @@ http://40.160.24.52/FXM/index.m3u8
 http://23.237.104.106:8080/USA_FXX/index.m3u8
 #EXTINF:-1 tvg-id="FYI.us@East" tvg-name="FYI (720p)" tvg-logo="https://i.imgur.com/PggQk7F.png" group-title="English/Other",FYI (720p)
 http://206.212.244.63/78/index.m3u8
+#EXTINF:-1 tvg-id="FYI.us@West" tvg-name="FYI West (1080p)" tvg-logo="https://i.imgur.com/PggQk7F.png" group-title="English/Other",FYI West (1080p)
+http://108.181.20.255:27347/livehttpplay?channel_id=23108
 #EXTINF:-1 tvg-id="Gagsnetwork.us@SD" tvg-name="Gagsnetwork (576p)" tvg-logo="https://i.imgur.com/ENj5GIp.png" group-title="English/Other",Gagsnetwork (576p)
 http://hls127.freeott.top:8080/Gagsnetwork/video.m3u8
 #EXTINF:-1 tvg-id="Community12TV.us@SD" tvg-name="Gainesville Community 12TV (Gainesville FL) (720p)" tvg-logo="https://i.imgur.com/Oel3q43.png" group-title="English/Other",Gainesville Community 12TV (Gainesville FL) (720p)
@@ -3909,6 +3911,8 @@ https://lds-timeline-rakuten.amagi.tv/playlist.m3u8
 http://103.72.101.252:8080/live/1471.m3u8
 #EXTINF:-1 tvg-id="HistoryTV18.in@HD" tvg-name="History TV18 HD (1080p)" tvg-logo="https://dtil.tmsimg.com/assets/s143133_ld_h15_aa.png?lock=720x540" group-title="English/Other",History TV18 HD (1080p)
 http://103.154.3.101:5001/live/577.m3u8
+#EXTINF:-1 tvg-id="History.us@West" tvg-name="History West (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png" group-title="English/Other",History West (1080p)
+http://108.181.20.255:27347/livehttpplay?channel_id=23105
 #EXTINF:-1 tvg-id="HITS.sg@SD" tvg-name="HITS (720p)" tvg-logo="https://i.imgur.com/IM8Gy1l.png" group-title="English/Other",HITS (720p)
 https://cdn10jtedge.indihometv.com/atm/DASH/hits/manifest.mpd
 #EXTINF:-1 tvg-id="HITSMovies.sg@HD" tvg-name="HITS Movies HD (720p)" tvg-logo="https://i.imgur.com/kyE3vXf.png" group-title="English/Movies",HITS Movies HD (720p)
@@ -4385,8 +4389,12 @@ https://2-fss-1.streamhoster.com/pl_122/200226-1427780-1/playlist.m3u8
 http://40.160.24.53/LIFETIME/index.m3u8
 #EXTINF:-1 tvg-id="LifetimeMovies.us@East" tvg-name="Lifetime Movies (1080p)" tvg-logo="https://i.imgur.com/BWmqYTO.png" group-title="English/Movies",Lifetime Movies (1080p)
 http://23.237.104.106:8080/USA_LMN/index.m3u8
+#EXTINF:-1 tvg-id="LifetimeMovies.us@West" tvg-name="Lifetime Movies West (1080p)" tvg-logo="https://i.imgur.com/BWmqYTO.png" group-title="English/Movies",Lifetime Movies West (1080p)
+http://108.181.20.255:27347/livehttpplay?channel_id=23107
 #EXTINF:-1 tvg-id="LifetimeRealWomen.us@SD" tvg-name="Lifetime Real Women (576p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/LRW_logo_2012.png/960px-LRW_logo_2012.png" group-title="English/Other",Lifetime Real Women (576p)
 http://40.160.24.58/LIFETIME_REAL_WOMEN/index.m3u8
+#EXTINF:-1 tvg-id="Lifetime.us@West" tvg-name="Lifetime West (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/960px-Logo_Lifetime_2020.svg.png" group-title="English/Other",Lifetime West (720p)
+http://108.181.20.255:27347/livehttpplay?channel_id=23106
 #EXTINF:-1 tvg-id="LifevisionTV.us@SD" tvg-name="LifevisionTV (406p) [Not 24/7]" tvg-logo="" group-title="English/Other",LifevisionTV (406p) [Not 24/7]
 https://tgn.bozztv.com/lifevision/lifevision/index.m3u8
 #EXTINF:-1 tvg-id="LLBNHisLight.us@SD" tvg-name="Lighting Lives Blessing Nations His Light (LLBN) (720p)" tvg-logo="https://i.imgur.com/YkLZjRw.png" group-title="English/Other",Lighting Lives Blessing Nations His Light (LLBN) (720p)
@@ -4617,6 +4625,10 @@ http://40.160.24.52/EPIX/index.m3u8
 http://40.160.24.52/EPIX_DRIVE-IN/index.m3u8
 #EXTINF:-1 tvg-id="MGMPlusHits.us@East" tvg-name="MGM+ Hits (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/MGM%2B_Hits_2023.svg/960px-MGM%2B_Hits_2023.svg.png" group-title="English/Other",MGM+ Hits (720p)
 http://40.160.24.52/EPIX_2/index.m3u8
+#EXTINF:-1 tvg-id="MGMPlusMarquee.us@SD" tvg-name="MGM+ Marquee (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/MGM%2B_Marquee_2023.svg/960px-MGM%2B_Marquee_2023.svg.png" group-title="English/Other",MGM+ Marquee (720p)
+http://108.181.20.255:27347/livehttpplay?channel_id=23075
+#EXTINF:-1 tvg-id="MGMPlus.us@West" tvg-name="MGM+ West (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/MGM%2B_logo.svg/960px-MGM%2B_logo.svg.png" group-title="English/Other",MGM+ West (720p)
+http://108.181.20.255:27347/livehttpplay?channel_id=23073
 #EXTINF:-1 tvg-id="MHZ.ca@SD" tvg-name="MHZ" tvg-logo="https://i.imgur.com/a5fw83n.jpg" group-title="English/Other",MHZ
 https://mhz-samsung-linear-ca.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="MBTV.us@SD" tvg-name="Miami Beach Tv (MBTV) (Miami Beach FL) (720p)" tvg-logo="https://i.imgur.com/LyqFr9E.png" group-title="English/Other",Miami Beach Tv (MBTV) (Miami Beach FL) (720p)
@@ -5143,10 +5155,14 @@ https://jmp2.uk/plu-5d8d08395f39465da6fb3ec4.m3u8
 http://46.149.191.217:9011/play/a018
 #EXTINF:-1 tvg-id="NickelodeonPlutoTV.us@SD" tvg-name="Nickelodeon Pluto TV (720p)" tvg-logo="https://images.pluto.tv/channels/5ca673e0d0bd6c2689c94ce3/colorLogoPNG.png" group-title="English/Kids",Nickelodeon Pluto TV (720p)
 https://jmp2.uk/plu-5ca673e0d0bd6c2689c94ce3.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.us@West" tvg-name="Nickelodeon West (720p)" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="English/Kids",Nickelodeon West (720p)
+http://108.181.20.255:27347/livehttpplay?channel_id=23019
 #EXTINF:-1 tvg-id="Nicktoons.us@CA" tvg-name="NickToons" tvg-logo="https://images.pluto.tv/channels/654ca7f92c1d3300086b608c/colorLogoPNG_1751457678592.png" group-title="English/Kids",NickToons
 https://jmp2.uk/plu-654ca7f92c1d3300086b608c.m3u8
 #EXTINF:-1 tvg-id="Nicktoons.us@East" tvg-name="Nicktoons (720p)" tvg-logo="https://images.pluto.tv/channels/654ca7f92c1d3300086b608c/colorLogoPNG_1751457678592.png" group-title="English/Kids",Nicktoons (720p)
 http://40.160.24.55/NICKTOONS/index.m3u8
+#EXTINF:-1 tvg-id="Nicktoons.us@West" tvg-name="Nicktoons West (720p)" tvg-logo="https://images.pluto.tv/channels/654ca7f92c1d3300086b608c/colorLogoPNG_1751457678592.png" group-title="English/Kids",Nicktoons West (720p)
+http://108.181.20.255:27347/livehttpplay?channel_id=23079
 #EXTINF:-1 tvg-id="Nigbati.ng@SD" tvg-name="Nigbati (720p) [Not 24/7]" tvg-logo="" group-title="English/Other",Nigbati (720p) [Not 24/7]
 https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_023/Stream/playlist.m3u8
 #EXTINF:-1 tvg-id="NinjaKidzTV.us@SD" tvg-name="Ninja Kidz (720p)" tvg-logo="https://i.imgur.com/7EngqUi.png" group-title="English/Other",Ninja Kidz (720p)
@@ -6475,6 +6491,8 @@ https://lotus.stingray.com/manifest/ose-107ads-montreal/samsungtvplus/master.m3u
 https://plextv.ott-channels.stingray.com/holidayscapes/master.m3u8
 #EXTINF:-1 tvg-id="StingrayHotCountry.ca@SD" tvg-name="Stingray Hot Country (1080p)" tvg-logo="https://i.imgur.com/PZhxyIT.png" group-title="English/Other",Stingray Hot Country (1080p)
 https://lotus.stingray.com/manifest/ose-108ads-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id="StingrayiConcerts.ca@HD" tvg-name="Stingray iConcerts HD" tvg-logo="https://i.imgur.com/GKc7RFz.png" group-title="English/Other",Stingray iConcerts HD
+https://dash4.antik.sk/live/test_stingray_iconcerts_hd_hevc50/playlist.m3u8
 #EXTINF:-1 tvg-id="StingrayJukeboxOldies.ca@SD" tvg-name="Stingray Jukebox Oldies (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Stingray_Music_logo.svg/960px-Stingray_Music_logo.svg.png" group-title="English/Other",Stingray Jukebox Oldies (1080p)
 https://lotus.stingray.com/manifest/ose-021ads-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-id="StingrayKaraoke.ca@SD" tvg-name="Stingray Karaoke (1080p)" tvg-logo="https://i.imgur.com/9TLTLS3.png" group-title="English/Other",Stingray Karaoke (1080p)
@@ -6569,6 +6587,8 @@ https://stream.swamiji.tv/YogaIPTV/smil:YogaStream.smil/playlist.m3u8
 https://linear-253.frequency.stream/mt/roku/253/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="SYFY.us@East" tvg-name="SYFY (1080p)" tvg-logo="https://i.imgur.com/4fMWhUE.png" group-title="English/Other",SYFY (1080p)
 https://gpuserver5.tier1streams.com/SYFY/index.m3u8
+#EXTINF:-1 tvg-id="SYFY.us@West" tvg-name="SYFY West (720p)" tvg-logo="https://i.imgur.com/4fMWhUE.png" group-title="English/Other",SYFY West (720p)
+http://108.181.20.255:27347/livehttpplay?channel_id=23111
 #EXTINF:-1 tvg-id="SynagogueTV.ng@SD" tvg-name="Synagogue TV (576p)" tvg-logo="https://i.imgur.com/MOaBr9M.png" group-title="English/Other",Synagogue TV (576p)
 https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_038/Stream/playlist.m3u8
 #EXTINF:-1 tvg-id="TPlusE.ca@SD" tvg-name="T+E (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/4e/T%2BE_Television.png" group-title="English/Other",T+E (720p)
@@ -6639,6 +6659,8 @@ https://backend-server-dot-telearuba-app.appspot.com/media/livestream13/playlist
 https://streamvidex.qzz.io/videx/telemundo/index.m3u8
 #EXTINF:-1 tvg-id="TelemundoTelenovelasClasicas.us@SD" tvg-name="Telemundo telenovelas clásicas" tvg-logo="https://i.imgur.com/9bPcYIN.png" group-title="English/Other",Telemundo telenovelas clásicas
 https://jmp2.uk/plu-5cf96cc422df39f1a338d165.m3u8
+#EXTINF:-1 tvg-id="Telemundo.us@West" tvg-name="Telemundo West (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Telemundo_logo_2018.svg/960px-Telemundo_logo_2018.svg.png" group-title="English/Other",Telemundo West (720p)
+http://108.181.20.255:27347/livehttpplay?channel_id=23002
 #EXTINF:-1 tvg-id="Telepace2.it@SD" tvg-name="Telepace 2 (1080p)" tvg-logo="https://i.imgur.com/qvcf6QC.png" group-title="English/Other",Telepace 2 (1080p)
 https://zkpywrbgdbeg-hls-live.mariatvcdn.it/teleradiopace2/254c9b5c52a73a94ef0f6169cbd05dc2.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="Telepace4.it@SD" tvg-name="Telepace 4 (1080p)" tvg-logo="https://i.imgur.com/JKHEL1H.png" group-title="English/Other",Telepace 4 (1080p)
@@ -7207,10 +7229,6 @@ https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/universalcinema/playlist.m3u8
 http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/universalcomedy/playlist.m3u8
 #EXTINF:-1 tvg-id="UniversalCrime.us@East" tvg-name="Universal Crime (1080p)" tvg-logo="https://i.imgur.com/OwSlGMu.png" group-title="English/Other",Universal Crime (1080p)
 http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/universalcrime/playlist.m3u8
-#EXTINF:-1 tvg-id="UniversalPremiere.us@East" tvg-name="Universal Premiere (720p)" tvg-logo="https://i.imgur.com/KdFk80C.png" group-title="English/Other",Universal Premiere (720p)
-http://200.91.32.158:8080/universalpremierehd/index.m3u8
-#EXTINF:-1 tvg-id="UniversalReality.us@SD" tvg-name="Universal Reality (720p)" tvg-logo="https://i.imgur.com/mqfUD1R.png" group-title="English/Other",Universal Reality (720p)
-http://200.91.32.158:8080/universalrealityhd/index.m3u8
 #EXTINF:-1 tvg-id="Univision.us@East" tvg-name="Univision (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Logo_Univision_2019.svg/960px-Logo_Univision_2019.svg.png" group-title="English/Other",Univision (1080p)
 http://200.115.120.1:8000/play/ca106/index.m3u8
 #EXTINF:-1 tvg-id="Univision.us@West" tvg-name="Univision West (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Logo_Univision_2019.svg/960px-Logo_Univision_2019.svg.png" group-title="English/Other",Univision West (1080p)
@@ -7517,8 +7535,6 @@ https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae0
 https://amg00477-samsungelectron-worldpokertour-samsunguk-81igb.amagi.tv/playlist/amg00477-samsungelectron-worldpokertour-samsunguk/playlist.m3u8
 #EXTINF:-1 tvg-id="WorldPokerTour.us@US" tvg-name="World Poker Tour (1080p)" tvg-logo="https://i.imgur.com/98kLMjj.png" group-title="English/Travel",World Poker Tour (1080p)
 https://d2e00kr7m9coe4.cloudfront.net/scheduler/scheduleMaster/406.m3u8
-#EXTINF:-1 tvg-id="WPIXHD.us@SD" tvg-name="WPIX-HD (576p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/PIX11_2017.svg/960px-PIX11_2017.svg.png" group-title="English/Other",WPIX-HD (576p)
-http://84.17.50.102/cw/index.m3u8
 #EXTINF:-1 tvg-id="WPSTV.us@SD" tvg-name="WPS TV (360p)" tvg-logo="https://i.imgur.com/zwzmwse.jpg" group-title="English/Other",WPS TV (360p)
 https://2-fss-2.streamhoster.com/pl_120/amlst:203530-1426406/playlist.m3u8
 #EXTINF:-1 tvg-id="WPTVTV51.us@HD" tvg-name="WPTV News West Palm Beach FL (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/960px-NBC_logo_2022_%28vertical%29.svg.png" group-title="English/News",WPTV News West Palm Beach FL (720p)
