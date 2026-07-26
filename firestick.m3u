@@ -637,10 +637,6 @@ https://aes.m3u8simplu.workers.dev/amc/index.m3u8
 https://aes.m3u8simplu.workers.dev/bbcearth/index.m3u8
 #EXTINF:-1 tvg-id="BBCNews.uk@NorthAmerica" tvg-name="BBC News North America (1080p)" tvg-logo="" group-title="News",BBC News North America (1080p)
 https://gpuserver3.tier1streams.com/BBC_WORLD_NEWS/index.m3u8
-#EXTINF:-1 tvg-id="ClublandTV.uk@SD" tvg-name="Clubland TV (720p)" tvg-logo="" group-title="Other",Clubland TV (720p)
-http://bore.pub:14073/live.m3u8
-#EXTINF:-1 tvg-id="ClublandTV.uk@SD" tvg-name="Clubland TV (720p)" tvg-logo="" group-title="Other",Clubland TV (720p)
-http://bore.pub:40823/live.m3u8
 #EXTINF:-1 tvg-id="DerTV.uk@SD" tvg-name="Der TV" tvg-logo="" group-title="Other",Der TV
 https://stream.berosat.live/hls/der-tv/der-tv.m3u8
 #EXTINF:-1 tvg-id="BBCUHD2.uk@SD" tvg-name="BBC UHD 2 (1080p)" tvg-logo="" group-title="Other",BBC UHD 2 (1080p)
@@ -667,6 +663,8 @@ https://sra72yz.s.gy/CHANNEL_5_UNITED_KINGDOM
 https://sra72yz.s.gy/CHANNEL_4_UNITED_KINGDOM
 #EXTINF:-1 tvg-id="EDGEsport.uk@SD" tvg-name="EDGEsport (576p)" tvg-logo="" group-title="Other",EDGEsport (576p)
 https://sra72yz.s.gy/EDGE_SPORTS_SD
+#EXTINF:-1 tvg-id="ClublandTV.uk@SD" tvg-name="Clubland TV (576i)" tvg-logo="" group-title="Other",Clubland TV (576i)
+http://109.157.194.186:4040/clublandhls/now.m3u8
 #EXTINF:-1 tvg-id="2GB.au@SD" tvg-name="2GB Sydney (1080p)" tvg-logo="" group-title="Other",2GB Sydney (1080p)
 https://2gblive.akamaized.net/hls/live/2033805/2GB/index.m3u8
 #EXTINF:-1 tvg-id="3AW.au@SD" tvg-name="3AW Melbourne (1080p)" tvg-logo="" group-title="Other",3AW Melbourne (1080p)
@@ -963,8 +961,8 @@ http://103.72.101.252:8080/live/411.m3u8
 http://103.72.101.252:8080/live/1410.m3u8
 #EXTINF:-1 tvg-id="EVidya12.in@SD" tvg-name="E-Vidya 12 (576p)" tvg-logo="https://i.imgur.com/0sz6t9F.png" group-title="Hindi/Other",E-Vidya 12 (576p)
 http://103.72.101.252:8080/live/1532.m3u8
-#EXTINF:-1 tvg-id="EpicMusic.in@SD" tvg-name="Epic Music (720p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHOWBOX/images/LOGO_HD/image.png" group-title="Hindi/Music",Epic Music (720p)
-http://103.213.31.109:90/ShowBox/playlist.m3u8
+#EXTINF:-1 tvg-id="EpicMusic.in@SD" tvg-name="Epic Music (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHOWBOX/images/LOGO_HD/image.png" group-title="Hindi/Music",Epic Music (576p)
+https://mumt04.tangotv.in/m18aqlK4EPICMUSIC/index.m3u8
 #EXTINF:-1 tvg-id="EpicTV.in@SD" tvg-name="Epic TV (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_EPIC/images/LOGO_HD/image.png" group-title="Hindi/Other",Epic TV (576p)
 http://149.71.34.166:8000/play/a00m/index.m3u8
 #EXTINF:-1 tvg-id="EpicTV.in@Digital" tvg-name="Epic TV Digital (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_EPIC/images/LOGO_HD/image.png" group-title="Hindi/Other",Epic TV Digital (1080p)
@@ -2945,8 +2943,8 @@ https://live.cltv36.tv:5443/LiveApp/streams/cltvlive.m3u8
 https://d1j2csarxnwazk.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-uze1m6xh4fiyr-ssai-prd/master.m3u8
 #EXTINF:-1 tvg-id="ClubbingTV.us@UK" tvg-name="Clubbing TV UK (720p)" tvg-logo="https://i.imgur.com/MyiA92q.png" group-title="English/Other",Clubbing TV UK (720p)
 https://a-cdn.klowdtv.com/live3/clubbingtv_720p/playlist.m3u8
-#EXTINF:-1 tvg-id="ClublandTV.uk@SD" tvg-name="Clubland TV (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Clubland_TV_Logo_2022.svg/960px-Clubland_TV_Logo_2022.svg.png" group-title="English/Other",Clubland TV (720p)
-http://bore.pub:14073/live.m3u8
+#EXTINF:-1 tvg-id="ClublandTV.uk@SD" tvg-name="Clubland TV (576i)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Clubland_TV_Logo_2022.svg/960px-Clubland_TV_Logo_2022.svg.png" group-title="English/Other",Clubland TV (576i)
+http://109.157.194.186:4040/clublandhls/now.m3u8
 #EXTINF:-1 tvg-id="CMCUSACountryMusicChannel.us@SD" tvg-name="CMC-USA Country Music Channel (720p)" tvg-logo="https://i.imgur.com/QsANRSu.png" group-title="English/Music",CMC-USA Country Music Channel (720p)
 https://hwlive.streamingmediahosting.com/14215-live/0_obd393sh/playlist.m3u8
 #EXTINF:-1 tvg-id="CMT.us@East" tvg-name="CMT (1080p)" tvg-logo="https://i.imgur.com/S7DOpdY.png" group-title="English/Other",CMT (1080p)
@@ -3315,6 +3313,8 @@ https://jmp2.uk/plu-62724ae034f5190007b63424.m3u8
 https://jmp2.uk/plu-62b1e5e77d15410007f798c6.m3u8
 #EXTINF:-1 tvg-id="DocMartin.us@CA" tvg-name="Doc Martin" tvg-logo="https://images.pluto.tv/channels/62e922f6675f71000736db3b/colorLogoPNG.png" group-title="English/Documentary",Doc Martin
 https://jmp2.uk/plu-62e922f6675f71000736db3b.m3u8
+#EXTINF:-1 tvg-id="DocuBayTV.in@SD" tvg-name="DocuBay TV (1080p)" tvg-logo="https://i.imgur.com/OGyeLLR.png" group-title="English/Documentary",DocuBay TV (1080p)
+https://cc-mgr91yrk4pehy.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-mgr91yrk4pehy/playlist.m3u8
 #EXTINF:-1 tvg-id="DocuBox.nl@SD" tvg-name="DocuBox" tvg-logo="https://i.imgur.com/pX4U9OG.png" group-title="English/Documentary",DocuBox
 https://dash3.antik.sk/live/test_docubox_medium_atk/playlist.m3u8
 #EXTINF:-1 tvg-id="DocumentaryPlus.us@US" tvg-name="Documentary+ (1080p)" tvg-logo="https://i.imgur.com/x57klfS.png" group-title="English/Documentary",Documentary+ (1080p)
@@ -3383,6 +3383,8 @@ http://80.194.62.172:50002/stream/channelid/1096333958
 https://sra72yz.s.gy/E_ENTERTAINMENT_CANADA
 #EXTINF:-1 tvg-id="E.us@East" tvg-name="E! (1080p)" tvg-logo="https://i.imgur.com/TWFDkap.png" group-title="English/Other",E! (1080p)
 http://23.237.104.106:8080/USA_E/index.m3u8
+#EXTINF:-1 tvg-id="E.us@Greece" tvg-name="E! (720p)" tvg-logo="https://i.imgur.com/TWFDkap.png" group-title="English/Other",E! (720p)
+http://185.102.171.218/Entertainment/index.m3u8
 #EXTINF:-1 tvg-id="EEurope.nl@SD" tvg-name="E! Europe" tvg-logo="https://i.imgur.com/TWFDkap.png" group-title="English/Other",E! Europe
 https://lb.dstvmultimedia.com/E!/index.m3u8
 #EXTINF:-1 tvg-id="EKeepingUp.us@SD" tvg-name="E! Keeping Up (1080p)" tvg-logo="https://i.imgur.com/9F7VYDM.png" group-title="English/Other",E! Keeping Up (1080p)
@@ -3573,8 +3575,8 @@ https://cdn.vegasplus.us/vegas/ftv/playlist.m3u8
 http://86.87.15.10:8008/play/a01l/index.m3u8
 #EXTINF:-1 tvg-id="Filmazia.pk@SD" tvg-name="Filmazia (576p)" tvg-logo="https://i.imgur.com/hpTCANa.png" group-title="English/Other",Filmazia (576p)
 http://103.250.28.74:8000/play/a02k/index.m3u8
-#EXTINF:-1 tvg-id="FilmBox.nl@Netherlands" tvg-name="FilmBox (1080p)" tvg-logo="https://i.imgur.com/VyaslIY.png" group-title="English/Other",FilmBox (1080p)
-http://193.239.186.231/FILMBOX/index.m3u8
+#EXTINF:-1 tvg-id="FilmBox.nl@Netherlands" tvg-name="FilmBox" tvg-logo="https://i.imgur.com/VyaslIY.png" group-title="English/Other",FilmBox
+http://de.seetv.cc/play/8041/1966B8DE7EC6FEE/video.m3u8
 #EXTINF:-1 tvg-id="FILMBOXPlusEmotion.pl@Adria" tvg-name="FILMBOX+ Emotion Adria" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bemotion.png" group-title="English/Other",FILMBOX+ Emotion Adria
 https://webtvstream.bhtelecom.ba/filmbox_extra.m3u8
 #EXTINF:-1 tvg-id="FILMBOXPlusFestival.pl" tvg-name="FILMBOX+ Festival" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bfestival.png" group-title="English/Other",FILMBOX+ Festival
@@ -4973,6 +4975,8 @@ http://88.212.15.19/live/mb_classic/index.m3u8
 http://88.212.15.19/live/mb_dance/index.m3u8
 #EXTINF:-1 tvg-id="MusicBoxHits.cz@SD" tvg-name="Music Box Hits" tvg-logo="https://musicboxhits.com/music_box_hits_logo.png" group-title="English/Music",Music Box Hits
 http://88.212.15.19/live/mb_hits/index.m3u8
+#EXTINF:-1 tvg-id="MusicBoxPolska.pl@Ukraine" tvg-name="Music Box Polska Ukraine" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyN14NgigtUnImvVp9DqgbKY5c9Nsl-EqLkPX7PzYcl924yK77GycmSj2E&s=10" group-title="English/Music",Music Box Polska Ukraine
+https://uys1g01.s.gy/MB_UKRAINE
 #EXTINF:-1 tvg-id="MusicBoxSexy.cz@SD" tvg-name="Music Box Sexy" tvg-logo="https://musicboxsexy.com/music_box_sexy_logo.png" group-title="English/Music",Music Box Sexy
 http://88.212.15.19/live/mb_sexy/index.m3u8
 #EXTINF:-1 tvg-id="MuslimNetworkTV.us@SD" tvg-name="Muslim Network TV" tvg-logo="" group-title="English/Other",Muslim Network TV
@@ -6451,6 +6455,8 @@ https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=16764
 https://edge2.roarzone.info:8447/roarzone/edge3/sony-max/index.m3u8
 #EXTINF:-1 tvg-id="SonyPix.in@HD" tvg-name="Sony Pix HD (1080p) [Geo-blocked]" tvg-logo="https://i.postimg.cc/Z5G8j67L/PIX-HD-WHITE.png" group-title="English/Other",Sony Pix HD (1080p) [Geo-blocked]
 https://sl.vodep39240327.workers.dev/channel/SONY+PIX+HD.m3u8
+#EXTINF:-1 tvg-id="SorozatPlus.hu@SD" tvg-name="Sorozat+" tvg-logo="https://i.imgur.com/KsxWZIw.png" group-title="English/Other",Sorozat+
+http://88.212.15.19/live/test_sorozat_hungary_1200_atk/playlist.m3u8
 #EXTINF:-1 tvg-id="SoundViewCommunityMedia.us@SD" tvg-name="Sound View Community Media Education (480p)" tvg-logo="https://i.imgur.com/3gASzGc.png" group-title="English/Education",Sound View Community Media Education (480p)
 https://livestream.telvue.com/soundviewcmt2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="SoundcityTV.ng@SD" tvg-name="Soundcity TV" tvg-logo="https://i.imgur.com/fKtPcT4.png" group-title="English/Other",Soundcity TV
@@ -6625,30 +6631,32 @@ https://sra72yz.s.gy/STARZ_ENCORE_WEST_US
 http://23.237.104.106:8080/USA_STARZ_FAMILY/index.m3u8
 #EXTINF:-1 tvg-id="Starz.us@West" tvg-name="Starz West (720p)" tvg-logo="https://i.imgur.com/N7oSm4d.png" group-title="English/Other",Starz West (720p)
 http://40.160.24.55/STARZ_WEST/index.m3u8
+#EXTINF:-1 tvg-id="StingrayCityscapes.ca@HD" tvg-name="Stingray Cityscapes (1080p)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZlXPCl4ze9lr2DnadYazKxuyyEEWmgO1O1Q&s" group-title="English/Other",Stingray Cityscapes (1080p)
+https://aka-live1050.delivery.roku.com/7572d640-7373-4137-8b14-a3afff395349/t2-origin/out/v1/live.m3u8
 #EXTINF:-1 tvg-id="StingrayClassicRock.ca@SD" tvg-name="Stingray Classic Rock (1080p)" tvg-logo="https://i.imgur.com/FBgu8yB.png" group-title="English/Other",Stingray Classic Rock (1080p)
 https://lotus.stingray.com/manifest/ose-101ads-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-id="StingrayClassica.ca@SD" tvg-name="Stingray Classica (1080p)" tvg-logo="https://i.imgur.com/nh1k5RC.png" group-title="English/Other",Stingray Classica (1080p)
 https://lotus.stingray.com/manifest/classica-cla008-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-id="StingrayCMusic.ca@SD" tvg-name="Stingray CMusic (1080p)" tvg-logo="https://i.imgur.com/3UppN5P.png" group-title="English/Music",Stingray CMusic (1080p)
-https://lotus.stingray.com/manifest/cmusic-cme004-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id="StingrayCozyCafe.ca@HD" tvg-name="Stingray Cozy Cafe (1080p)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-PtqqxxfI0SgHcNO5YJqxdufqnVtPFwpDvQ&s" group-title="English/Other",Stingray Cozy Cafe (1080p)
+https://aka-live1050.delivery.roku.com/372c813e-1fb9-41d4-a4d0-5fbd803659c5/t2-origin/out/v1/live.m3u8
 #EXTINF:-1 tvg-id="StingrayDJAZZ.ca@SD" tvg-name="Stingray DJAZZ (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Stingray_Djazz.png/960px-Stingray_Djazz.png" group-title="English/Other",Stingray DJAZZ (1080p)
 https://lotus.stingray.com/manifest/djazz-djaads-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-id="StingrayEasyListening.ca@SD" tvg-name="Stingray Easy Listening (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Stingray_Music_logo.svg/960px-Stingray_Music_logo.svg.png" group-title="English/Other",Stingray Easy Listening (1080p)
 https://lotus.stingray.com/manifest/ose-137ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-id="StingrayEuroHits.ca@SD" tvg-name="Stingray Euro Hits (1080p)" tvg-logo="https://i.imgur.com/FyhO9U5.png" group-title="English/Other",Stingray Euro Hits (1080p)
-https://lotus.stingray.com/manifest/ose-214ads-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-id="StingrayExitosdelMomento.ca@SD" tvg-name="Stingray Éxitos del Momento (1080p)" tvg-logo="https://i.imgur.com/wiasHUR.png" group-title="English/Other",Stingray Éxitos del Momento (1080p)
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-xitos-del-momento/master.m3u8?ads.vf=--_m-LmFeCi
 #EXTINF:-1 tvg-id="StingrayFlashback70s.ca@SD" tvg-name="Stingray Flashback 70s (1080p)" tvg-logo="https://i.imgur.com/jf5C9QF.png" group-title="English/Other",Stingray Flashback 70s (1080p)
 https://lotus.stingray.com/manifest/ose-115ads-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-id="StingrayGreatestHits.ca@SD" tvg-name="Stingray Greatest Hits (1080p)" tvg-logo="" group-title="English/Other",Stingray Greatest Hits (1080p)
-https://lotus.stingray.com/manifest/ose-155ads-montreal/samsungtvplus/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-greatest-hits/master.m3u8?ads.vf=7XQlh7i26u0
 #EXTINF:-1 tvg-id="StingrayGreatestHolidayHits.us@SD" tvg-name="Stingray Greatest Holiday Hits" tvg-logo="https://i.imgur.com/Hz2d6og.png" group-title="English/Other",Stingray Greatest Holiday Hits
 https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/54947915-6504-4548-aaef-eabd451f8607/1.m3u8
 #EXTINF:-1 tvg-id="StingrayHitList.ca@SD" tvg-name="Stingray Hit List (1080p)" tvg-logo="https://i.imgur.com/lgpIwId.png" group-title="English/Other",Stingray Hit List (1080p)
 https://lotus.stingray.com/manifest/ose-107ads-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id="StingrayHolidayHits.ca@SD" tvg-name="Stingray Holiday Hits (1080p)" tvg-logo="https://i.imgur.com/4xVVKH8.png" group-title="English/Other",Stingray Holiday Hits (1080p)
+https://lotus.stingray.com/manifest/ose-155ads-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-id="StingrayHolidayscapes.ca@HD" tvg-name="Stingray Holidayscapes (1080p)" tvg-logo="https://images.plex.tv/photo?size=large-1920&scale=1&url=https%3A%2F%2Fprovider-static.plex.tv%2Fepg%2Fcms%2Fproduction%2F9cb4b15c-8244-4499-ae2c-9a92d4cdff6d%2F13895_SHS_Plex_Logos_Holidays_1500x1000_Dark-Background.png" group-title="English/Other",Stingray Holidayscapes (1080p)
-https://plextv.ott-channels.stingray.com/holidayscapes/master.m3u8
+https://d10cyxntpn0bwm.cloudfront.net/master.m3u8
 #EXTINF:-1 tvg-id="StingrayHotCountry.ca@SD" tvg-name="Stingray Hot Country (1080p)" tvg-logo="https://i.imgur.com/PZhxyIT.png" group-title="English/Other",Stingray Hot Country (1080p)
 https://lotus.stingray.com/manifest/ose-108ads-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-id="StingrayiConcerts.ca@HD" tvg-name="Stingray iConcerts HD" tvg-logo="https://i.imgur.com/GKc7RFz.png" group-title="English/Other",Stingray iConcerts HD
@@ -6657,6 +6665,8 @@ https://dash4.antik.sk/live/test_stingray_iconcerts_hd_hevc50/playlist.m3u8
 https://lotus.stingray.com/manifest/ose-021ads-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-id="StingrayKaraoke.ca@SD" tvg-name="Stingray Karaoke (1080p)" tvg-logo="https://i.imgur.com/9TLTLS3.png" group-title="English/Other",Stingray Karaoke (1080p)
 https://lotus.stingray.com/manifest/karaoke-kar000-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id="MovieMusicbyStingray.ca@HD" tvg-name="Stingray Movie Music (1080p)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2CSpCdAxnLpqebMLZh6h7vMPk6LYpdqkVHA&s" group-title="English/Movies",Stingray Movie Music (1080p)
+https://lotus.stingray.com/manifest/cmusic-cme004-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-id="StingrayNaturescape.ca@SD" tvg-name="Stingray Naturescape (1080p)" tvg-logo="https://i.imgur.com/882kd90.png" group-title="English/Other",Stingray Naturescape (1080p)
 https://lotus.stingray.com/manifest/naturescape-a003-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-id="StingrayNothinBut90s.ca@SD" tvg-name="Stingray Nothin' But 90s (1080p)" tvg-logo="https://i.imgur.com/Tq3I0po.png" group-title="English/Other",Stingray Nothin' But 90s (1080p)
@@ -6681,8 +6691,8 @@ https://lotus.stingray.com/manifest/ose-122ads-montreal/samsungtvplus/master.m3u
 https://lotus.stingray.com/manifest/ose-317ads-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-id="StingrayTodaysLatinPop.ca@SD" tvg-name="Stingray Today's Latin Pop (1080p)" tvg-logo="https://i.imgur.com/Os3kRRP.png" group-title="English/Other",Stingray Today's Latin Pop (1080p)
 https://lotus.stingray.com/manifest/ose-190ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-id="StingrayUrbanBeat.ca@SD" tvg-name="Stingray Urban Beat (1080p)" tvg-logo="https://i.imgur.com/Os3kRRP.png" group-title="English/Other",Stingray Urban Beat (1080p)
-https://lotus.stingray.com/manifest/ose-133ads-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id="ZenLIFEbyStingray.ca@HD" tvg-name="Stingray ZenLIFE (1080p)" tvg-logo="https://www.stingray.com/wp-content/uploads/2023/12/stingray_zenlifebystingray_white.svg" group-title="English/Other",Stingray ZenLIFE (1080p)
+https://lotus.stingray.com/manifest/zenlife-zen001-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-id="StocktonGovTV.us@SD" tvg-name="Stockton GovTV (Stockton CA) (720p)" tvg-logo="https://i.imgur.com/Ko4m4iw.png" group-title="English/Other",Stockton GovTV (Stockton CA) (720p)
 https://cdn3.wowza.com/5/dk84U1p2UUdoMGxT/stockton/G0044_008/playlist.m3u8
 #EXTINF:-1 tvg-id="PlutoTVStorageWars.us@SD" tvg-name="Storage Wars by A&E (720p)" tvg-logo="https://i.imgur.com/mnHRLlg.png" group-title="English/Other",Storage Wars by A&E (720p)
@@ -7839,8 +7849,6 @@ https://mini.allinonereborn.fun/tata.php?id=11783
 http://103.72.101.252:8080/live/2757.m3u8
 #EXTINF:-1 tvg-id="zenith.fr@HD" tvg-name="zenith (1080p)" tvg-logo="https://znth.tv/images/logo.png" group-title="English/Other",zenith (1080p)
 https://live.azenagroup.com/zenith/index.ll.m3u8
-#EXTINF:-1 tvg-id="ZenLIFEbyStingray.ca@HD" tvg-name="ZenLIFE by Stingray" tvg-logo="https://www.stingray.com/wp-content/uploads/2023/12/stingray_zenlifebystingray_white.svg" group-title="English/Other",ZenLIFE by Stingray
-https://jmp2.uk/plu-696998dfa2b623e8b20125a3.m3u8
 #EXTINF:-1 tvg-id="ZIZTV.kn@SD" tvg-name="ZIZ TV (720p)" tvg-logo="https://i.imgur.com/fB09i6X.png" group-title="English/Other",ZIZ TV (720p)
 https://media.slactech.com:1936/ZIZDirect/ZIZDirect/playlist.m3u8
 #EXTINF:-1 tvg-id="ZNSTV.bs@SD" tvg-name="ZNS-TV (1080p)" tvg-logo="https://i.imgur.com/h6nC8fe.png" group-title="English/Other",ZNS-TV (1080p)
