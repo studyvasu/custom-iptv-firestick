@@ -45,8 +45,6 @@ https://247preview.foxbusiness.com/hls/live/2020026/fbnv3preview/primary.m3u8
 http://45.190.28.50/FOX_NEWS/index.m3u8
 #EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-name="Fox News Channel (720p)" tvg-logo="" group-title="News",Fox News Channel (720p)
 http://138.121.15.230:9002/FOX-NEWS/index.m3u8
-#EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-name="Fox News Channel (720p)" tvg-logo="" group-title="News",Fox News Channel (720p)
-http://206.212.244.63/67/index.m3u8
 #EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-name="Fox News Channel (144p)" tvg-logo="" group-title="News",Fox News Channel (144p)
 http://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8
 #EXTINF:-1 tvg-id="FoxNewsRadio.us@SD" tvg-name="Fox News Radio (720p)" tvg-logo="" group-title="News",Fox News Radio (720p)
@@ -295,6 +293,8 @@ https://messi.damitv.st/papi/ts/golfchannel-usa/playlist.m3u8
 https://messi.damitv.st/papi/ts/beinsports-usa/playlist.m3u8
 #EXTINF:-1 tvg-id="TennisChannel.us@SD" tvg-name="Tennis Channel (1080p) [Geo-blocked]" tvg-logo="" group-title="Sports",Tennis Channel (1080p) [Geo-blocked]
 https://messi.damitv.st/papi/ts/tennischannel-usa/playlist.m3u8
+#EXTINF:-1 tvg-id="FoxSports2.us@HD" tvg-name="Fox Sports 2 (720p)" tvg-logo="" group-title="Sports",Fox Sports 2 (720p)
+http://iptvstream.rf.gd/FOXSPORTS2.m3u8
 #EXTINF:-1 tvg-id="AfghanistanInternational.uk@SD" tvg-name="Afghanistan International (720p)" tvg-logo="" group-title="Other",Afghanistan International (720p)
 https://hls.afintl.com/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AfrobeatTVEntertainment.uk@SD" tvg-name="Afrobeats (1080p)" tvg-logo="" group-title="Other",Afrobeats (1080p)
@@ -2753,8 +2753,6 @@ http://stream.cammonitorplus.net/1712/index.m3u8
 https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
 #EXTINF:-1 tvg-id="CGTNDocumentary.cn@SD" tvg-name="CGTN Documentary (1080p)" tvg-logo="https://i.imgur.com/JHv0WxM.png" group-title="English/Documentary",CGTN Documentary (1080p)
 https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
-#EXTINF:-1 tvg-id="CGTNDocumentary.tr@SD" tvg-name="CGTN Documentary" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/CGTN_Documentary_logo.png/960px-CGTN_Documentary_logo.png" group-title="English/Documentary",CGTN Documentary
-https://mn-nl.mncdn.com/dogusdyg_drone/cgtn/playlist.m3u8
 #EXTINF:-1 tvg-id="CGTNGlobalBiz.cn@SD" tvg-name="CGTN Global Biz (1080p)" tvg-logo="https://i.imgur.com/qBmomnF.png" group-title="English/Other",CGTN Global Biz (1080p)
 https://amg01314-amg01314c6-distrotv-us-10220.playouts.now.amagi.tv/playlist/amg01314-cgtn-cgtnglobalbiz-distrotvus/playlist.m3u8
 #EXTINF:-1 tvg-id="CGTV.us@SD" tvg-name="Champaign Government Television (CGTV) (Champaign IL) (720p)" tvg-logo="https://champaignil.gov/wp-content/uploads/2011/06/cgtv-page-logo.jpg" group-title="English/Other",Champaign Government Television (CGTV) (Champaign IL) (720p)
@@ -4141,8 +4139,6 @@ https://xemzi.short.gy/1000012
 https://ca1.buximedia.com/itv/afrobeats/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="iTVLatinMusic.ca@HD" tvg-name="iTV Latin Music" tvg-logo="https://i.ibb.co/pvLQmQK7/itv.png" group-title="English/Music",iTV Latin Music
 https://ca1.buximedia.com/itv/latin/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="iTVTurkishMusic.ca@HD" tvg-name="iTV Turkish Music" tvg-logo="https://i.ibb.co/pvLQmQK7/itv.png" group-title="English/Music",iTV Turkish Music
-https://ca1.buximedia.com/itv/turkish/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="iTVUrbanMusic.ca@HD" tvg-name="iTV Urban Music" tvg-logo="https://i.ibb.co/pvLQmQK7/itv.png" group-title="English/Music",iTV Urban Music
 https://ca1.buximedia.com/itv/love2/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="IuniorTV.it@SD" tvg-name="Iunior TV (1080p)" tvg-logo="https://i.imgur.com/FBOJnfT.png" group-title="English/Other",Iunior TV (1080p)
@@ -4201,7 +4197,7 @@ https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8
 https://livecdn.live247stream.com/joshua/tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Journy.us@SD" tvg-name="JOURNY TV (720p)" tvg-logo="https://i.imgur.com/1JNrLxq.png" group-title="English/Other",JOURNY TV (720p)
 https://d3s3a5c7f101eb.cloudfront.net/playlist.m3u8
-#EXTINF:-1 tvg-id="JTBSClassic.in@Main" tvg-name="JTBS Classic (480p)" tvg-logo="https://jtbs-classic.web.app/logo.png" group-title="English/Other",JTBS Classic (480p)
+#EXTINF:-1 tvg-id="JTBSClassic.in" tvg-name="JTBS Classic" tvg-logo="https://jtbs-classic.web.app/logo.png" group-title="English/Other",JTBS Classic
 https://jtbsclassic.dpdns.org/live.m3u8
 #EXTINF:-1 tvg-id="JudgeJudy.de@GB" tvg-name="Judge Judy" tvg-logo="https://images.pluto.tv/channels/622f498d119b4c000719c0b7/colorLogoPNG.png" group-title="English/Other",Judge Judy
 https://jmp2.uk/plu-622f498d119b4c000719c0b7.m3u8
@@ -4491,8 +4487,6 @@ https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/playl
 https://pb-ehs1glsha1juy.akamaized.net/Love_Nature_4K.m3u8
 #EXTINF:-1 tvg-id="LoveNatureenEspanol.us@SD" tvg-name="Love Nature en Espanol (1080p) [Geo-blocked]" tvg-logo="https://i.imgur.com/7uNdcWB.png" group-title="English/Other",Love Nature en Espanol (1080p) [Geo-blocked]
 https://amg01515-amg01515c17-xumo-us-2489.playouts.now.amagi.tv/bamus-lovenaturespanish-roku/playlist.m3u8
-#EXTINF:-1 tvg-id="LoveNature.ca@HD" tvg-name="Love Nature HD (720p)" tvg-logo="https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png" group-title="English/Other",Love Nature HD (720p)
-http://185.246.209.113/LOVENATUREHD/index.m3u8
 #EXTINF:-1 tvg-id="LovePets.ca@US" tvg-name="Love Pets (1080p)" tvg-logo="https://lovepetstv.com/wp-content/uploads/2022/12/LovePets_Logo_SecondaryColor.png" group-title="English/Other",Love Pets (1080p)
 https://amg01576-blueskyeenterta-lovepetsemea-samsungse-ctamh.amagi.tv/playlist/amg01576-blueskyeenterta-lovepetsemea-samsungse/playlist.m3u8
 #EXTINF:-1 tvg-id="LoveTelevision.bz@SD" tvg-name="Love Television (720p)" tvg-logo="https://i.imgur.com/nT3Wxr6.png" group-title="English/Other",Love Television (720p)
@@ -6097,8 +6091,6 @@ http://31.148.48.15/RT_HD/index.m3u8
 https://rt-india.rttv.com/dvr/rtindia/playlist.m3u8
 #EXTINF:-1 tvg-id="RT.ru@SD" tvg-name="RT News (1080p) [Not 24/7]" tvg-logo="https://dtil.tmsimg.com/assets/s142401_ld_h15_aa.png?lock=720x540" group-title="English/News",RT News (1080p) [Not 24/7]
 https://cloud.odysee.live/content/fdd11cb3ab75f95efb7b3bc2d726aa13ac915b66/master.m3u8
-#EXTINF:-1 tvg-id="RTBAneka.bn@SD" tvg-name="RTB Aneka (720p)" tvg-logo="https://i.imgur.com/MY40GrC.png" group-title="English/Other",RTB Aneka (720p)
-https://d1211whpimeups.cloudfront.net/smil:rtb2/playlist.m3u8
 #EXTINF:-1 tvg-id="RTBGo.bn@SD" tvg-name="RTB Go (720p)" tvg-logo="https://i.imgur.com/CGlzsD5.png" group-title="English/Other",RTB Go (720p)
 https://d1211whpimeups.cloudfront.net/smil:rtbgo/playlist.m3u8
 #EXTINF:-1 tvg-id="RTBSukmaindera.bn@SD" tvg-name="RTB Sukmaindera (720p)" tvg-logo="https://i.imgur.com/WpMGnTr.png" group-title="English/Other",RTB Sukmaindera (720p)
