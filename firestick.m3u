@@ -597,6 +597,8 @@ https://platform-iuoamc.uk/iptv/mca-tv/index.m3u8
 https://iron1.jarvisx1.cfd/ert/usergenrx8ofzq1kr.m3u8
 #EXTINF:-1 tvg-id="AMCEurope.uk@Romania" tvg-name="AMC Europe Romania" tvg-logo="" group-title="Other",AMC Europe Romania
 https://iron1.jarvisx1.cfd/amece/usergenrx3oq1kr.m3u8
+#EXTINF:-1 tvg-id="BBCFirst.uk@Romania" tvg-name="BBC First Romania" tvg-logo="" group-title="Other",BBC First Romania
+https://onyx1.mofta1.cfd/bibi1/usergendxn09l2s6cek.m3u8
 #EXTINF:-1 tvg-id="2GB.au@SD" tvg-name="2GB Sydney (1080p)" tvg-logo="" group-title="Other",2GB Sydney (1080p)
 https://2gblive.akamaized.net/hls/live/2033805/2GB/index.m3u8
 #EXTINF:-1 tvg-id="3AW.au@SD" tvg-name="3AW Melbourne (1080p)" tvg-logo="" group-title="Other",3AW Melbourne (1080p)
@@ -795,6 +797,8 @@ https://cdn.ottlive.co.in/bharat24/index.fmp4.m3u8
 https://mumt03.tangotv.in/Dsly5z3HBHARATSAMACHAR/index.m3u8
 #EXTINF:-1 tvg-id="BigMagic.in@SD" tvg-name="Big Magic (576p)" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002YJ850.png?lock=720x540" group-title="Hindi/Other",Big Magic (576p)
 http://103.175.73.12:8080/live/13/13_0.m3u8
+#EXTINF:-1 tvg-id="BollywoodClassic.ro@Romania" tvg-name="Bollywood Classic Romania" tvg-logo="https://i.imgur.com/ugPo6ca.png" group-title="Hindi/Other",Bollywood Classic Romania
+https://flash1.bogulus1.cfd/boly/usergenr9j8s2t.m3u8
 #EXTINF:-1 tvg-id="BollywoodHD.ro@Russia" tvg-name="Bollywood HD Russia (576p)" tvg-logo="https://i.imgur.com/scDKOLS.png" group-title="Hindi/Other",Bollywood HD Russia (576p)
 https://xykt-fix.github.io/cinerama_edge01/hls/BOLLYWOOD_RU/Movie009.m3u8
 #EXTINF:-1 tvg-id="ChannelDivya.in@SD" tvg-name="Channel Divya (1080p)" tvg-logo="https://dtil.tmsimg.com/assets/s143010_ld_h15_aa.png?lock=720x540" group-title="Hindi/Other",Channel Divya (1080p)
@@ -951,6 +955,8 @@ http://103.72.101.252:8080/live/1471.m3u8
 http://103.154.3.101:5001/live/577.m3u8
 #EXTINF:-1 tvg-id="HNN24x7.in@SD" tvg-name="HNN 24x7 (576p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/HNN24x7.png" group-title="Hindi/Other",HNN 24x7 (576p)
 https://ott.livelegitpro.in:9899/hnnnews/hnnnews/tracks-v1/index.fmp4.m3u8
+#EXTINF:-1 tvg-id="HosannaTV.in@Hindi" tvg-name="Hosanna TV Hindi" tvg-logo="https://i.imgur.com/VYorU1L.png" group-title="Hindi/Other",Hosanna TV Hindi
+https://ktismaservers.in:3466/live/hosannattvhindhilive.m3u8
 #EXTINF:-1 tvg-id="HyderTV.ca@SD" tvg-name="Hyder TV (720p)" tvg-logo="https://i.imgur.com/reHjjRZ.png" group-title="Hindi/Other",Hyder TV (720p)
 https://cdn.live247stream.com/hyder/tv/playlist.m3u8
 #EXTINF:-1 tvg-id="IBC24.in@SD" tvg-name="IBC 24 (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_IBC24/images/LOGO_HD/image.png" group-title="Hindi/Other",IBC 24 (576p)
@@ -2077,6 +2083,8 @@ https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEar
 https://iron1.jarvisx1.cfd/ert/usergenrx8ofzq1kr.m3u8
 #EXTINF:-1 tvg-id="BBCEarth.uk@Turkiye" tvg-name="BBC Earth Turkiye" tvg-logo="https://i.imgur.com/nGSsUd4.png" group-title="English/Other",BBC Earth Turkiye
 https://nord.ayakkabiparti.lol/bbc/index.m3u8
+#EXTINF:-1 tvg-id="BBCFirst.uk@Romania" tvg-name="BBC First Romania" tvg-logo="https://i.imgur.com/UBoBYUI.png" group-title="English/Other",BBC First Romania
+https://onyx1.mofta1.cfd/bibi1/usergendxn09l2s6cek.m3u8
 #EXTINF:-1 tvg-id="BBCFirst.uk@Turkiye" tvg-name="BBC First Turkiye" tvg-logo="https://i.imgur.com/UBoBYUI.png" group-title="English/Other",BBC First Turkiye
 http://88.212.15.29/live/bbc_first/index.m3u8
 #EXTINF:-1 tvg-id="BBCFood.us@SD" tvg-name="BBC Food (1080p)" tvg-logo="https://i.imgur.com/kcmHcSx.png" group-title="English/Cooking",BBC Food (1080p)
@@ -3431,18 +3439,22 @@ http://103.250.28.74:8000/play/a02k/index.m3u8
 http://46.149.191.219:9100/play/a015
 #EXTINF:-1 tvg-id="FILMBOXPlusAction.pl@HD" tvg-name="FILMBOX+ Action" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Baction.png" group-title="English/Other",FILMBOX+ Action
 https://polska.hach.workers.dev/14864.m3u8
+#EXTINF:-1 tvg-id="FILMBOXPlusComedy.pl@Romania" tvg-name="FILMBOX+ Comedy Romania" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bcomedy.png" group-title="English/Other",FILMBOX+ Comedy Romania
+https://nosignal1.antenaplay.ro/hls/fb-comedy-hd/index.m3u8
 #EXTINF:-1 tvg-id="FILMBOXPlusEmotion.pl@Adria" tvg-name="FILMBOX+ Emotion Adria" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bemotion.png" group-title="English/Other",FILMBOX+ Emotion Adria
 https://webtvstream.bhtelecom.ba/filmbox_extra.m3u8
 #EXTINF:-1 tvg-id="FILMBOXPlusFestival.pl@SD" tvg-name="FILMBOX+ Festival" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bfestival.png" group-title="English/Other",FILMBOX+ Festival
 https://dash3.antik.sk/live/test_filmbox_arthouse_atk_1200/playlist.m3u8
-#EXTINF:-1 tvg-id="FILMBOXPlusFestival.pl@HD" tvg-name="FILMBOX+ Festival HD" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bfestival.png" group-title="English/Other",FILMBOX+ Festival HD
-https://webtvstream.bhtelecom.ba/filmbox_arthouse.m3u8
+#EXTINF:-1 tvg-id="FILMBOXPlusFestival.pl@HD" tvg-name="FILMBOX+ Festival HD (1080p)" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bfestival.png" group-title="English/Other",FILMBOX+ Festival HD (1080p)
+https://nosignal1.antenaplay.ro/hls/fb-festival-hd/index.m3u8
 #EXTINF:-1 tvg-id="FILMBOXPlusHits.pl@Adria" tvg-name="FILMBOX+ Hits Adria" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bhits.png" group-title="English/Other",FILMBOX+ Hits Adria
 https://webtvstream.bhtelecom.ba/filmbox_premium.m3u8
 #EXTINF:-1 tvg-id="FILMBOXPlusHits.pl@Hungary" tvg-name="FILMBOX+ Hits Hungary" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bhits.png" group-title="English/Other",FILMBOX+ Hits Hungary
 http://88.212.15.19/live/fb_premium_hungary/index.m3u8
 #EXTINF:-1 tvg-id="FILMBOXPlusLoveCrime.pl@Adria" tvg-name="FILMBOX+ Love & Crime Adria" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Blove-and-crime.png" group-title="English/Other",FILMBOX+ Love & Crime Adria
 https://webtvstream.bhtelecom.ba/filmbox_stars.m3u8
+#EXTINF:-1 tvg-id="FILMBOXPlusLoveCrime.pl@Romania" tvg-name="FILMBOX+ Love & Crime Romania" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Blove-and-crime.png" group-title="English/Other",FILMBOX+ Love & Crime Romania
+https://nosignal1.antenaplay.ro/hls/fb-love-and-crime-sd/index.m3u8
 #EXTINF:-1 tvg-id="FilmRiseAnime.us@SD" tvg-name="FilmRise Anime (720p)" tvg-logo="https://i.imgur.com/3wqeGXM.png" group-title="English/Other",FilmRise Anime (720p)
 https://dvu7aia8rjlfm.cloudfront.net/master.m3u8
 #EXTINF:-1 tvg-id="FilmRiseClassicTV.us@SD" tvg-name="FilmRise Classic TV (720p)" tvg-logo="https://i.imgur.com/8j2npVc.png" group-title="English/Other",FilmRise Classic TV (720p)
@@ -3707,6 +3719,8 @@ https://a-cdn.klowdtv.com/live2/greattv_720p/playlist.m3u8
 https://amg01753-narrativeuk-amg01753c3-lg-gb-1833.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatmovies-lggb/playlist.m3u8
 #EXTINF:-1 tvg-id="GREATromance.uk@UK" tvg-name="GREAT! romance (1080p)" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3643.png" group-title="English/Other",GREAT! romance (1080p)
 https://amg01753-narrativeuk-amg01753c2-lg-gb-1832.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatchristmas-lggb/playlist.m3u8
+#EXTINF:-1 tvg-id="GreaterLoveTV.us@SD" tvg-name="Greater Love TV (720p)" tvg-logo="https://i.imgur.com/WE0cRXR.png" group-title="English/Other",Greater Love TV (720p)
+https://rpn.bozztv.com/dvrfl04/itv04019/index.m3u8
 #EXTINF:-1 tvg-id="GreensboroTV.us@SD" tvg-name="Greensboro TV (Greensboro NC) (720p)" tvg-logo="" group-title="English/Other",Greensboro TV (Greensboro NC) (720p)
 https://lin12.isilive.ca/live/greensboro/GTN/index.m3u8
 #EXTINF:-1 tvg-id="GritXtra.us@SD" tvg-name="Grit Xtra (1080p)" tvg-logo="https://provider-static.plex.tv/epg/cms/production/dbbb9bca-0b08-43b5-a0e7-715df9a6dbfd/_ChannelLogo_1500x1000.png" group-title="English/Other",Grit Xtra (1080p)
@@ -3857,6 +3871,8 @@ https://jstre.am/live/jsl:nX5eC7gQvZb.m3u8
 https://mumt01.tangotv.in/O5aw8Zn3HORNBILLTV/index.m3u8
 #EXTINF:-1 tvg-id="HorseCountryTV.uk@SD" tvg-name="Horse & Country TV (1080p)" tvg-logo="https://i.imgur.com/1x6zYZr.png" group-title="English/Other",Horse & Country TV (1080p)
 https://hnc-free-viewlift.amagi.tv/HNC_AUSTRALIA.m3u8
+#EXTINF:-1 tvg-id="HosannaTV.in@Global" tvg-name="Hosanna TV Global" tvg-logo="https://i.imgur.com/VYorU1L.png" group-title="English/Other",Hosanna TV Global
+https://ktismaservers.in:3349/live/hosannatvlive.m3u8
 #EXTINF:-1 tvg-id="HotBench.us@SD" tvg-name="Hot Bench (720p)" tvg-logo="https://images.pluto.tv/channels/6036e6e7ac69c400072afca2/colorLogoPNG_1731835667408.png" group-title="English/Other",Hot Bench (720p)
 https://jmp2.uk/plu-6036e6e7ac69c400072afca2.m3u8
 #EXTINF:-1 tvg-id="HouseofLies.se@DK" tvg-name="House of Lies" tvg-logo="https://images.pluto.tv/channels/693ae62a43fe00a023e76e0d/colorLogoPNG_1769415649672.png" group-title="English/Other",House of Lies
@@ -4037,6 +4053,8 @@ https://jlt-jltv-strimm.otteravision.com/jlt/jltv/jltv.m3u8
 http://88.212.15.19/live/jim_jam_hun/index.m3u8
 #EXTINF:-1 tvg-id="JimJamEurope.uk@SD" tvg-name="JimJam Europe (720p)" tvg-logo="https://i.imgur.com/ODhkYyx.png" group-title="English/Other",JimJam Europe (720p)
 http://212.5.144.156:8080/jimjam/index.m3u8
+#EXTINF:-1 tvg-id="JoelOsteenNetwork.us@HD" tvg-name="Joel Osteen Network (1080p)" tvg-logo="https://www.tablotv.com/wp-content/uploads/2025/05/Osteen_black.png" group-title="English/Other",Joel Osteen Network (1080p)
+https://linear-860.frequency.stream/dist/xumo/860/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="JooMusic.pk@SD" tvg-name="JooMusic (720p)" tvg-logo="https://i.imgur.com/KHuKQQL.png" group-title="English/Music",JooMusic (720p)
 https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8
 #EXTINF:-1 tvg-id="JoshuaTV.pk@SD" tvg-name="Joshua TV (720p)" tvg-logo="https://i.imgur.com/x9xPR2h.png" group-title="English/Other",Joshua TV (720p)
@@ -6411,8 +6429,8 @@ https://stream.swamiji.tv/YogaIPTV/smil:YogaStreamAU.smil/playlist.m3u8
 https://stream.swamiji.tv/YogaIPTV/smil:YogaStream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="SwerveCombat.us@SD" tvg-name="Swerve Combat (1080p)" tvg-logo="https://i.imgur.com/eFZh7aG.png" group-title="English/Other",Swerve Combat (1080p)
 https://linear-253.frequency.stream/mt/roku/253/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-id="SwerveSports.us@SD" tvg-name="Swerve Sports (1080p)" tvg-logo="https://i.imgur.com/GT0Yi2T.png" group-title="English/Sports",Swerve Sports (1080p)
-https://linear-253.frequency.stream/dist/stirr/253/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="SwerveSports.us@SD" tvg-name="Swerve Sports (720p)" tvg-logo="https://i.imgur.com/GT0Yi2T.png" group-title="English/Sports",Swerve Sports (720p)
+https://a-cdn.klowdtv.com/live3/swervewomenssports_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="SYFY.us@East" tvg-name="SYFY (720p)" tvg-logo="https://i.imgur.com/4fMWhUE.png" group-title="English/Other",SYFY (720p)
 http://23.237.104.106:8080/USA_SYFY/index.m3u8
 #EXTINF:-1 tvg-id="SynagogueTV.ng@SD" tvg-name="Synagogue TV (576p)" tvg-logo="https://i.imgur.com/MOaBr9M.png" group-title="English/Other",Synagogue TV (576p)
@@ -7121,6 +7139,8 @@ http://315e5a5d.ottrast.com/iptv/8XFKA8883W9M5K/12084/index.m3u8
 https://streamer2.nexgen.bz/09-POSVIBES/index.m3u8
 #EXTINF:-1 tvg-id="VICETV.us@SD" tvg-name="VICE TV (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Vice_TV_logo.svg/960px-Vice_TV_logo.svg.png" group-title="English/Other",VICE TV (1080p)
 http://23.237.104.106:8080/USA_VICETV/index.m3u8
+#EXTINF:-1 tvg-id="VideoMixTV.us@SD" tvg-name="Video Mix TV" tvg-logo="https://i.imgur.com/nyLrIPP.png" group-title="English/Other",Video Mix TV
+https://2-fss-2.streamhoster.com/pl_118/206436-3189488-1/playlist.m3u8
 #EXTINF:-1 tvg-id="VietnamToday.vn@HD" tvg-name="Vietnam Today (1080p)" tvg-logo="https://i.imgur.com/xW9rY7s.png" group-title="English/Other",Vietnam Today (1080p)
 https://amagi-live.ondemandkorea.com/amgplt0456.m3u8
 #EXTINF:-1 tvg-id="WHOHTV.us@SD" tvg-name="Village of Hastings-On-Hudson NY (WHOH-TV) (360p)" tvg-logo="https://i.imgur.com/jTD9nLE.png" group-title="English/Other",Village of Hastings-On-Hudson NY (WHOH-TV) (360p)
