@@ -32,8 +32,6 @@ https://1d153317c8db4250b3789601274e2402.mediatailor.us-west-2.amazonaws.com/v1/
 #EXTINF:-1 tvg-id="FoxBusinessNetwork.us@SD" tvg-name="Fox Business Network (480p)" tvg-logo="" group-title="Business",Fox Business Network (480p)
 https://247preview.foxbusiness.com/hls/live/2020026/fbnv3preview/primary.m3u8
 #EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-name="Fox News Channel (720p)" tvg-logo="" group-title="News",Fox News Channel (720p)
-http://45.190.28.50/FOX_NEWS/index.m3u8
-#EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-name="Fox News Channel (720p)" tvg-logo="" group-title="News",Fox News Channel (720p)
 http://138.121.15.230:9002/FOX-NEWS/index.m3u8
 #EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-name="Fox News Channel (144p)" tvg-logo="" group-title="News",Fox News Channel (144p)
 http://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8
@@ -415,8 +413,6 @@ https://ap02.iqplay.tv:8082/iqb8002/ka1s0n/playlist.m3u8
 https://live.kanshitv.co.uk/mobile/kanshitvkey.m3u8
 #EXTINF:-1 tvg-id="LatestTV.uk@SD" tvg-name="Latest TV (480p)" tvg-logo="" group-title="Other",Latest TV (480p)
 https://5a0e89631aa14.streamlock.net/live/LatestTelevision/playlist.m3u8
-#EXTINF:-1 tvg-id="MagnavisionTV.uk@SD" tvg-name="Magna Vision (1080p)" tvg-logo="" group-title="Other",Magna Vision (1080p)
-https://j78dpa3edq5r-hls-live.5centscdn.com/abr/0864028584026e6ad9cdf922473177a4/playlist.m3u8
 #EXTINF:-1 tvg-id="MBC.uk@HD" tvg-name="MBC (1080p)" tvg-logo="" group-title="Other",MBC (1080p)
 https://cdn8.fntvchannel.com/v1/master/02eeb1726c343dc9c30c32e93dee82013e157021/FNTV-CHANNEL_CDN77/index.m3u8
 #EXTINF:-1 tvg-id="MiracleTV.uk@SD" tvg-name="Miracle TV (480p)" tvg-logo="" group-title="Other",Miracle TV (480p)
@@ -603,6 +599,8 @@ https://stream8.cinerama.uz/1251/tracks-v1a1/mono.m3u8
 http://hls127.freeott.top:8080/BG_AMC/video.m3u8
 #EXTINF:-1 tvg-id="GODTV.uk@SD" tvg-name="GOD TV (576p)" tvg-logo="" group-title="Other",GOD TV (576p)
 https://fl-dvr.iptvcdn.tv/chid_1/playlist.m3u8
+#EXTINF:-1 tvg-id="MagnavisionTV.uk@SD" tvg-name="Magnavision TV (720p)" tvg-logo="" group-title="Other",Magnavision TV (720p)
+https://manatv.akamaized.net/120723/smil:magnavision.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="2GB.au@SD" tvg-name="2GB Sydney (1080p)" tvg-logo="" group-title="Other",2GB Sydney (1080p)
 https://2gblive.akamaized.net/hls/live/2033805/2GB/index.m3u8
 #EXTINF:-1 tvg-id="3AW.au@SD" tvg-name="3AW Melbourne (1080p)" tvg-logo="" group-title="Other",3AW Melbourne (1080p)
@@ -997,6 +995,12 @@ http://103.213.31.109:90/ManoranjanTv/playlist.m3u8
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-bollywood/546eb40d7dcf9a209255dd2496903764/index.m3u8
 #EXTINF:-1 tvg-id="MercyTV.in@SD" tvg-name="Mercy TV (1080p)" tvg-logo="https://i.imgur.com/klNH4tV.png" group-title="Hindi/Other",Mercy TV (1080p)
 https://5dd3981940faa.streamlock.net/mercytv/mercytv/playlist.m3u8
+#EXTINF:-1 tvg-id="Mh1Prime.in@SD" tvg-name="Mh 1 Prime (576p)" tvg-logo="" group-title="Hindi/Other",Mh 1 Prime (576p)
+https://streams.tangotv.in/MHONE/ORIGIN/index.m3u8
+#EXTINF:-1 tvg-id="MHOneDilSe.in@SD" tvg-name="MH One Dil Se (576p)" tvg-logo="https://dilse.mhone.in/wp-content/uploads/2022/02/MH-ONE-dil-se-LOGO-white-copy.png" group-title="Hindi/Other",MH One Dil Se (576p)
+https://streams.tangotv.in/MHONEDILSE/ORIGIN/index.m3u8
+#EXTINF:-1 tvg-id="MHOneMovies.in@SD" tvg-name="MH One Movies (576p)" tvg-logo="" group-title="Hindi/Movies",MH One Movies (576p)
+https://mumt03.tangotv.in/Dsly5z3HMHONEMOVIE/index.m3u8
 #EXTINF:-1 tvg-id="MHOneShraddha.in@SD" tvg-name="MH One Shraddha (576p)" tvg-logo="https://i.imgur.com/Lrm8qTO.png" group-title="Hindi/Other",MH One Shraddha (576p)
 https://mumt01.tangotv.in/O5aw8Zn3MHONESHRADDHA/index.m3u8
 #EXTINF:-1 tvg-id="MoviePlex.in@SD" tvg-name="MoviePlex (576p)" tvg-logo="https://i.imgur.com/THJEAqJ.png" group-title="Hindi/Movies",MoviePlex (576p)
@@ -1351,8 +1355,6 @@ https://jukin-weatherspy-2-in.samsung.wurl.tv/playlist.m3u8
 https://yuppparoriglin.akamaized.net/181224/smil:wowkidzhindi.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
 #EXTINF:-1 tvg-id="YRFMusic.in@SD" tvg-name="YRF Music (1080p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/YRF_Music.png" group-title="Hindi/Music",YRF Music (1080p)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8
-#EXTINF:-1 tvg-id="ZeeAction.in@SD" tvg-name="Zee Action (576p)" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022K5ZV.png?lock=720x540" group-title="Hindi/Other",Zee Action (576p)
-http://103.175.73.12:8080/live/270/master.m3u8
 #EXTINF:-1 tvg-id="ZeeBharat.in@SD" tvg-name="Zee Bharat (720p)" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00230QBL.png?lock=720x540" group-title="Hindi/Other",Zee Bharat (720p)
 https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeehindustan/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/96bbab12-582e-4540-af70-510ab6824581/main.m3u8
 #EXTINF:-1 tvg-id="ZeeBollywood.in@SD" tvg-name="Zee Bollywood (580p)" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022T6DM.png?lock=720x540" group-title="Hindi/Other",Zee Bollywood (580p)
@@ -1365,8 +1367,6 @@ https://amg00862-amg00862c8-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-a
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/NGCHD/default/NGCHD.m3u8
 #EXTINF:-1 tvg-id="ZeeCinema.in@APAC" tvg-name="Zee Cinema APAC (720p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CINEMA/images/LOGO_HD/LOGO_HD_image.png" group-title="Hindi/Other",Zee Cinema APAC (720p)
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/sg/YuppTV/ZeeCinemaAPAC.m3u8
-#EXTINF:-1 tvg-id="ZeeCinema.in@HD" tvg-name="Zee Cinema HD (1080p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CINEMA/images/LOGO_HD/LOGO_HD_image.png" group-title="Hindi/Other",Zee Cinema HD (1080p)
-http://103.72.101.252:8080/live/165.m3u8
 #EXTINF:-1 tvg-id="ZeeCinema.in@ME" tvg-name="Zee Cinema ME (432p) [Geo-blocked]" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CINEMA/images/LOGO_HD/LOGO_HD_image.png" group-title="Hindi/Other",Zee Cinema ME (432p) [Geo-blocked]
 https://ev-eu-hw-fast-mpd.starzplayarabia.com/Zee_Cinema/dash/drm/index.mpd
 #EXTINF:-1 tvg-id="ZeeClassic.in@SD" tvg-name="Zee Classic (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CLASSIC/images/LOGO_HD/LOGO_HD_image.png" group-title="Hindi/Other",Zee Classic (576p)
@@ -3337,8 +3337,8 @@ http://103.185.24.134:3001/ETV-BAL-BHARAT/index.m3u8
 https://cdn1tlinkgo.tlink.cl/eurochannel/index.m3u8
 #EXTINF:-1 tvg-id="EuronewsEnglish.fr@SD" tvg-name="Euronews English (720p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Euro_News.png" group-title="English/News",Euronews English (720p)
 https://jmp2.uk/plu-61de96114757070008d33cae.m3u8
-#EXTINF:-1 tvg-id="EuronewsEnglish.fr@HD" tvg-name="Euronews English HD (720p)" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Euro_News.png" group-title="English/News",Euronews English HD (720p)
-http://45.190.28.50/EURONEWS_HD/index.m3u8
+#EXTINF:-1 tvg-id="EuronewsEnglish.fr@HD" tvg-name="Euronews English HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Euro_News.png" group-title="English/News",Euronews English HD
+https://dash4.antik.sk/live/test_euronews/playlist.m3u8
 #EXTINF:-1 tvg-id="EuropaEuropa.ar@SD" tvg-name="Europa Europa (1080p)" tvg-logo="https://i.imgur.com/w5SOfyJ.png" group-title="English/Other",Europa Europa (1080p)
 https://iptv.bitred.cl/EUROPAEUROPA_HD/index.m3u8
 #EXTINF:-1 tvg-id="EventyrligOppussing.se@NO" tvg-name="Eventyrlig Oppussing" tvg-logo="https://images.pluto.tv/channels/61c1de93244e500007581d69/colorLogoPNG.png" group-title="English/Other",Eventyrlig Oppussing
@@ -3550,7 +3550,7 @@ http://5.254.89.106/6187/index.m3u8
 #EXTINF:-1 tvg-id="FoxDeportes.us@SD" tvg-name="Fox Deportes (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/FOX_Deportes_logo.png/960px-FOX_Deportes_logo.png" group-title="English/Other",Fox Deportes (720p)
 http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8
 #EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-name="Fox News Channel (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/960px-Fox_News_Channel_logo.svg.png" group-title="English/News",Fox News Channel (720p)
-http://45.190.28.50/FOX_NEWS/index.m3u8
+http://138.121.15.230:9002/FOX-NEWS/index.m3u8
 #EXTINF:-1 tvg-id="FoxNewsRadio.us@SD" tvg-name="Fox News Radio (720p)" tvg-logo="https://radio.foxnews.com/wp-content/uploads/2017/10/default_logo-150x150.png" group-title="English/News",Fox News Radio (720p)
 https://radiovid.foxnews.com/hls/live/661547/RADIOVID/index.m3u8
 #EXTINF:-1 tvg-id="FoxSoul.us@SD" tvg-name="Fox Soul (1080p)" tvg-logo="https://i.imgur.com/YIamDGn.png" group-title="English/Other",Fox Soul (1080p)
@@ -6571,7 +6571,7 @@ https://live.kingdom-tv.com:3545/stream/play.m3u8
 https://reflect-temecula.cablecast.tv/live-2/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-id="Tempe11.us@SD" tvg-name="Tempe Channel 11" tvg-logo="https://i.imgur.com/KMeHRV3.png" group-title="English/Other",Tempe Channel 11
 https://cdn3.wowza.com/5/cFh0V0QwUVc4SDl2/tempe/G0355_003/chunklist.m3u8
-#EXTINF:-1 tvg-id="TenSportsPakistan.pk@SD" tvg-name="Ten Sports Pakistan" tvg-logo="https://i.imgur.com/nnqpYNm.png" group-title="English/Sports",Ten Sports Pakistan
+#EXTINF:-1 tvg-id="TenSportsPakistan.pk@SD" tvg-name="Ten Sports Pakistan" tvg-logo="https://i.imgur.com/7qS6TcE.png" group-title="English/Sports",Ten Sports Pakistan
 http://121.91.61.106:8000/play/a04h/index.m3u8
 #EXTINF:-1 tvg-id="TennisChannel.us@SD" tvg-name="Tennis Channel (1080p)" tvg-logo="https://i.imgur.com/tsljAnY.png" group-title="English/Sports",Tennis Channel (1080p)
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
@@ -7497,8 +7497,6 @@ https://zainabia.livebox.co.in/ZainabiaChannelhls/channel.m3u8
 https://amg17931-zee-amg17931c8-samsung-th-6526.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ZeeBollymovies.in@Australia" tvg-name="Zee Bollymovies Australia (1080p) [Geo-blocked]" tvg-logo="https://framerusercontent.com/images/mqfJ18x4jYe0GbZUbxSHsbnWU.png?scale-down-to=512" group-title="English/Movies",Zee Bollymovies Australia (1080p) [Geo-blocked]
 https://amg17931-zee-amg17931c8-samsung-au-8871.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="ZeeCafe.in@HD" tvg-name="Zee Cafe HD (1080p)" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022ZMMH.png?lock=720x540" group-title="English/Other",Zee Cafe HD (1080p)
-http://103.72.101.252:8080/live/1319.m3u8
 #EXTINF:-1 tvg-id="ZeeOne.uk@UK" tvg-name="Zee One (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Zee_One_Logo_2025.png" group-title="English/Other",Zee One (1080p)
 https://amg17931-zee-amg17931c6-samsung-au-8872.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeeworld-samsungau/playlist.m3u8
 #EXTINF:-1 tvg-id="ZeeTVAsiaPacific.sg@SD" tvg-name="Zee TV Asia Pacific (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Zee_TV_Logo_2025.svg/960px-Zee_TV_Logo_2025.svg.png" group-title="English/Other",Zee TV Asia Pacific (720p)
