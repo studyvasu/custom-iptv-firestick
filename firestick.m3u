@@ -219,6 +219,8 @@ https://mumbai-edge.smartplaytv.in/HappyKids/index.m3u8
 https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
 #EXTINF:-1 tvg-id="24Kitchen.us@Bulgary" tvg-name="24Kitchen Bulgary (1080p)" tvg-logo="" group-title="Cooking",24Kitchen Bulgary (1080p)
 http://hls127.freeott.top:8080/BG_24_Kitchen/video.m3u8
+#EXTINF:-1 tvg-id="DSports.us@Panregional" tvg-name="DSports (720p)" tvg-logo="" group-title="Sports",DSports (720p)
+http://15.204.146.163:8002/play/a00g/index.m3u8
 #EXTINF:-1 tvg-id="AfghanistanInternational.uk@SD" tvg-name="Afghanistan International (720p)" tvg-logo="" group-title="Other",Afghanistan International (720p)
 https://hls.afintl.com/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AfrobeatTVEntertainment.uk@SD" tvg-name="Afrobeats (1080p)" tvg-logo="" group-title="Other",Afrobeats (1080p)
@@ -6507,6 +6509,8 @@ https://watch.haitilive.net/app/2020/telepam/index.fmp4.m3u8
 https://streams.playtv.com.ng/Tele-Regency_TRTV/index.m3u8
 #EXTINF:-1 tvg-id="Telearuba.aw@SD" tvg-name="Telearuba (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/PY3P0aM.png" group-title="English/Other",Telearuba (1080p) [Not 24/7]
 https://backend-server-dot-telearuba-app.appspot.com/media/livestream13/playlist.m3u8
+#EXTINF:-1 tvg-id="TeleHit.mx@SD" tvg-name="TeleHit (576p)" tvg-logo="https://i.imgur.com/NVxHxJn.png" group-title="English/Other",TeleHit (576p)
+http://200.115.120.1:8000/play/ca048/index.m3u8
 #EXTINF:-1 tvg-id="Telemundo.us@East" tvg-name="Telemundo (720p)" tvg-logo="https://imgx.fubo.tv/station_logos/telemundo_c.png" group-title="English/Other",Telemundo (720p)
 http://190.11.225.124:5000/live/telemundo_hd/playlist.m3u8
 #EXTINF:-1 tvg-id="Telemundo.us@EastHD" tvg-name="Telemundo East HD (1080p)" tvg-logo="https://imgx.fubo.tv/station_logos/telemundo_c.png" group-title="English/Other",Telemundo East HD (1080p)
