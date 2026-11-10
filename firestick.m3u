@@ -127,8 +127,6 @@ http://181.78.121.15:8000/play/a00a/index.m3u8
 https://2-fss-2.streamhoster.com/pl_120/206858-4404556-1/playlist.m3u8
 #EXTINF:-1 tvg-id="LifetimeMovies.us@East" tvg-name="Lifetime Movies (1080p)" tvg-logo="" group-title="Movies",Lifetime Movies (1080p)
 http://23.237.104.106:8080/USA_LMN/index.m3u8
-#EXTINF:-1 tvg-id="MagnificentMoviesNetwork.us@SD" tvg-name="Magnificent Movies Network" tvg-logo="" group-title="Movies",Magnificent Movies Network
-https://mmn1-301f.kxcdn.com/hls/MMN-HLS.m3u8
 #EXTINF:-1 tvg-id="MaxcineKids.us@HD" tvg-name="Maxcine Kids (720p)" tvg-logo="" group-title="Kids",Maxcine Kids (720p)
 https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8
 #EXTINF:-1 tvg-id="MiMusicaHits.us@SD" tvg-name="Mi Musica Hits (720p)" tvg-logo="" group-title="Music",Mi Musica Hits (720p)
@@ -287,6 +285,8 @@ http://38.87.224.19:2220/play/a03u/index.m3u8
 http://45.226.205.96:48000/play/a0f8/index.m3u8
 #EXTINF:-1 tvg-id="MiMusicaSalsa.us@SD" tvg-name="Mi Musica Salsa (1080p)" tvg-logo="" group-title="Music",Mi Musica Salsa (1080p)
 http://38.134.250.110:8000/play/a02m/index.m3u8
+#EXTINF:-1 tvg-id="MagnificentMoviesNetwork.us@SD" tvg-name="Magnificent Movies Network" tvg-logo="" group-title="Movies",Magnificent Movies Network
+https://mmn1.b-cdn.net/hls/MMN-HLS.m3u8
 #EXTINF:-1 tvg-id="5USA.uk@SD" tvg-name="5USA (360p)" tvg-logo="" group-title="Other",5USA (360p)
 https://lb.iptvnetwork.net/ls28/10115/playlist.m3u8
 #EXTINF:-1 tvg-id="AathavanTV.uk@SD" tvg-name="Aathavan TV (720p)" tvg-logo="" group-title="Other",Aathavan TV (720p)
@@ -727,6 +727,14 @@ http://103.253.74.210:7070/stream/114/index.m3u8
 http://103.253.74.210:7070/stream/136/index.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.uk@SD" tvg-name="Nickelodeon" tvg-logo="" group-title="Kids",Nickelodeon
 http://93.186.201.93/stream/397/index.m3u8
+#EXTINF:-1 tvg-id="NationalGeographic.uk@SD" tvg-name="National Geographic" tvg-logo="" group-title="Other",National Geographic
+http://82.47.42.44/stream/405/index.m3u8
+#EXTINF:-1 tvg-id="More4.uk@SD" tvg-name="More4 (576p)" tvg-logo="" group-title="Other",More4 (576p)
+http://82.47.42.44/stream/402/index.m3u8
+#EXTINF:-1 tvg-id="Quest.uk@SD" tvg-name="Quest" tvg-logo="" group-title="Other",Quest
+http://82.47.42.44/stream/385/index.m3u8
+#EXTINF:-1 tvg-id="DAZNF1.uk@Spain" tvg-name="DAZN F1" tvg-logo="" group-title="Other",DAZN F1
+https://tvorb.net/ZTV/6918-live.m3u8
 #EXTINF:-1 tvg-id="2GB.au@SD" tvg-name="2GB Sydney (1080p)" tvg-logo="" group-title="Other",2GB Sydney (1080p)
 https://2gblive.akamaized.net/hls/live/2033805/2GB/index.m3u8
 #EXTINF:-1 tvg-id="3AW.au@SD" tvg-name="3AW Melbourne (1080p)" tvg-logo="" group-title="Other",3AW Melbourne (1080p)
@@ -1057,24 +1065,6 @@ https://fta.ektv.in/live/592/master.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="E24.in@SD" tvg-name="E 24 (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_E24/images/LOGO_HD/image.png" group-title="Hindi/Other",E 24 (576p)
 https://fta.ektv.in/live/159/master.m3u8
-#EXTINF:-1 tvg-id="EVidya4.in@SD" tvg-name="E-Vidya 4 (576p)" tvg-logo="https://i.imgur.com/0sz6t9F.png" group-title="Hindi/Other",E-Vidya 4 (576p)
-http://103.72.101.252:8080/live/406.m3u8
-#EXTINF:-1 tvg-id="EVidya5.in@SD" tvg-name="E-Vidya 5 (576p)" tvg-logo="https://i.imgur.com/0sz6t9F.png" group-title="Hindi/Other",E-Vidya 5 (576p)
-http://103.72.101.252:8080/live/407.m3u8
-#EXTINF:-1 tvg-id="EVidya6.in@SD" tvg-name="E-Vidya 6 (576p)" tvg-logo="https://i.imgur.com/0sz6t9F.png" group-title="Hindi/Other",E-Vidya 6 (576p)
-http://103.72.101.252:8080/live/408.m3u8
-#EXTINF:-1 tvg-id="EVidya7.in@SD" tvg-name="E-Vidya 7 (576p)" tvg-logo="https://i.imgur.com/0sz6t9F.png" group-title="Hindi/Other",E-Vidya 7 (576p)
-http://103.72.101.252:8080/live/404.m3u8
-#EXTINF:-1 tvg-id="EVidya8.in@SD" tvg-name="E-Vidya 8 (576p)" tvg-logo="https://i.imgur.com/0sz6t9F.png" group-title="Hindi/Other",E-Vidya 8 (576p)
-http://103.72.101.252:8080/live/409.m3u8
-#EXTINF:-1 tvg-id="EVidya9.in@SD" tvg-name="E-Vidya 9 (576p)" tvg-logo="https://i.imgur.com/0sz6t9F.png" group-title="Hindi/Other",E-Vidya 9 (576p)
-http://103.72.101.252:8080/live/410.m3u8
-#EXTINF:-1 tvg-id="EVidya10.in@SD" tvg-name="E-Vidya 10 (576p)" tvg-logo="https://i.imgur.com/0sz6t9F.png" group-title="Hindi/Other",E-Vidya 10 (576p)
-http://103.72.101.252:8080/live/411.m3u8
-#EXTINF:-1 tvg-id="EVidya11.in@SD" tvg-name="E-Vidya 11 (576p)" tvg-logo="https://i.imgur.com/0sz6t9F.png" group-title="Hindi/Other",E-Vidya 11 (576p)
-http://103.72.101.252:8080/live/1410.m3u8
-#EXTINF:-1 tvg-id="EVidya12.in@SD" tvg-name="E-Vidya 12 (576p)" tvg-logo="https://i.imgur.com/0sz6t9F.png" group-title="Hindi/Other",E-Vidya 12 (576p)
-http://103.72.101.252:8080/live/1532.m3u8
 #EXTINF:-1 tvg-id="EpicBharat.in@SD" tvg-name="Epic Bharat (576p)" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0032BW6T.png?lock=720x540" group-title="Hindi/Other",Epic Bharat (576p)
 https://fta.ektv.in/live/471/master.m3u8
 #EXTINF:-1 tvg-id="EpicBharat.in@Digital" tvg-name="Epic Bharat Digital (1080p)" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0032BW6T.png?lock=720x540" group-title="Hindi/Other",Epic Bharat Digital (1080p)
@@ -1106,15 +1096,15 @@ https://server.livelegitpro.in/globalindiatv/globalindiatv/video.m3u8
 #EXTINF:-1 tvg-id="GodStandsTV.pk@Hindi" tvg-name="God Stands TV Hindi" tvg-logo="https://i.imgur.com/EO6cYUI.png" group-title="Hindi/Other",God Stands TV Hindi
 https://online.godstands.tv:5443/WebRTCApp/streams/HindiStreaming.m3u8
 #EXTINF:-1 tvg-id="Goldmines2.in@SD" tvg-name="Goldmines 2 (576p)" tvg-logo="" group-title="Hindi/Other",Goldmines 2 (576p)
-https://fta.ektv.in/live/46/46_0.m3u8
+https://mumt03.tangotv.in/Dsly5z3HGOLDMINES2/index.m3u8
 #EXTINF:-1 tvg-id="Goldmines.in@SD" tvg-name="Goldmines (576p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOLDMINES/images/LOGO_HD/image.png" group-title="Hindi/Other",Goldmines (576p)
-https://fta.ektv.in/live/53/53_0.m3u8
+https://mumt04.tangotv.in/m18aqlK4GOLDMINES/index.m3u8
 #EXTINF:-1 tvg-id="GoldminesAction.in@SD" tvg-name="Goldmines Action (576p)" tvg-logo="https://yt3.googleusercontent.com/_X6U6bMLF-pTu5wBMFwsSI6aubGrXk2B0kUKdGiLIMqFLyDIne4Ot4ro76BS1S8fX3pWcCwS=s900-c-k-c0x00ffffff-no-rj" group-title="Hindi/Other",Goldmines Action (576p)
 https://fta.ektv.in/live/584/master.m3u8
 #EXTINF:-1 tvg-id="GoldminesBollywood.in@SD" tvg-name="Goldmines Bollywood (576p)" tvg-logo="https://i.imgur.com/6mNQ9mM.png" group-title="Hindi/Other",Goldmines Bollywood (576p)
-https://fta.ektv.in/live/52/52_0.m3u8
+https://mumt03.tangotv.in/Dsly5z3HGOLDMINESBOLLYWOOD/index.m3u8
 #EXTINF:-1 tvg-id="GoldminesMovies.in@SD" tvg-name="Goldmines Movies (576p)" tvg-logo="https://dtil.tmsimg.com/assets/s142881_ld_h15_aa.png?lock=720x540" group-title="Hindi/Movies",Goldmines Movies (576p)
-http://103.175.73.12:8080/live/51/51_0.m3u8
+https://mumt04.tangotv.in/m18aqlK4GOLDMINEMOVIES/index.m3u8
 #EXTINF:-1 tvg-id="GoodNewsToday.in@SD" tvg-name="Good News Today (720p)" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOOD_NEWS_TODAY/images/LOGO_HD/image.png" group-title="Hindi/News",Good News Today (720p)
 https://aajtaklive.vgcdn.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/3196cced-ce29-4219-9809-f07ccdaa02b9/vglive-sk-848805/master.m3u8
 #EXTINF:-1 tvg-id="GreenGoldTV.in@India" tvg-name="Green Gold TV (1080p)" tvg-logo="https://i.ibb.co/TDPsPVkT/Greengoldtv.png" group-title="Hindi/Other",Green Gold TV (1080p)
@@ -4734,7 +4724,7 @@ https://connection3-ent-nz.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="MagellanTVNow.us@SD" tvg-name="MagellanTV Now (1080p)" tvg-logo="https://i.imgur.com/gEraSp5.png" group-title="English/Other",MagellanTV Now (1080p)
 https://amg00376-magellan-amg00376c5-samsung-au-1708.playouts.now.amagi.tv/playlist/amg00376-magellantv-magellantvnowww-samsungau/playlist.m3u8
 #EXTINF:-1 tvg-id="MagnificentMoviesNetwork.us@SD" tvg-name="Magnificent Movies Network" tvg-logo="https://i.imgur.com/CXjo8kn.png" group-title="English/Movies",Magnificent Movies Network
-https://mmn1-301f.kxcdn.com/hls/MMN-HLS.m3u8
+https://mmn1.b-cdn.net/hls/MMN-HLS.m3u8
 #EXTINF:-1 tvg-id="MagnoliaNetwork.us@East" tvg-name="Magnolia Network (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Magnolia_Network.svg/960px-Magnolia_Network.svg.png" group-title="English/Other",Magnolia Network (720p)
 http://190.197.41.183/MAGNOLIA_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="MahaasinTV.tz@SD" tvg-name="Mahaasin TV" tvg-logo="https://i.imgur.com/wdfdKvC.png" group-title="English/Other",Mahaasin TV
@@ -4941,8 +4931,8 @@ https://reflect-montgomerycommunitymedia.cablecast.tv/live-11/live/stream-4/live
 http://live.greektv.ca/hls1/greektv.m3u8
 #EXTINF:-1 tvg-id="MoonbugKids.uk@SD" tvg-name="Moonbug Kids (1080p)" tvg-logo="https://i.imgur.com/vZHtxQb.png" group-title="English/Kids",Moonbug Kids (1080p)
 https://moonbug-rokuus.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="More4.uk@SD" tvg-name="More4 (360p)" tvg-logo="https://i.imgur.com/cx5YcAU.png" group-title="English/Other",More4 (360p)
-https://lb.iptvnetwork.net/ls28/10114/playlist.m3u8
+#EXTINF:-1 tvg-id="More4.uk@SD" tvg-name="More4 (576p)" tvg-logo="https://i.imgur.com/cx5YcAU.png" group-title="English/Other",More4 (576p)
+http://82.47.42.44/stream/402/index.m3u8
 #EXTINF:-1 tvg-id="MoreGraceTV.ng@SD" tvg-name="More Grace TV (410p) [Not 24/7]" tvg-logo="https://i.imgur.com/DNTeCQt.png" group-title="English/Other",More Grace TV (410p) [Not 24/7]
 https://atechgroupuk.site/ETV.m3u8
 #EXTINF:-1 tvg-id="MorePlutoTVComedy.us@CA" tvg-name="More Pluto TV Comedy" tvg-logo="https://images.pluto.tv/channels/62e91c3add66e00007eeb24c/colorLogoPNG_1759310317971.png" group-title="English/Other",More Pluto TV Comedy
@@ -5165,6 +5155,8 @@ http://213.91.179.28:8000/play/a0ct
 http://103.135.253.32:8080/NATGEO-HD/index.m3u8
 #EXTINF:-1 tvg-id="NationalGeographic.pl@SD" tvg-name="National Geographic (Poland) (576i)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="English/Other",National Geographic (Poland) (576i)
 http://92.114.85.87:8006/play/a00a/index.m3u8
+#EXTINF:-1 tvg-id="NationalGeographic.uk@SD" tvg-name="National Geographic (United Kingdom)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="English/Other",National Geographic (United Kingdom)
+http://82.47.42.44/stream/405/index.m3u8
 #EXTINF:-1 tvg-id="NationalGeographic.us@East" tvg-name="National Geographic (United States) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="English/Other",National Geographic (United States) (720p)
 http://212.5.144.156:8080/natgeo/index.m3u8
 #EXTINF:-1 tvg-id="NationalGeographic.us@HDEast" tvg-name="National Geographic (United States) HD East (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="English/Other",National Geographic (United States) HD East (720p)
@@ -5541,8 +5533,8 @@ http://162.250.201.58:6211/pk/ONEGOLF/index.m3u8
 https://origin-http-delivery.isilive.ca/live/_definst_/ontla/house-en/playlist.m3u8
 #EXTINF:-1 tvg-id="OntarioPublicAccessChannel.us@SD" tvg-name="Ontario Public Access Channel (360p)" tvg-logo="https://i.imgur.com/jg0cFDd.png" group-title="English/Other",Ontario Public Access Channel (360p)
 https://cdn3.wowza.com/5/dk84U1p2UUdoMGxT/ontarioca/G2446_002/playlist.m3u8
-#EXTINF:-1 tvg-id="OnTV4U.us@SD" tvg-name="OnTV4U (1080p) [Geo-blocked]" tvg-logo="https://i.imgur.com/yaCK1Mh.png" group-title="English/Other",OnTV4U (1080p) [Geo-blocked]
-https://stirr.b-cdn.net/stirr/playlist.m3u8
+#EXTINF:-1 tvg-id="OnTV4U.us@SD" tvg-name="OnTV4U (1080p)" tvg-logo="https://i.imgur.com/yaCK1Mh.png" group-title="English/Other",OnTV4U (1080p)
+https://ontv4u-orka.b-cdn.net/ONTV4U-ORKA/index.m3u8
 #EXTINF:-1 tvg-id="OrangeGovernmentAccessTV.us@SD" tvg-name="Orange Government Access TV (720p)" tvg-logo="https://i.imgur.com/hyPTfxA.png" group-title="English/Other",Orange Government Access TV (720p)
 https://livestream.telvue.com/ogat1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="OSBCTV.ng@SD" tvg-name="OSBC TV (480p)" tvg-logo="https://i.imgur.com/lj9WEq8.png" group-title="English/Other",OSBC TV (480p)
@@ -6071,6 +6063,8 @@ https://stream8.cinerama.uz/1431/tracks-v1a1/mono.m3u8
 https://lotus.stingray.com/manifest/qello-qello001-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-id="QTVGambia.gm@SD" tvg-name="QTV Gambia (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/ZsTuADb.png" group-title="English/Other",QTV Gambia (720p) [Not 24/7]
 https://player.qtv.gm/hls/live.stream.m3u8
+#EXTINF:-1 tvg-id="Quest.uk@SD" tvg-name="Quest" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb6761.png" group-title="English/Other",Quest
+http://82.47.42.44/stream/385/index.m3u8
 #EXTINF:-1 tvg-id="QuestTV.ng@SD" tvg-name="Quest TV (240p) [Not 24/7]" tvg-logo="https://i.imgur.com/4ATTIQi.png" group-title="English/Other",Quest TV (240p) [Not 24/7]
 https://media2.streambrothers.com:19360/8028/8028.m3u8
 #EXTINF:-1 tvg-id="QuoVadisTV.ca@SD" tvg-name="Quo Vadis TV (720p)" tvg-logo="https://i.imgur.com/pEqDDHl.png" group-title="English/Other",Quo Vadis TV (720p)
@@ -7130,7 +7124,7 @@ https://jmp2.uk/plu-69256bd7db5cc2f81d8a1a08.m3u8
 #EXTINF:-1 tvg-id="TilMiddagHos.se@DK" tvg-name="Til Middag Hos" tvg-logo="https://images.pluto.tv/channels/61c1a05ef30f5d0007e562f3/colorLogoPNG.png" group-title="English/Other",Til Middag Hos
 https://jmp2.uk/plu-61c1a05ef30f5d0007e562f3.m3u8
 #EXTINF:-1 tvg-id="TimelessTV.us@SD" tvg-name="Timeless TV" tvg-logo="https://i.imgur.com/bjcpeVH.png" group-title="English/Other",Timeless TV
-https://timelesstv1-301f.kxcdn.com/hls/TimelessTV.m3u8
+https://timelesstv1.b-cdn.net/hls/TimelessTV.m3u8
 #EXTINF:-1 tvg-id="TimesNow.in@SD" tvg-name="Times Now (720p) [Geo-blocked]" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TIMES_NOW/images/LOGO_HD/image.png" group-title="English/Other",Times Now (720p) [Geo-blocked]
 https://dztlhgid9me95.cloudfront.net/live-tv/Vidgyor/timesnow/timesnow_master.m3u8
 #EXTINF:-1 tvg-id="TinyHouseNation.us@SD" tvg-name="Tiny House Nation (720p)" tvg-logo="https://i.imgur.com/ai1P06C.png" group-title="English/Other",Tiny House Nation (720p)
@@ -7567,6 +7561,8 @@ https://d1hf773q57zx9s.cloudfront.net/Vevo_R_B.m3u8
 https://d2lyea6if8kkz9.cloudfront.net/playlist/amg00056-vevotv-vevoretrorockau-samsungau/playlist.m3u8
 #EXTINF:-1 tvg-id="VevoTrueSchoolHipHop.us@SD" tvg-name="Vevo True School Hip-Hop" tvg-logo="https://i.imgur.com/owUXUih.png" group-title="English/Other",Vevo True School Hip-Hop
 https://jmp2.uk/plu-61d4c2817a823d00070ba53e.m3u8
+#EXTINF:-1 tvg-id="VH1.us@East" tvg-name="VH1 (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/960px-VH1_logonew.svg.png" group-title="English/Other",VH1 (1080p)
+http://23.237.104.106:8080/USA_VH1/index.m3u8
 #EXTINF:-1 tvg-id="VH1QueensofReality.us@SD" tvg-name="VH1 Queens of Reality" tvg-logo="https://images.pluto.tv/channels/66abefe5d2d50d00082c7d12/colorLogoPNG.png" group-title="English/Other",VH1 Queens of Reality
 https://jmp2.uk/plu-66abefe5d2d50d00082c7d12.m3u8
 #EXTINF:-1 tvg-id="ViafreeMovies.se@SE" tvg-name="Viafree Movies" tvg-logo="https://images.pluto.tv/channels/62bebc3459624e00078209c3/colorLogoPNG.png" group-title="English/Movies",Viafree Movies
